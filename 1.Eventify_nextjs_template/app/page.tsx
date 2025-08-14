@@ -25,7 +25,7 @@ export default function Home() {
 				<Section9 />
 			</Layout>
 			
-			<Popup />
+			{/* <Popup /> */}
 		</>
 	)
 }
