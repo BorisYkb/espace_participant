@@ -14,9 +14,15 @@ export default function Contact() {
 							<div className="row">
 								<div className="col-lg-6 m-auto">
 									<div className="heading1 text-center">
+<<<<<<< HEAD
 										<h1>Contact Us</h1>
 										<div className="space20" />
 										<Link href="/">Home <i className="fa-solid fa-angle-right" /> <span>Contact Us</span></Link>
+=======
+										<h1>Contactez Nous</h1>
+										<div className="space20" />
+										<Link href="/">Accueil <i className="fa-solid fa-angle-right" /> <span>Contactez Nous</span></Link>
+>>>>>>> c48bbcf2395a64f2584dd5fd16537f42a1798ad9
 									</div>
 								</div>
 							</div>
@@ -34,17 +40,29 @@ export default function Contact() {
 								</div>
 								<div className="col-lg-6" data-aos="zoom-in" data-aos-duration={1000}>
 									<div className="contact4-boxarea">
+<<<<<<< HEAD
 										<h3 className="text-anime-style-3">Get In Touch Now</h3>
+=======
+										<h3 className="text-anime-style-3">Contactez Nous Maintenant</h3>
+>>>>>>> c48bbcf2395a64f2584dd5fd16537f42a1798ad9
 										<div className="space8" />
 										<div className="row">
 											<div className="col-lg-6 col-md-6">
 												<div className="input-area">
+<<<<<<< HEAD
 													<input type="text" placeholder="Name" />
+=======
+													<input type="text" placeholder="Nom" />
+>>>>>>> c48bbcf2395a64f2584dd5fd16537f42a1798ad9
 												</div>
 											</div>
 											<div className="col-lg-6 col-md-6">
 												<div className="input-area">
+<<<<<<< HEAD
 													<input type="text" placeholder="Phone" />
+=======
+													<input type="text" placeholder="Téléphone" />
+>>>>>>> c48bbcf2395a64f2584dd5fd16537f42a1798ad9
 												</div>
 											</div>
 											<div className="col-lg-12 col-md-6">
@@ -54,7 +72,11 @@ export default function Contact() {
 											</div>
 											<div className="col-lg-12 col-md-6">
 												<div className="input-area">
+<<<<<<< HEAD
 													<input type="text" placeholder="Subjects" />
+=======
+													<input type="text" placeholder="Objet" />
+>>>>>>> c48bbcf2395a64f2584dd5fd16537f42a1798ad9
 												</div>
 											</div>
 											<div className="col-lg-12">
@@ -65,7 +87,11 @@ export default function Contact() {
 											<div className="col-lg-12">
 												<div className="space24" />
 												<div className="input-area text-end">
+<<<<<<< HEAD
 													<button type="submit" className="vl-btn1">Submit Now</button>
+=======
+													<button type="submit" className="vl-btn1">Envoyer</button>
+>>>>>>> c48bbcf2395a64f2584dd5fd16537f42a1798ad9
 												</div>
 											</div>
 										</div>
@@ -76,6 +102,10 @@ export default function Contact() {
 					</div>
 					{/*===== CONTACT AREA ENDS =======*/}
 					{/*===== CONTACT AREA STARTS =======*/}
+<<<<<<< HEAD
+=======
+					{/*
+>>>>>>> c48bbcf2395a64f2584dd5fd16537f42a1798ad9
 					<div className="contact2-bg-section">
 						<div className="img1">
 							<img src="/assets/img/all-images/contact/contact-img1.png" alt="" className="contact-img1" />
@@ -91,9 +121,15 @@ export default function Contact() {
 													<img src="/assets/img/icons/mail1.svg" alt="" />
 												</div>
 												<div className="text">
+<<<<<<< HEAD
 													<h5>Our Email</h5>
 													<div className="space14" />
 													<Link href="/maito:eventify@gmail.com">eventify@gmail.com</Link>
+=======
+													<h5>Notre Email</h5>
+													<div className="space14" />
+													<Link href="/maito:eventify@gmail.com">infos@quorumenligne.com</Link>
+>>>>>>> c48bbcf2395a64f2584dd5fd16537f42a1798ad9
 												</div>
 											</div>
 											<div className="space18" />
@@ -102,9 +138,15 @@ export default function Contact() {
 													<img src="/assets/img/icons/location1.svg" alt="" />
 												</div>
 												<div className="text">
+<<<<<<< HEAD
 													<h5>our location</h5>
 													<div className="space14" />
 													<Link href="/#">1800 Abbot Kinney</Link>
+=======
+													<h5>Notre Localisation</h5>
+													<div className="space14" />
+													<Link href="/#">Pharmacie Spring</Link>
+>>>>>>> c48bbcf2395a64f2584dd5fd16537f42a1798ad9
 												</div>
 											</div>
 										</div>
@@ -117,7 +159,11 @@ export default function Contact() {
 												<div className="text">
 													<h5>Call/Message</h5>
 													<div className="space14" />
+<<<<<<< HEAD
 													<Link href="/tel:+11234567890">+1 123 456 7890</Link>
+=======
+													<Link href="/tel:+2250141950352">+225 01 41 95 03 52</Link>
+>>>>>>> c48bbcf2395a64f2584dd5fd16537f42a1798ad9
 												</div>
 											</div>
 											<div className="space18" />
@@ -141,7 +187,11 @@ export default function Contact() {
 								<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4506257.120552435!2d88.67021924228865!3d21.954385721237916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1704088968016!5m2!1sen!2sbd" width={600} height={450} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
 							</div>
 						</div>
+<<<<<<< HEAD
 					</div>
+=======
+					</div>*/}
+>>>>>>> c48bbcf2395a64f2584dd5fd16537f42a1798ad9
 					<div className="space100 d-lg-block d-none" />
 					<div className="space50 d-lg-none d-block" />
 					{/*===== CONTACT AREA ENDS =======*/}
@@ -154,15 +204,26 @@ export default function Contact() {
 										<div className="timer-btn-area">
 										<Countdown />
 											<div className="btn-area1">
+<<<<<<< HEAD
 												<Link href="/pricing-plan" className="vl-btn1">Buy Ticket</Link>
+=======
+												<Link href="/pricing-plan" className="vl-btn1">Acheter un Ticket</Link>
+>>>>>>> c48bbcf2395a64f2584dd5fd16537f42a1798ad9
 											</div>
 										</div>
 										<ul>
 											<li>
+<<<<<<< HEAD
 												<Link href="/#"><img src="/assets/img/icons/calender1.svg" alt="" />30 January 2025 - 6pm to 11:30pm</Link>
 											</li>
 											<li className="m-0">
 												<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Secret Location In The UK</Link>
+=======
+												<Link href="/#"><img src="/assets/img/icons/calender1.svg" alt="" />30 Janvier 2025 - 6pm to 11:30pm</Link>
+											</li>
+											<li className="m-0">
+												<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Stade de l'UFHB</Link>
+>>>>>>> c48bbcf2395a64f2584dd5fd16537f42a1798ad9
 											</li>
 										</ul>
 									</div>
