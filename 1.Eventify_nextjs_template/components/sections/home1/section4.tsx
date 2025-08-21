@@ -62,9 +62,9 @@ export default function Section4() {
 					<div className="row">
 						<div className="col-lg-6">
 							<div className="team-header space-margin60 heading2">
-								<h5 data-aos="fade-left" data-aos-duration={800}>our 10+ event speakers</h5>
+								<h5 data-aos="fade-left" data-aos-duration={800}>Nos Intervenants</h5>
 								<div className="space16" />
-								<h2 className="text-anime-style-3">Business Breakthrough Team</h2>
+								<h2 className="text-anime-style-3">Équipe business Inervenant</h2>
 							</div>
 						</div>
 					</div>
@@ -93,7 +93,7 @@ export default function Section4() {
 									<div className="text-area">
 										<Link href="/speakers">Kendra Cremin</Link>
 										<div className="space16" />
-										<p>Business Consultant</p>
+										<p>Consultante d'affaire</p>
 									</div>
 								</SwiperSlide>
 								<SwiperSlide className="team-widget-boxarea">

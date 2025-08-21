@@ -10,9 +10,9 @@ export default function Section8() {
 					<div className="row">
 						<div className="col-lg-6 m-auto">
 							<div className="blog-header text-center heading2 space-margin60">
-								<h5 data-aos="fade-left" data-aos-duration={900}>News &amp; updates</h5>
+								<h5 data-aos="fade-left" data-aos-duration={900}>Nouvelles &amp; Mise à jour des acticités</h5>
 								<div className="space16" />
-								<h2 className="text-anime-style-3">Balancing Profit &amp; Purpose</h2>
+								<h2 className="text-anime-style-3">Quelques Activités liées à l'événement</h2>
 							</div>
 						</div>
 					</div>
@@ -25,15 +25,13 @@ export default function Section8() {
 								<div className="content-area">
 									<ul>
 										<li>
-											<Link href="/#"><img src="/assets/img/icons/calender1.svg" alt="" />26 January 2025</Link>
+											<Link href="/#"><img src="/assets/img/icons/calender1.svg" alt="" />15 Septembre 2025</Link>
 										</li>
 									</ul>
 									<div className="space20" />
-									<Link href="/blog-single">Save soil, save world Projects in 2020</Link>
+									<Link href="/#">Conférences plénières inspirantes</Link>
 									<div className="space24" />
-									<div className="btn-area1">
-										<Link href="/blog-single" className="vl-btn2">Read More</Link>
-									</div>
+									<p>Des intervenants de renommée partageront leurs parcours, leurs réussites et leurs leçons. Chaque conférence est conçue pour inspirer, éveiller de nouvelles idées et offrir une vision claire des tendances de demain.</p>
 								</div>
 							</div>
 						</div>
@@ -45,15 +43,13 @@ export default function Section8() {
 								<div className="content-area">
 									<ul>
 										<li>
-											<Link href="/#"><img src="/assets/img/icons/calender1.svg" alt="" />26 January 2025</Link>
+											<Link href="/#"><img src="/assets/img/icons/calender1.svg" alt="" />16 Septembre 2025</Link>
 										</li>
 									</ul>
 									<div className="space20" />
-									<Link href="/blog-single">Civil Litigation paper’s Of Conference</Link>
+									<Link href="/#">Ateliers pratiques et interactifs</Link>
 									<div className="space24" />
-									<div className="btn-area1">
-										<Link href="/blog-single" className="vl-btn2">Read More</Link>
-									</div>
+									<p>Des sessions en petits groupes où les participants pourront mettre en pratique des outils concrets : gestion de projet, innovation digitale, stratégies marketing ou encore leadership. L’objectif : repartir avec des compétences directement applicables.</p>
 								</div>
 							</div>
 						</div>
@@ -65,15 +61,13 @@ export default function Section8() {
 								<div className="content-area">
 									<ul>
 										<li>
-											<Link href="/#"><img src="/assets/img/icons/calender1.svg" alt="" />26 January 2025</Link>
+											<Link href="/#"><img src="/assets/img/icons/calender1.svg" alt="" />16 Septembre 2025</Link>
 										</li>
 									</ul>
 									<div className="space20" />
-									<Link href="/blog-single">Greetings and Opening Event of health</Link>
+									<Link href="/#">Panel de discussion avec experts</Link>
 									<div className="space24" />
-									<div className="btn-area1">
-										<Link href="/blog-single" className="vl-btn2">Read More</Link>
-									</div>
+									<p>Un échange animé entre plusieurs spécialistes qui confronteront leurs points de vue sur les défis et opportunités de 2025. Les participants pourront poser leurs questions en direct et enrichir leur réflexion.</p>
 								</div>
 							</div>
 						</div>

@@ -20,7 +20,7 @@ export default function EventSingle() {
 									<div className="heading1 text-center">
 										<h1>Event single</h1>
 										<div className="space20" />
-										<Link href="/">Home <i className="fa-solid fa-angle-right" /> <span>Event single</span></Link>
+										<Link href="/">Accueil <i className="fa-solid fa-angle-right" /> <span>Event single</span></Link>
 									</div>
 								</div>
 							</div>

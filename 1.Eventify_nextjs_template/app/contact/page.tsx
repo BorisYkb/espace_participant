@@ -44,17 +44,17 @@ export default function Contact() {
 											</div>
 											<div className="col-lg-6 col-md-6">
 												<div className="input-area">
+													<input type="text" placeholder="Prénom" />
+												</div>
+											</div>
+											<div className="col-lg-12 col-md-6">
+												<div className="input-area">
 													<input type="text" placeholder="Téléphone" />
 												</div>
 											</div>
 											<div className="col-lg-12 col-md-6">
 												<div className="input-area">
 													<input type="email" placeholder="Email" />
-												</div>
-											</div>
-											<div className="col-lg-12 col-md-6">
-												<div className="input-area">
-													<input type="text" placeholder="Objet" />
 												</div>
 											</div>
 											<div className="col-lg-12">
@@ -65,7 +65,7 @@ export default function Contact() {
 											<div className="col-lg-12">
 												<div className="space24" />
 												<div className="input-area text-end">
-													<button type="submit" className="vl-btn1">Envoyer</button>
+													<button type="submit" className="vl-btn1">Envoyer ma demande</button>
 												</div>
 											</div>
 										</div>

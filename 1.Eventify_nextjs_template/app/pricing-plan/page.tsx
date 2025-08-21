@@ -1,4 +1,3 @@
-
 import Countdown from '@/components/elements/Countdown'
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
@@ -14,9 +13,9 @@ export default function PricingPlan() {
 							<div className="row">
 								<div className="col-lg-9 m-auto">
 									<div className="heading1 text-center">
-										<h1>Pricing Plan</h1>
+										<h1>Plan Tarifaire</h1>
 										<div className="space20" />
-										<Link href="/">Home <i className="fa-solid fa-angle-right" /> <span>Pricing Plan</span></Link>
+										<Link href="/">Accueil <i className="fa-solid fa-angle-right" /> <span>Plan Tarifaire</span></Link>
 									</div>
 								</div>
 							</div>
@@ -29,67 +28,61 @@ export default function PricingPlan() {
 							<div className="row">
 								<div className="col-lg-5 m-auto">
 									<div className="heading2 text-center space-margin60">
-										<h5>ticket pricing</h5>
+										<h5>Prix des tickets pour chaque Activité</h5>
 										<div className="space18" />
-										<h2>Event Pass &amp; Tickets</h2>
+										<h2>Passe d’événement &amp; Tickets</h2>
 									</div>
 								</div>
 							</div>
 							<div className="row">
 								<div className="col-lg-4 col-md-6">
 									<div className="pricing-boxarea">
-										<h5>Basic Packages</h5>
+										<h5>Acticité 1</h5>
 										<div className="space20" />
-										<h2>$29 <span>/One Person</span></h2>
+										<h2>5000 FCFA<span>/Une Personne</span></h2>
 										<div className="space8" />
 										<ul>
-											<li><img src="/assets/img/icons/check2.svg" alt="" />Regular Seating</li>
-											<li><img src="/assets/img/icons/check2.svg" alt="" />Comfortable Sleeping</li>
-											<li><img src="/assets/img/icons/check2.svg" alt="" />Afternoon Snacks</li>
-											<li><img src="/assets/img/icons/check2.svg" alt="" />Afternoon Entrance</li>
-											<li><img src="/assets/img/icons/check2.svg" alt="" />Idea shareing</li>
+											<li className='font-bold'><img src="/assets/img/icons/check2.svg" alt="" />Conférences plénières inspirantes</li>
+											<li>Des intervenants de renommée partageront leurs parcours, leurs réussites et leurs leçons. Chaque conférence est conçue pour inspirer, éveiller de nouvelles idées et offrir une vision claire des tendances de demain.</li>
+											
 										</ul>
 										<div className="space28" />
 										<div className="btn-area1">
-											<Link href="/contact" className="vl-btn1">buy a ticket</Link>
+											<Link href="/contact" className="vl-btn1">Acheter un Ticket</Link>
 										</div>
 									</div>
 								</div>
 								<div className="col-lg-4 col-md-6">
 									<div className="pricing-boxarea">
-										<h5>Standard Packages</h5>
+										<h5>Acticité 2</h5>
 										<div className="space20" />
-										<h2>$49 <span>/One Person</span></h2>
+										<h2>2000 FCFA<span>/Une Personne</span></h2>
 										<div className="space8" />
 										<ul>
-											<li><img src="/assets/img/icons/check2.svg" alt="" />Venue rental</li>
-											<li><img src="/assets/img/icons/check2.svg" alt="" />Premium seating and tables</li>
-											<li><img src="/assets/img/icons/check2.svg" alt="" />Full event planning service</li>
-											<li><img src="/assets/img/icons/check2.svg" alt="" />Entertainment services</li>
-											<li><img src="/assets/img/icons/check2.svg" alt="" />Luxury transportation</li>
+											<li><img src="/assets/img/icons/check2.svg" alt="" />Ateliers pratiques et interactifs</li>
+											<li>Des sessions en petits groupes où les participants pourront mettre en pratique des outils concrets : gestion de projet, innovation digitale, stratégies marketing ou encore leadership. L’objectif : repartir avec des compétences directement applicables.</li>
+											
 										</ul>
 										<div className="space28" />
 										<div className="btn-area1">
-											<Link href="/contact" className="vl-btn1">buy a ticket</Link>
+											<Link href="/contact" className="vl-btn1">Acheter un Ticket</Link>
 										</div>
 									</div>
 								</div>
 								<div className="col-lg-4 col-md-6">
 									<div className="pricing-boxarea">
-										<h5>Premium Packages</h5>
+										<h5>Acticité 3</h5>
 										<div className="space20" />
-										<h2>$69 <span>/One Person</span></h2>
+										<h2>1000 FCFA<span>/Une Personne</span></h2>
 										<div className="space8" />
 										<ul>
-											<li><img src="/assets/img/icons/check2.svg" alt="" />Customized decor</li>
-											<li><img src="/assets/img/icons/check2.svg" alt="" />Top-tier catering</li>
-											<li><img src="/assets/img/icons/check2.svg" alt="" />Top-shelf beverage package</li>
-											<li><img src="/assets/img/icons/check2.svg" alt="" />Full event production</li>
-											<li><img src="/assets/img/icons/check2.svg" alt="" />Luxury accommodations</li>
+											<li><img src="/assets/img/icons/check2.svg" alt="" />Panel de discussion avec experts</li>
+											<li>Un échange animé entre plusieurs spécialistes qui confronteront leurs points de vue sur les défis et opportunités de 2025. Les participants pourront poser leurs questions en direct et enrichir leur réflexion.</li>
+											
 										</ul>
 										<div className="space28" />
 										<div className="btn-area1">
-											<Link href="/contact " className="vl-btn1">buy a ticket</Link>
+											<Link href="/contact " className="vl-btn1">Acheter un Ticket</Link>
 										</div>
 									</div>
 								</div>
@@ -106,7 +99,7 @@ export default function PricingPlan() {
 										<div className="timer-btn-area">
 										<Countdown />
 											<div className="btn-area1">
-												<Link href="/pricing-plan" className="vl-btn1">Buy Ticket</Link>
+												<Link href="/pricing-plan" className="vl-btn1">Acheter un Ticket</Link>
 											</div>
 										</div>
 										<ul>
@@ -132,7 +125,7 @@ export default function PricingPlan() {
 										<div className="timer-btn-area">
 										<Countdown />
 											<div className="btn-area1">
-												<Link href="/pricing-plan" className="vl-btn1">Buy Ticket</Link>
+												<Link href="/pricing-plan" className="vl-btn1">Acheter un Ticket</Link>
 											</div>
 										</div>
 										<ul>
