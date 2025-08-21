@@ -35,30 +35,27 @@ export default function Section2() {
 										<span><i className="fa-solid fa-arrow-right" /></span>
 										<br />
 										<div className="space12" />
-										Buy Ticket
+										Participer
 									</Link>
 								</div>
 							</div>
 						</div>
 						<div className="col-lg-6">
 							<div className="about-header-area heading2">
-								<h5 data-aos="fade-left" data-aos-duration={800}>about our business conferences</h5>
+								<h5 data-aos="fade-left" data-aos-duration={800}>A propos de la conférences</h5>
 								<div className="space16" />
-								<h2 className="text-anime-style-3">Innovate 2024 Shaping Of The Future Of Business</h2>
+								<h2 className="text-anime-style-3">Un rendez-vous à ne pas manquer</h2>
 								<div className="space16" />
-								<p data-aos="fade-left" data-aos-duration={900}>Reflects Our commitment To Driving Progress
-									Embracing Innovation In An Ever-evolving Marketplace. Our Conference is Designed to be a hub
-									for thought leadership, where business pioneers and emerging.</p>
+								<p data-aos="fade-left" data-aos-duration={900}>Chaque année, des milliers de personnes cherchent des occasions de progresser, d’apprendre et de saisir des opportunités. La conférence “Innover et Réussir en 2025” est précisément ce carrefour où les esprits créatifs, les ambitieux et les visionnaires se retrouvent. Si vous aspirez à faire partie de ceux qui façonnent l’avenir, alors cet événement est fait pour vous.</p>
 								<div className="space32" />
 								<div className="about-auhtor-box" data-aos="fade-left" data-aos-duration={1000}>
 									<div className="icons">
 										<img src="/assets/img/icons/about-icon1.svg" alt="" />
 									</div>
 									<div className="text">
-										<Link href="/#">Exclusive Keynotes</Link>
+										<Link href="/#">Échanger avec des leaders inspirants</Link>
 										<div className="space12" />
-										<p>The title captures our mission to empower businesses to not only adapt but lead in
-											this new era of digital.</p>
+										<p>Rencontrez des entrepreneurs, des décideurs et des professionnels qui ont déjà franchi les étapes que vous souhaitez atteindre.</p>
 									</div>
 								</div>
 								<div className="space20" />
@@ -67,15 +64,14 @@ export default function Section2() {
 										<img src="/assets/img/icons/about-icon2.svg" alt="" />
 									</div>
 									<div className="text">
-										<Link href="/#">Off Side Trips</Link>
+										<Link href="/#">Booster votre motivation</Link>
 										<div className="space12" />
-										<p>By shaping the future today, we aim to create a lasting impact that will resonate
-											across industries and inspire.</p>
+										<p>Les témoignages inspirants et les parcours de réussite vous donneront l’énergie nécessaire pour passer à l’action dans vos propres projets.</p>
 									</div>
 								</div>
 								<div className="space32" />
 								<div className="btn-area1" data-aos="fade-left" data-aos-duration={1200}>
-									<Link href="/contact" className="vl-btn1">Become an Attendee</Link>
+									<Link href="/contact" className="vl-btn1">Devenir un participant</Link>
 								</div>
 							</div>
 						</div>

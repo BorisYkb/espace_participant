@@ -16,9 +16,9 @@ export default function About() {
 							<div className="row">
 								<div className="col-lg-4 m-auto">
 									<div className="heading1 text-center">
-										<h1>About Event</h1>
+										<h1>À propos de l'événement</h1>
 										<div className="space20" />
-										<Link href="/">Home <i className="fa-solid fa-angle-right" /> <span>About Us</span></Link>
+										<Link href="/">Accueil <i className="fa-solid fa-angle-right" /> <span>Info sur l'événement</span></Link>
 									</div>
 								</div>
 							</div>
@@ -56,39 +56,39 @@ export default function About() {
 												<span><i className="fa-solid fa-arrow-right" /></span>
 												<br />
 												<div className="space12" />
-												Buy Ticket
+												Participer
 											</Link>
 										</div>
 									</div>
 								</div>
 								<div className="col-lg-6">
 									<div className="about-header-area heading2">
-										<h5 data-aos="fade-left" data-aos-duration={800}>about our Business conferences</h5>
+										<h5 data-aos="fade-left" data-aos-duration={800}>à propos de la conférences</h5>
 										<div className="space16" />
-										<h2 className="text-anime-style-3">Explore Future Of Design At Our Yearly Conference</h2>
+										<h2 className="text-anime-style-3">Les bénéfices pour les participants</h2>
 										<div className="space16" />
-										<p data-aos="fade-left" data-aos-duration={900}>The Yearly Designer Conferences designed to challenge, Event inspire, and push the boundaries of what is possible in design. From emerging technologies to sustainable design practices.</p>
+										<p data-aos="fade-left" data-aos-duration={900}>Pourquoi devriez-vous être présent ? Parce que cette conférence vous permettra non seulement de découvrir les tendances et innovations qui transforment nos sociétés, mais aussi de rencontrer des personnes influentes et motivées. Vous repartirez avec des idées concrètes, des contacts stratégiques et une énergie nouvelle pour développer vos projets.</p>
 										<div className="space32" />
 										<div className="about-counter-area">
 											<div className="counter-box">
-												<h2><CountUp className="odometer" enableScrollSpy={true} end={250} />+</h2>
+												<h2><CountUp className="odometer" enableScrollSpy={true} end={5} />+</h2>
 												<div className="space18" />
-												<p>Our Journalist</p>
+												<p>Nos journalistes</p>
 											</div>
 											<div className="counter-box box2">
-												<h2><CountUp className="odometer" enableScrollSpy={true} end={15} />+</h2>
+												<h2><CountUp className="odometer" enableScrollSpy={true} end={7} />+</h2>
 												<div className="space18" />
-												<p>Our Speaker</p>
+												<p>Nos intervenants</p>
 											</div>
 											<div className="counter-box box3" style={{ border: 'none' }}>
-												<h2><CountUp className="odometer" enableScrollSpy={true} end={7} />K+</h2>
+												<h2><CountUp className="odometer" enableScrollSpy={true} end={1} />K+</h2>
 												<div className="space18" />
 												<p>Attendees</p>
 											</div>
 										</div>
 										<div className="space32" />
 										<div className="btn-area1" data-aos="fade-left" data-aos-duration={1200}>
-											<Link href="/contact" className="vl-btn1">Become an Attendee</Link>
+											<Link href="/contact" className="vl-btn1">DEVENIR UN PARTICIPANT</Link>
 										</div>
 									</div>
 								</div>
@@ -102,7 +102,7 @@ export default function About() {
 							<div className="row">
 								<div className="col-lg-5 m-auto">
 									<div className="brand-header heading4 space-margin60 text-center">
-										<h3>Join 4,000+ companies already growing</h3>
+										<h3>Ils nous font tous confiance</h3>
 									</div>
 								</div>
 							</div>
@@ -120,9 +120,9 @@ export default function About() {
 							<div className="row">
 								<div className="col-lg-4 m-auto">
 									<div className="heading2 text-center space-margin60">
-										<h5>why choose us</h5>
+										<h5>Pourquoi nous choisir</h5>
 										<div className="space18" />
-										<h2>Why Attend Event?</h2>
+										<h2>Pourquoi participer à l’événement ?</h2>
 									</div>
 								</div>
 							</div>
@@ -134,11 +134,11 @@ export default function About() {
 										</div>
 										<div className="space24" />
 										<div className="content-area">
-											<Link href="/event-single">Make Ideas Happen</Link>
+											<Link href="/#">Accéder à des contenus exclusifs</Link>
 											<div className="space16" />
-											<p>Eventify 2024 brings together the brightest minds and industry leaders for best of transformative business.</p>
+											<p>Des experts partageront des stratégies concrètes, des études de cas réels et des outils pratiques pour réussir dans un monde en constante évolution.</p>
 											<div className="space24" />
-											<Link href="/event-single" className="readmore">Read More <i className="fa-solid fa-arrow-right" /></Link>
+											
 										</div>
 									</div>
 								</div>
@@ -149,11 +149,11 @@ export default function About() {
 										</div>
 										<div className="space24" />
 										<div className="content-area">
-											<Link href="/event-single">Great Speakers</Link>
+											<Link href="/#">Échanger avec des leaders inspirants</Link>
 											<div className="space16" />
-											<p>Whether you're looking to elevate your business strategy, discover the latest industry trends, or connect.</p>
+											<p>Rencontrez des entrepreneurs, des décideurs et des professionnels qui ont déjà franchi les étapes que vous souhaitez atteindre.</p>
 											<div className="space24" />
-											<Link href="/event-single" className="readmore">Read More <i className="fa-solid fa-arrow-right" /></Link>
+											
 										</div>
 									</div>
 								</div>
@@ -164,11 +164,11 @@ export default function About() {
 										</div>
 										<div className="space24" />
 										<div className="content-area">
-											<Link href="/event-single">One Day Ticket</Link>
+											<Link href="/#">Élargir votre réseau professionnel</Link>
 											<div className="space16" />
-											<p>We empower businesses to thrive in an ever-evolving marketplace. This conference more than just an event.</p>
+											<p>Nouer des contacts stratégiques, trouver de futurs partenaires, collaborateurs ou mentors : la conférence est l’endroit idéal pour développer votre carnet d’adresses.</p>
 											<div className="space24" />
-											<Link href="/event-single" className="readmore">Read More <i className="fa-solid fa-arrow-right" /></Link>
+											
 										</div>
 									</div>
 								</div>
@@ -179,11 +179,11 @@ export default function About() {
 										</div>
 										<div className="space24" />
 										<div className="content-area">
-											<Link href="/event-single">Develop Your Skills</Link>
+											<Link href="/#">Découvrir les tendances de demain</Link>
 											<div className="space16" />
-											<p>Eventify is your gateway to future of business. By bringing together best experts from various sectors.</p>
+											<p>De l’innovation technologique aux nouvelles approches de gestion, vous repartirez avec une longueur d’avance sur les opportunités de 2025.</p>
 											<div className="space24" />
-											<Link href="/event-single" className="readmore">Read More <i className="fa-solid fa-arrow-right" /></Link>
+											
 										</div>
 									</div>
 								</div>
@@ -194,11 +194,11 @@ export default function About() {
 										</div>
 										<div className="space24" />
 										<div className="content-area">
-											<Link href="/event-single">Entry Verification</Link>
+											<Link href="/#">Booster votre motivation</Link>
 											<div className="space16" />
-											<p>You'll walk away with a deeper best understanding of emerging trends and actionable strategies that can.</p>
+											<p>Les témoignages inspirants et les parcours de réussite vous donneront l’énergie nécessaire pour passer à l’action dans vos propres projets.</p>
 											<div className="space24" />
-											<Link href="/event-single" className="readmore">Read More <i className="fa-solid fa-arrow-right" /></Link>
+											
 										</div>
 									</div>
 								</div>
@@ -209,11 +209,11 @@ export default function About() {
 										</div>
 										<div className="space24" />
 										<div className="content-area">
-											<Link href="/event-single">Workshops Offer</Link>
+											<Link href="/#">Profiter d’une expérience unique</Link>
 											<div className="space16" />
-											<p>Designed for forward-thinking and professionals, this event delivers the tools, connections, and insights you.</p>
+											<p>Au-delà des conférences, profitez des moments de networking, des ateliers pratiques et de l’ambiance stimulante d’un rassemblement de passionnés.</p>
 											<div className="space24" />
-											<Link href="/event-single" className="readmore">Read More <i className="fa-solid fa-arrow-right" /></Link>
+											
 										</div>
 									</div>
 								</div>

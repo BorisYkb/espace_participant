@@ -138,44 +138,33 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 													</div>
 												</div>
 											</li>
-											<li><Link href="/about">About Event</Link></li>
+											<li><Link href="/about">A propos de l'événement</Link></li>
 											<li>
-												<Link href="/#">Speakers <i className="fa-solid fa-angle-down" /></Link>
-												<ul className="dropdown-padding">
-													<li><Link href="/speakers">Speakers</Link></li>
-													<li><Link href="/speakers-single">Speakers Details</Link></li>
-												</ul>
+												<Link href="/speakers">Intervenant </Link>
+												
 											</li>
 											<li>
-												<Link href="/#">Schedule <i className="fa-solid fa-angle-down" /></Link>
+												<Link href="/#">Horaires <i className="fa-solid fa-angle-down" /></Link>
 												<ul className="dropdown-padding">
-													<li><Link href="/event">Our Event</Link></li>
-													<li><Link href="/event-schedule">Event Schedule</Link></li>
-													<li><Link href="/event-single">Event Details</Link></li>
+													<li><Link href="/event">Liste des Activités</Link></li>
+													<li><Link href="/event-schedule">Horaire</Link></li>
+													<li><Link href="/event-single">Détail de l'événement</Link></li>
 												</ul>
 											</li>
-											<li>
-												<Link href="/#">Blogs <i className="fa-solid fa-angle-down" /></Link>
-												<ul className="dropdown-padding">
-													<li><Link href="/blog">Our Blog</Link></li>
-													<li><Link href="/blog-single">Blog Details</Link></li>
-												</ul>
-											</li>
+											
 											<li>
 												<Link href="/#">Pages <i className="fa-solid fa-angle-down" /></Link>
 												<ul className="dropdown-padding">
-													<li><Link href="/memories">Our Memories</Link></li>
-													<li><Link href="/pricing-plan">Pricing Plan</Link></li>
+													{/*<li><Link href="/memories">Souvenir récents</Link></li>*/}
+													<li><Link href="/pricing-plan">Plan Tarifaire</Link></li>
 													<li><Link href="/faq">FAQ,s</Link></li>
-													<li><Link href="/contact">Contact Us</Link></li>
+													<li><Link href="/contact">Nous Contactez</Link></li>
 												</ul>
 											</li>
 										</ul>
 									</div>
 									<div className="btn-area">
-										<div className="search-icon header__search header-search-btn" onClick={handleSearch}>
-											<a><img src="/assets/img/icons/search1.svg" alt="" /></a>
-										</div>
+										
 										<ul>
 											<li>
 												<Link href="/#"><i className="fa-brands fa-facebook-f" /></Link>
@@ -191,15 +180,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 											</li>
 										</ul>
 									</div>
-									<div className={`header-search-form-wrapper ${isSearch ? 'open' : ''}`}>
-										<div className="tx-search-close tx-close" onClick={handleSearch}><i className="fa-solid fa-xmark" /></div>
-										<div className="header-search-container">
-											<form role="search" className="search-form">
-												<input type="search" className="search-field" placeholder="Search …" name="s" />
-												<button type="submit" className="search-submit"><img src="/assets/img/icons/search1.svg" alt="" /></button>
-											</form>
-										</div>
-									</div>
+									
 									{isSearch && <div className="body-overlay active" onClick={handleSearch} />}
 								</div>
 							</div>

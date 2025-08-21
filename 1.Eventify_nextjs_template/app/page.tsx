@@ -1,5 +1,5 @@
 import Layout from "@/components/layout/Layout"
-import Popup from '@/components/layout/Popup'
+
 import Section1 from '@/components/sections/home1/section1'
 import Section2 from '@/components/sections/home1/section2'
 import Section3 from '@/components/sections/home1/section3'
@@ -19,13 +19,13 @@ export default function Home() {
 				<Section3 />
 				<Section4 />
 				<Section5 />
-				<Section6 />
+				{/*<Section6 />*/}
 				<Section7 />
-				<Section8 />
+				{/*<Section8 />*/}
 				<Section9 />
 			</Layout>
 			
-			<Popup />
+			
 		</>
 	)
 }
