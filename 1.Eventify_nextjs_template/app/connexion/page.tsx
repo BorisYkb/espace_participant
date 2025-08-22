@@ -1,8 +1,16 @@
-
+"use client"
 import Countdown from '@/components/elements/Countdown'
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 export default function Contact() {
+
+	// Fonction pour défiler vers RegistrationForm
+	const scrollToRegistration: () => void = () => {
+		const el = document.getElementById('RegistrationForm');
+		if (el) {
+			el.scrollIntoView({ behavior: 'smooth' });
+		}
+	}
 
 	return (
 		<>
@@ -14,9 +22,9 @@ export default function Contact() {
 							<div className="row">
 								<div className="col-lg-6 m-auto">
 									<div className="heading1 text-center">
-										<h1>Contactez Nous</h1>
+										<h1>Connecter vous</h1>
 										<div className="space20" />
-										<Link href="/">Accueil <i className="fa-solid fa-angle-right" /> <span>Contactez Nous</span></Link>
+										<Link href="/">Accueil <i className="fa-solid fa-angle-right" /> <span>Connexion</span></Link>
 									</div>
 								</div>
 							</div>
@@ -34,40 +42,39 @@ export default function Contact() {
 								</div>
 								<div className="col-lg-6" data-aos="zoom-in" data-aos-duration={1000}>
 									<div className="contact4-boxarea">
-										<h3 className="text-anime-style-3">Contactez Nous Maintenant</h3>
+										<h3 className="text-anime-style-3">Connectez Vous Maintenant</h3>
 										<div className="space8" />
 										<div className="row">
-											<div className="col-lg-6 col-md-6">
+											<div className="col-lg-12 col-md-6">
 												<div className="input-area">
 													<input type="text" placeholder="Nom" />
 												</div>
 											</div>
-											<div className="col-lg-6 col-md-6">
+											
+											<div className="col-lg-12 col-md-6">
 												<div className="input-area">
 													<input type="text" placeholder="Prénom" />
 												</div>
 											</div>
 											<div className="col-lg-12 col-md-6">
 												<div className="input-area">
-													<input type="text" placeholder="Téléphone" />
+													<input type="text" placeholder="Code d'accès" />
 												</div>
 											</div>
-											<div className="col-lg-12 col-md-6">
-												<div className="input-area">
-													<input type="email" placeholder="Email" />
-												</div>
-											</div>
-											<div className="col-lg-12">
-												<div className="input-area">
-													<textarea placeholder="Message" />
-												</div>
-											</div>
+											
 											<div className="col-lg-12">
 												<div className="space24" />
 												<div className="input-area text-end">
-													<button type="submit" className="vl-btn1">Envoyer ma demande</button>
+													<button type="submit" className="vl-btn1">Connexion</button>
 												</div>
 											</div>
+
+											<div className='col-lg-12 mt-3 text-center heading2'>
+                      						  <p>
+                      						  	Vous n'avez encore de code d'accès ? <br />
+                      						  	<Link href="/">Allez S'inscrire</Link>
+                      						  </p>
+                      						</div>
 										</div>
 									</div>
 								</div>
@@ -143,60 +150,11 @@ export default function Contact() {
 							</div>
 						</div>
 					</div>*/}
-					<div className="space100 d-lg-block d-none" />
-					<div className="space50 d-lg-none d-block" />
+					
+					
 					{/*===== CONTACT AREA ENDS =======*/}
-					{/*===== CTA AREA STARTS =======*/}
-					<div className="cta1-section-area d-lg-block d-block">
-						<div className="container">
-							<div className="row">
-								<div className="col-lg-10 m-auto">
-									<div className="cta1-main-boxarea">
-										<div className="timer-btn-area">
-										<Countdown />
-											<div className="btn-area1">
-												<Link href="/pricing-plan" className="vl-btn1">Acheter un Ticket</Link>
-											</div>
-										</div>
-										<ul>
-											<li>
-												<Link href="/#"><img src="/assets/img/icons/calender1.svg" alt="" />30 Janvier 2025 - 6pm to 11:30pm</Link>
-											</li>
-											<li className="m-0">
-												<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Stade de l'UFHB</Link>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					{/*===== CTA AREA ENDS =======*/}
-					{/*===== CTA AREA STARTS =======*/}
-					<div className="cta1-section-area d-lg-none d-block">
-						<div className="container">
-							<div className="row">
-								<div className="col-lg-10 m-auto">
-									<div className="cta1-main-boxarea">
-										<div className="timer-btn-area">
-										<Countdown />
-											<div className="btn-area1">
-												<Link href="/pricing-plan" className="vl-btn1">Buy Ticket</Link>
-											</div>
-										</div>
-										<ul>
-											<li>
-												<Link href="/#"><img src="/assets/img/icons/calender1.svg" alt="" />30 January 2025 - 6pm to 11:30pm</Link>
-											</li>
-											<li className="m-0">
-												<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Secret Location In The UK</Link>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+					
+					
 				</div>
 
 			</Layout>

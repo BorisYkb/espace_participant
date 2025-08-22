@@ -76,7 +76,7 @@ export default function Section3() {
 													<p>Des intervenants de renommée partageront leurs parcours, leurs réussites et leurs leçons. Chaque conférence est conçue pour inspirer, éveiller de nouvelles idées et offrir une vision claire des tendances de demain.</p>
 													<div className="space32" />
 													<div className="btn-area1">
-														<Link href="/pricing-plan" className="vl-btn1">Participer</Link>
+														<Link href="/plan_tarifaire" className="vl-btn1">Participer</Link>
 													</div>
 												</div>
 											</div>
@@ -107,7 +107,7 @@ export default function Section3() {
 													<p>Des sessions en petits groupes où les participants pourront mettre en pratique des outils concrets : gestion de projet, innovation digitale, stratégies marketing ou encore leadership. L’objectif : repartir avec des compétences directement applicables.</p>
 													<div className="space32" />
 													<div className="btn-area1">
-														<Link href="/pricing-plan" className="vl-btn1">Participer</Link>
+														<Link href="/plan_tarifaire" className="vl-btn1">Participer</Link>
 													</div>
 												</div>
 											</div>
@@ -140,7 +140,7 @@ export default function Section3() {
 													<p>Un échange animé entre plusieurs spécialistes qui confronteront leurs points de vue sur les défis et opportunités de 2025. Les participants pourront poser leurs questions en direct et enrichir leur réflexion.</p>
 													<div className="space32" />
 													<div className="btn-area1">
-														<Link href="/pricing-plan" className="vl-btn1">purchase ticket now</Link>
+														<Link href="/plan_tarifaire" className="vl-btn1">Participer</Link>
 													</div>
 												</div>
 											</div>

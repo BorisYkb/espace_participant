@@ -1,4 +1,5 @@
 import Countdown from '@/components/elements/Countdown'
+import RegistrationForm from '@/components/elements/RegistrationForm'
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 export default function PricingPlan() {
@@ -48,7 +49,7 @@ export default function PricingPlan() {
 										</ul>
 										<div className="space28" />
 										<div className="btn-area1">
-											<Link href="/contact" className="vl-btn1">Acheter un Ticket</Link>
+											<Link href="/connexion" className="vl-btn1">Acheter un Ticket</Link>
 										</div>
 									</div>
 								</div>
@@ -65,7 +66,7 @@ export default function PricingPlan() {
 										</ul>
 										<div className="space28" />
 										<div className="btn-area1">
-											<Link href="/contact" className="vl-btn1">Acheter un Ticket</Link>
+											<Link href="/connexion" className="vl-btn1">Acheter un Ticket</Link>
 										</div>
 									</div>
 								</div>
@@ -82,7 +83,7 @@ export default function PricingPlan() {
 										</ul>
 										<div className="space28" />
 										<div className="btn-area1">
-											<Link href="/contact " className="vl-btn1">Acheter un Ticket</Link>
+											<Link href="/connexion " className="vl-btn1">Acheter un Ticket</Link>
 										</div>
 									</div>
 								</div>
@@ -90,57 +91,8 @@ export default function PricingPlan() {
 						</div>
 					</div>
 					{/*===== PRICING AREA ENDS =======*/}
-					{/*===== CTA AREA STARTS =======*/}
-					<div className="cta1-section-area d-lg-block d-block">
-						<div className="container">
-							<div className="row">
-								<div className="col-lg-10 m-auto">
-									<div className="cta1-main-boxarea">
-										<div className="timer-btn-area">
-										<Countdown />
-											<div className="btn-area1">
-												<Link href="/pricing-plan" className="vl-btn1">Acheter un Ticket</Link>
-											</div>
-										</div>
-										<ul>
-											<li>
-												<Link href="/#"><img src="/assets/img/icons/calender1.svg" alt="" />30 January 2025 - 6pm to 11:30pm</Link>
-											</li>
-											<li className="m-0">
-												<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Secret Location In The UK</Link>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					{/*===== CTA AREA ENDS =======*/}
-					{/*===== CTA AREA STARTS =======*/}
-					<div className="cta1-section-area d-lg-none d-block">
-						<div className="container">
-							<div className="row">
-								<div className="col-lg-10 m-auto">
-									<div className="cta1-main-boxarea">
-										<div className="timer-btn-area">
-										<Countdown />
-											<div className="btn-area1">
-												<Link href="/pricing-plan" className="vl-btn1">Acheter un Ticket</Link>
-											</div>
-										</div>
-										<ul>
-											<li>
-												<Link href="/#"><img src="/assets/img/icons/calender1.svg" alt="" />30 January 2025 - 6pm to 11:30pm</Link>
-											</li>
-											<li className="m-0">
-												<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Secret Location In The UK</Link>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+					
+					<RegistrationForm/>
 				</div>
 
 			</Layout>

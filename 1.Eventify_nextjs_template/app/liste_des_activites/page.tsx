@@ -4,6 +4,7 @@ import Layout from "@/components/layout/Layout"
 import ModernPagination from "../../components/elements/ModernPagination" // Nouveau composant de pagination
 import Link from "next/link"
 import React, { useState, useEffect } from "react"
+import RegistrationForm from '@/components/elements/RegistrationForm'
 
 /**
  * Page des événements avec pagination moderne
@@ -287,7 +288,7 @@ export default function Event() {
 																	{/* Bouton de participation */}
 																	<div className="btn-area1">
 																		<Link 
-																			href="/pricing-plan" 
+																			href="/plan_tarifaire" 
 																			className="vl-btn1"
 																		>
 																			<span className="demo">
@@ -321,85 +322,7 @@ export default function Event() {
 						</div>
 					</div>
 					
-					{/* Section CTA (Call To Action) - Version desktop */}
-					<div className="cta1-section-area d-lg-block d-none">
-						<div className="container">
-							<div className="row">
-								<div className="col-lg-10 m-auto">
-									<div className="cta1-main-boxarea">
-										<div className="timer-btn-area">
-											<Countdown />
-											<div className="btn-area1">
-												<Link href="/pricing-plan" className="vl-btn1">
-													Acheter un ticket
-												</Link>
-											</div>
-										</div>
-										<ul>
-											<li>
-												<Link href="/#">
-													<img 
-														src="/assets/img/icons/calender1.svg" 
-														alt="Date" 
-													/>
-													30 Janvier 2025 - 18h à 23h30
-												</Link>
-											</li>
-											<li className="m-0">
-												<Link href="/#">
-													<img 
-														src="/assets/img/icons/location1.svg" 
-														alt="Lieu" 
-													/>
-													Lieu secret en Côte d'Ivoire
-												</Link>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					{/* Section CTA - Version mobile */}
-					<div className="cta1-section-area d-lg-none d-block">
-						<div className="container">
-							<div className="row">
-								<div className="col-12">
-									<div className="cta1-main-boxarea">
-										<div className="timer-btn-area">
-											<Countdown />
-											<div className="btn-area1">
-												<Link href="/pricing-plan" className="vl-btn1">
-													Acheter un ticket
-												</Link>
-											</div>
-										</div>
-										<ul>
-											<li>
-												<Link href="/#">
-													<img 
-														src="/assets/img/icons/calender1.svg" 
-														alt="Date" 
-													/>
-													30 Janvier 2025 - 18h à 23h30
-												</Link>
-											</li>
-											<li className="m-0">
-												<Link href="/#">
-													<img 
-														src="/assets/img/icons/location1.svg" 
-														alt="Lieu" 
-													/>
-													Lieu secret en Côte d'Ivoire
-												</Link>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+					<RegistrationForm/>
 				</div>
 			</Layout>
 			

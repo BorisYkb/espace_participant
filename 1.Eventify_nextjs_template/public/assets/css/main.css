@@ -810,6 +810,10 @@ Location:
 	line-height: 26px;
 }
 
+.cursor1 {
+	cursor: pointer;
+}
+
 .heading5 h5 {
 	color: var(--ztc-text-text-10);
 	font-family: var(--grotesk);
