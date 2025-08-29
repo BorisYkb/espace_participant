@@ -16,6 +16,7 @@ import "/public/assets/css/main.css"
 import type { Metadata } from "next"
 import { Figtree, Space_Grotesk } from "next/font/google"
 
+
 const figtree = Figtree({
 	weight: ['300', '400', '500', '600', '700', '800', '900'],
 	subsets: ['latin'],
@@ -41,7 +42,10 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={`${figtree.variable} ${grotesk.variable}`}>{children}</body>
+			<body className={`${figtree.variable} ${grotesk.variable}`}>
+				{children}
+				
+			</body>
 		</html>
 	)
 }

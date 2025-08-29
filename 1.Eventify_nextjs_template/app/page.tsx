@@ -1,5 +1,6 @@
 
 import RegistrationForm from "@/components/elements/RegistrationForm"
+
 import Layout from "@/components/layout/Layout"
 
 import Section1 from '@/components/sections/home1/section1'
@@ -15,12 +16,14 @@ export default function Home() {
 		<>
 			<Layout headerStyle={1}>
 				<Section1 />
+				<Section5 />
 				<Section2 />
 				<Section3 />
 				<Section4 />
-				<Section5 />
+				
 				<Section7 />
 				<RegistrationForm/>
+				
 			</Layout>
 			
 			

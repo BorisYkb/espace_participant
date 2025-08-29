@@ -36,7 +36,7 @@ const handleAccordion = (key: any) => {
 				<div className="mobile-nav mobile-nav1">
 					<ul className="mobile-nav-list nav-list1">
 						<li className="has-sub hash-has-sub"><span className={`submenu-button ${isAccordion  == 1 ? "submenu-opened" : ""}`}onClick={() => handleAccordion (1)}><em /></span>
-							<Link href="/#" className="hash-nav">Home </Link>
+							<Link href="/#" className="hash-nav">Accueil </Link>
 							<ul className={`sub-menu ${isAccordion  == 1 ? "open-sub" : ""}`} style={{ display: `${isAccordion  == 1 ? "block" : "none"}` }}>
 								<li className="hash-has-sub"><Link href="/" className="hash-nav">Home One</Link></li>
 								<li className="hash-has-sub"><Link href="/index2" className="hash-nav">Home Two</Link></li>
