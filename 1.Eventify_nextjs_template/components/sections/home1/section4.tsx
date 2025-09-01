@@ -91,7 +91,7 @@ export default function Section4() {
 									</div>
 									<div className="space20" />
 									<div className="text-area">
-										<Link href="/speakers">Kendra Cremin</Link>
+										<Link href="/intervenant">Kendra Cremin</Link>
 										<div className="space16" />
 										<p>Consultante d'affaire</p>
 									</div>
@@ -116,9 +116,9 @@ export default function Section4() {
 									</div>
 									<div className="space20" />
 									<div className="text-area">
-										<Link href="/speakers">Dennis Jacobson</Link>
+										<Link href="/intervenant">Dennis Jacobson</Link>
 										<div className="space16" />
-										<p>Finance Consultant</p>
+										<p>Consultant Finance</p>
 									</div>
 								</SwiperSlide>
 								<SwiperSlide className="team-widget-boxarea">
@@ -143,7 +143,7 @@ export default function Section4() {
 									<div className="text-area">
 										<Link href="/speakers">Patricia Wilkinson</Link>
 										<div className="space16" />
-										<p>HR Consultant</p>
+										<p>Consultant HR</p>
 									</div>
 								</SwiperSlide>
 								<SwiperSlide className="team-widget-boxarea">
@@ -166,7 +166,7 @@ export default function Section4() {
 									</div>
 									<div className="space20" />
 									<div className="text-area">
-										<Link href="/speakers">Kendra Cremin</Link>
+										<Link href="/intervenant">Kendra Cremin</Link>
 										<div className="space16" />
 										<p>Business Consultant</p>
 									</div>
@@ -191,7 +191,7 @@ export default function Section4() {
 									</div>
 									<div className="space20" />
 									<div className="text-area">
-										<Link href="/speakers">Dennis Jacobson</Link>
+										<Link href="/intervenant">Dennis Jacobson</Link>
 										<div className="space16" />
 										<p>Finance Consultant</p>
 									</div>
@@ -216,7 +216,7 @@ export default function Section4() {
 									</div>
 									<div className="space20" />
 									<div className="text-area">
-										<Link href="/speakers">Patricia Wilkinson</Link>
+										<Link href="/intervenant">Patricia Wilkinson</Link>
 										<div className="space16" />
 										<p>HR Consultant</p>
 									</div>

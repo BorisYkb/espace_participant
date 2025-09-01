@@ -26,6 +26,7 @@ import Header8 from './header/Header8'
 import Header9 from './header/Header9'
 import MobileMenu from './MobileMenu'
 
+
 interface LayoutProps {
 	headerStyle?: Number
 	footerStyle?: Number
@@ -93,6 +94,7 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 			{footerStyle == 10 ? <Footer10 /> : null}
 
 			<BackToTop target="#top" />
+			
 		</>
 	)
 }

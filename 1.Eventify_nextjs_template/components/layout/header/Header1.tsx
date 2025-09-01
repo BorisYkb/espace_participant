@@ -16,7 +16,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 									<div className="main-menu">
 										<ul>
 											<li>
-												<Link href="/#">Home <i className="fa-solid fa-angle-down" /></Link>
+												<Link href="/#">Accueil <i className="fa-solid fa-angle-down" /></Link>
 												<div className="tp-submenu">
 													<div className="row">
 														<div className="col-lg-12">
@@ -138,27 +138,26 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 													</div>
 												</div>
 											</li>
-											<li><Link href="/about">A propos de l'événement</Link></li>
+											
+											<li><Link href="/horaire_de_levenement">Calendrier</Link></li>
+											<li><Link href="/intervenant">Intervenant </Link></li>
 											<li>
-												<Link href="/speakers">Intervenant </Link>
-												
-											</li>
-											<li>
-												<Link href="/#">Horaires <i className="fa-solid fa-angle-down" /></Link>
+												<Link href="#">A propos de l'événement <i className="fa-solid fa-angle-down" /></Link>
 												<ul className="dropdown-padding">
-													<li><Link href="/event">Liste des Activités</Link></li>
-													<li><Link href="/event-schedule">Horaire</Link></li>
-													<li><Link href="/event-single">Détail de l'événement</Link></li>
+													<li><Link href="/a_propos_de_levenement">Information</Link></li>
+													<li><Link href="/liste_des_activites">Liste des Activités</Link></li>
+													<li><Link href="/memories">Souvenir récents</Link></li>
+													{/*<li><Link href="/event-single">Détail de l'événement</Link></li>*/}
 												</ul>
 											</li>
 											
 											<li>
-												<Link href="/#">Pages <i className="fa-solid fa-angle-down" /></Link>
+												<Link href="#">Pages <i className="fa-solid fa-angle-down" /></Link>
 												<ul className="dropdown-padding">
-													{/*<li><Link href="/memories">Souvenir récents</Link></li>*/}
-													<li><Link href="/pricing-plan">Plan Tarifaire</Link></li>
+													{/**/}
+													<li><Link href="/plan_tarifaire">Plan Tarifaire</Link></li>
 													<li><Link href="/faq">FAQ,s</Link></li>
-													<li><Link href="/contact">Nous Contactez</Link></li>
+													<li><Link href="/connexion">Se Connecter</Link></li>
 												</ul>
 											</li>
 										</ul>

@@ -33,7 +33,7 @@ export default function Section5() {
 	return (
 		<>
 
-			<div className="testimonials1-section-area sp1">
+			<div className="testimonials1-section-area sp1 m-5">
 				<div className="testimonial-img2">
 					<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 				</div>

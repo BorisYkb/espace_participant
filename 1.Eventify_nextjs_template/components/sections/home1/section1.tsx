@@ -1,8 +1,15 @@
-
+"use client"
 import Countdown from '@/components/elements/Countdown'
 import Link from 'next/link'
 
 export default function Section1() {
+	// Fonction pour défiler vers RegistrationForm
+	const scrollToRegistration: () => void = () => {
+		const el = document.getElementById('RegistrationForm');
+		if (el) {
+			el.scrollIntoView({ behavior: 'smooth' });
+		}
+	}
 	return (
 		<>
 
@@ -28,8 +35,8 @@ export default function Section1() {
 								</p>
 								<div className="space32" />
 								<div className="btn-area1" data-aos="fade-left" data-aos-duration={1100}>
-									<Link href="/contact" className="vl-btn1">S'inscrire</Link>
-									<Link href="/about" className="vl-btn2">Se Connecter</Link>
+									<button className="vl-btn1 border-0" onClick={scrollToRegistration}>S'inscrire</button>
+									<Link href="/connexion" className="vl-btn2">Se Connecter</Link>
 								</div>
 							</div>
 						</div>
@@ -41,9 +48,9 @@ export default function Section1() {
 								<div className="images-content-area" data-aos="fade-up" data-aos-duration={900}>
 									<h3>LE SOMMET DE L’INNOVATION</h3>
 									<div className="space12" />
-									<Link href="/#">15-16 Septembre, 2025</Link>
+									<Link href="#">15-16 Septembre, 2025</Link>
 									<div className="space12" />
-									<Link href="/#">ABIDJAN MALL, ABIDJAN COCODY</Link>
+									<Link href="#">ABIDJAN MALL, ABIDJAN COCODY</Link>
 									<div className="space16" />
 									<p>La conférence “Innover et Réussir en 2025” est une expérience qui peut transformer votre vision et ouvrir de nouvelles portes.</p>
 								</div>
