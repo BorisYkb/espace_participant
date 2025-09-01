@@ -2,6 +2,9 @@ import Link from 'next/link'
 
 
 export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSearch, handleSearch }: any) {
+	
+	
+
 	return (
 		<>
 			<header>
@@ -26,7 +29,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 																		<img src="/assets/img/all-images/demo/demo-img1.png" alt="" />
 																	</div>
 																	<div className="homemenu-btn">
-																		<Link className="vl-btn1" href="/">View Demo </Link>
+																		<Link className="vl-btn1" href="/">Voir la Demo</Link>
 																	</div>
 																	<div className="homemenu-text">
 																		<Link href="/">Eventify-Homepage 01</Link>
@@ -139,13 +142,14 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 												</div>
 											</li>
 											
-											<li><Link href="/horaire_de_levenement">Calendrier</Link></li>
+											
 											<li><Link href="/intervenant">Intervenant </Link></li>
 											<li>
 												<Link href="#">A propos de l'événement <i className="fa-solid fa-angle-down" /></Link>
 												<ul className="dropdown-padding">
 													<li><Link href="/a_propos_de_levenement">Information</Link></li>
 													<li><Link href="/liste_des_activites">Liste des Activités</Link></li>
+													<li><Link href="/horaire_de_levenement">Calendrier</Link></li>
 													<li><Link href="/memories">Souvenir récents</Link></li>
 													{/*<li><Link href="/event-single">Détail de l'événement</Link></li>*/}
 												</ul>
@@ -160,26 +164,25 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 													<li><Link href="/connexion">Se Connecter</Link></li>
 												</ul>
 											</li>
+											<li><Link href="/inscription" className="vl-btn1">S'incrire</Link></li>
+											
+											<li><Link href="/connexion" className="vl-btn2">Se Connecter</Link></li>
+											
 										</ul>
 									</div>
-									<div className="btn-area">
+									{/*<div className="btn-area">
 										
 										<ul>
 											<li>
 												<Link href="/#"><i className="fa-brands fa-facebook-f" /></Link>
 											</li>
-											<li>
-												<Link href="/#"><i className="fa-brands fa-instagram" /></Link>
-											</li>
-											<li>
-												<Link href="/#"><i className="fa-brands fa-linkedin-in" /></Link>
-											</li>
+											
 											<li>
 												<Link href="/#" className="m-0"><i className="fa-brands fa-pinterest-p" /></Link>
 											</li>
 										</ul>
 									</div>
-									
+									*/}
 									{isSearch && <div className="body-overlay active" onClick={handleSearch} />}
 								</div>
 							</div>

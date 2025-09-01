@@ -3,6 +3,14 @@ import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 export default function RegistrationForm() {
 
+  // Fonction pour défiler vers RegistrationForm
+	const scrollToRegistration: () => void = () => {
+		const el = document.getElementById('RegistrationForm');
+		if (el) {
+			el.scrollIntoView({ behavior: 'smooth' });
+		}
+	}
+  
   return (
     <>
 
@@ -21,7 +29,7 @@ export default function RegistrationForm() {
                 <div className="col-lg-6" data-aos="zoom-in" data-aos-duration={1000}>
                   <div className="contact4-boxarea">
                     <h3 className="text-anime-style-3">Demandez à vous inscrire ici</h3>
-                    <div className="space8" />
+                    <div className="space10" />
                     <div className="row">
                       <div className="col-lg-12 col-md-6">
                         <div className="input-area">

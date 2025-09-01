@@ -35,28 +35,28 @@ export default function Section2() {
 						<div className="col-lg-1" />
 						<div className="col-lg-5">
 							<div className="about2-header heading4">
-								<h5 data-aos="fade-left" data-aos-duration={800}>about our business conferences</h5>
+								
 								<div className="space18" />
-								<h2 className="text-anime-style-3">Growth Through World Class And Conferences</h2>
+								<h2 className="text-anime-style-3">SARA 2025</h2>
 								<div className="space16" />
-								<p data-aos="fade-left" data-aos-duration={900}>At Business, we bring together brightest minds, leaders, and trailblazers from across industries to explore latest trends, technologies, and strategies shaping the future.</p>
+								<p data-aos="fade-left" data-aos-duration={900}>En seulement cinq éditions, le SARA s'est imposé comme le salon de référence en matière d'agriculture, de ressources animales, halieutiques et forestières en Afrique subsaharienne. Trois ans après sa dernière édition, le Salon International de l'Agriculture et des Ressources Animales d'Abidjan a été relancé par le gouvernement ivoirien afin de valoriser, promouvoir et développer toutes les richesses du secteur agricole, de l'élevage et de la pêche de la Côte d'Ivoire.</p>
 								<div className="others-boxarea" data-aos="fade-left" data-aos-duration={1000}>
 									<div className="icons-box">
 										<div className="icons">
 											<img src="/assets/img/icons/about-icon1.svg" alt="" />
 										</div>
-										<p><CountUp className="odometer" enableScrollSpy={true} end={40} />+ Speakers</p>
+										<p><CountUp className="odometer" enableScrollSpy={true} end={7} />+ Intervenants</p>
 									</div>
 									<div className="icons-box">
 										<div className="icons">
 											<img src="/assets/img/icons/about-icon2.svg" alt="" />
 										</div>
-										<p><CountUp className="odometer" enableScrollSpy={true} end={19} />+ Sponsors</p>
+										<p><CountUp className="odometer" enableScrollSpy={true} end={10} />+ Sponsors</p>
 									</div>
 								</div>
 								<div className="space32" />
 								<div className="btn-area1" data-aos="fade-left" data-aos-duration={1200}>
-									<Link href="/contact" className="vl-btn2"><span className="demo">Become an Attendee</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
+									<Link href="/contact" className="vl-btn2"><span className="demo">Demander à participer</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
 								</div>
 							</div>
 						</div>

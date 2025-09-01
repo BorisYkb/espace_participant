@@ -43,7 +43,7 @@ export default function Contact() {
 								<div className="col-lg-6" data-aos="zoom-in" data-aos-duration={1000}>
 									<div className="contact4-boxarea">
 										<h3 className="text-anime-style-3">Connectez Vous Maintenant</h3>
-										<div className="space8" />
+										<div className="space9" />
 										<div className="row">
 											<div className="col-lg-12 col-md-6">
 												<div className="input-area">

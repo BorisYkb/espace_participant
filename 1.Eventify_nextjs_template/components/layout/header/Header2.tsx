@@ -8,19 +8,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSear
 					<div className="container">
 						<div className="row">
 							<div className="col-lg-12">
-								<div className="menu-top-area">
-									<div className="top-menu-area">
-										<p>Are you Ready to Enenify Conferences?<Link href="/#">Buy Ticket</Link></p>
-										<ul>
-											<li>
-												<Link href="/mailto:eventifyconference@.com"><img src="/assets/img/icons/mail1.svg" alt="" />eventifyconference@.com <span> | </span></Link>
-											</li>
-											<li>
-												<Link href="/tel:(234)345-4574"><img src="/assets/img/icons/phn1.svg" alt="" />(234) 345-4574</Link>
-											</li>
-										</ul>
-									</div>
-								</div>
+								
 								<div className="header-elements">
 									<div className="site-logo">
 										<Link href="/"><img src="/assets/img/logo/logo2.png" alt="" /></Link>
@@ -28,7 +16,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSear
 									<div className="main-menu">
 										<ul>
 											<li>
-												<Link href="/#">Home <i className="fa-solid fa-angle-down" /></Link>
+												<Link href="/#">Accueil <i className="fa-solid fa-angle-down" /></Link>
 												<div className="tp-submenu">
 													<div className="row">
 														<div className="col-lg-12">
@@ -160,15 +148,10 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSear
 													</div>
 												</div>
 											</li>
-											<li><Link href="/about">About Event</Link></li>
-											<li>
-												<Link href="/#">Speakers <i className="fa-solid fa-angle-down" /></Link>
-												<ul className="dropdown-padding">
-													<li><Link href="/speakers">Speakers</Link></li>
-													<li><Link href="/speakers-single">Speakers Details</Link></li>
-												</ul>
-											</li>
-											<li>
+											<li><Link href="/a_propos_de_levenement">A propos de l'événement</Link></li>
+											<li><Link href="/faq">FAQ,s</Link></li>
+											
+											{/*<li>
 												<Link href="/#">Schedule <i className="fa-solid fa-angle-down" /></Link>
 												<ul className="dropdown-padding">
 													<li><Link href="/event">Our Event</Link></li>
@@ -188,10 +171,10 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSear
 												<ul className="dropdown-padding">
 													<li><Link href="/memories">Our Memories</Link></li>
 													<li><Link href="/pricing-plan">Pricing Plan</Link></li>
-													<li><Link href="/faq">FAQ,s</Link></li>
+													
 													<li><Link href="/contact">Contact Us</Link></li>
 												</ul>
-											</li>
+											</li>*/}
 										</ul>
 									</div>
 									<div className="btn-area">
@@ -208,9 +191,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSear
 											<li>
 												<Link href="/#"><i className="fa-brands fa-linkedin-in" /></Link>
 											</li>
-											<li>
-												<Link href="/#" className="m-0"><i className="fa-brands fa-pinterest-p" /></Link>
-											</li>
+											
 										</ul>
 									</div>
 									<div className={`header-search-form-wrapper ${isSearch ? 'open' : ''}`}>

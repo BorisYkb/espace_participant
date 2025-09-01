@@ -15,9 +15,9 @@ export default function Section5() {
 					<div className="row">
 						<div className="col-lg-6 m-auto">
 							<div className="event2-header heading4 text-center space-margin60">
-								<h5>Event Schedule</h5>
+								<h5>Activités</h5>
 								<div className="space18" />
-								<h2 className="text-anime-style-3">Our Events Schedule Plan</h2>
+								<h2 className="text-anime-style-3">Calendrier de toutes les Activités</h2>
 							</div>
 						</div>
 					</div>
@@ -29,8 +29,8 @@ export default function Section5() {
 										<button className={isTab == 1 ? "nav-link active" : "nav-link"} id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
 											<span className="calender"><img src="/assets/img/icons/calender1.svg" alt="" /></span>
 											<span className="pl-8">
-												<span className="day">Day One</span>
-												<span className="date">May 25, 2024</span>
+												<span className="day">Jour 1</span>
+												<span className="date">23 Mai, 2025</span>
 											</span>
 										</button>
 									</li>
@@ -38,8 +38,8 @@ export default function Section5() {
 										<button className={isTab == 2 ? "nav-link active" : "nav-link"} id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
 											<span className="calender"><img src="/assets/img/icons/calender1.svg" alt="" /></span>
 											<span className="pl-8">
-												<span className="day">Day Two</span>
-												<span className="date">May 25, 2024</span>
+												<span className="day">Jour 2</span>
+												<span className="date">24 Mai, 2025</span>
 											</span>
 										</button>
 									</li>
@@ -47,8 +47,8 @@ export default function Section5() {
 										<button className={isTab == 3 ? "nav-link m-0 active" : "nav-link m-0"} id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
 											<span className="calender"><img src="/assets/img/icons/calender1.svg" alt="" /></span>
 											<span className="pl-8">
-												<span className="day">Day Three</span>
-												<span className="date">May 25, 2024</span>
+												<span className="day">Jour 3</span>
+												<span className="date">25 Mai, 2025</span>
 											</span>
 										</button>
 									</li>
@@ -78,7 +78,7 @@ export default function Section5() {
 																	</li>
 																</ul>
 																<div className="space20" />
-																<Link href="/event-single" className="head">Business World Event Introduction</Link>
+																<Link href="/event-single" className="head">Cérémonie officiel de l'ouverture du salon</Link>
 																<div className="space24" />
 																<div className="author-area">
 																	<div className="autho-name-area">
@@ -86,7 +86,7 @@ export default function Section5() {
 																			<img src="/assets/img/all-images/testimonials/testimonial-img1.png" alt="" />
 																		</div>
 																		<div className="text">
-																			<Link href="/speakers">Alex Roberton</Link>
+																			<Link href="/intervenant">Chonou Oriane</Link>
 																			<div className="space8" />
 																			<p>UI/UX Designer</p>
 																		</div>
@@ -96,7 +96,7 @@ export default function Section5() {
 																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
 																		<div className="text">
-																			<Link href="/speakers">Alexys Archer</Link>
+																			<Link href="/speakers">Chonou Oriane</Link>
 																			<div className="space8" />
 																			<p>WP Developer</p>
 																		</div>
@@ -142,7 +142,7 @@ export default function Section5() {
 																			<img src="/assets/img/all-images/testimonials/testimonial-img1.png" alt="" />
 																		</div>
 																		<div className="text">
-																			<Link href="/speakers">Alex Roberton</Link>
+																			<Link href="/speakers">Chonou Oriane</Link>
 																			<div className="space8" />
 																			<p>UI/UX Designer</p>
 																		</div>
@@ -152,7 +152,7 @@ export default function Section5() {
 																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
 																		<div className="text">
-																			<Link href="/speakers">Alexys Archer</Link>
+																			<Link href="/speakers">Chonou Oriane</Link>
 																			<div className="space8" />
 																			<p>WP Developer</p>
 																		</div>
@@ -198,7 +198,7 @@ export default function Section5() {
 																			<img src="/assets/img/all-images/testimonials/testimonial-img1.png" alt="" />
 																		</div>
 																		<div className="text">
-																			<Link href="/speakers">Alex Roberton</Link>
+																			<Link href="/speakers">Chonou Oriane</Link>
 																			<div className="space8" />
 																			<p>UI/UX Designer</p>
 																		</div>
@@ -208,7 +208,7 @@ export default function Section5() {
 																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
 																		<div className="text">
-																			<Link href="/speakers">Alexys Archer</Link>
+																			<Link href="/speakers">Chonou Oriane</Link>
 																			<div className="space8" />
 																			<p>WP Developer</p>
 																		</div>

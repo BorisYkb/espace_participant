@@ -16,9 +16,10 @@ export default function Home2() {
 			<Layout headerStyle={2} footerStyle={2}>
 				<Section1 />
 				<Section2 />
+				<Section5 />
 				<Section3 />
 				<Section4 />
-				<Section5 />
+				
 				<Section6 />
 				<Section7 />
 				<Section8 />
