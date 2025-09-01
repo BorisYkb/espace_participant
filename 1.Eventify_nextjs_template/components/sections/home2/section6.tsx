@@ -64,12 +64,12 @@ export default function Section6() {
 						<div className="col-lg-12">
 							<div className="memory-heaer2 heading4 space-margin60">
 								<div className="heading4">
-									<h5>last year memory</h5>
+									<h5>Souvenir de l'année dernière</h5>
 									<div className="space18" />
 									<h2 className="text-anime-style-3">Recent Memories 2024</h2>
 								</div>
 								<div className="btn-area1" data-aos="zoom-in" data-aos-duration={1000}>
-									<Link href="/memories" className="vl-btn2"><span className="demo">See Recent Photos</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
+									<Link href="/memories" className="vl-btn2"><span className="demo">Voir les photos Récentes</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
 								</div>
 							</div>
 						</div>

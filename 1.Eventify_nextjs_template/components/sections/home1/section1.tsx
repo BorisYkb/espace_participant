@@ -2,6 +2,7 @@
 import Countdown from '@/components/elements/Countdown'
 import Link from 'next/link'
 
+
 export default function Section1() {
 	// Fonction pour défiler vers RegistrationForm
 	const scrollToRegistration: () => void = () => {
@@ -25,7 +26,7 @@ export default function Section1() {
 								<div className="space16" />
 								<h1 className="text-anime-style-3">
 									Thème :
-									 <br className="d-lg-block d-none" />
+									<br className="d-lg-block d-none" />
 									Innover et Réussir en 2025
 								</h1>
 								<div className="space16" />
@@ -57,7 +58,7 @@ export default function Section1() {
 							</div>
 						</div>
 						<div className="col-lg-1">
-						<Countdown />
+							<Countdown />
 						</div>
 					</div>
 				</div>

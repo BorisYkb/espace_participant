@@ -71,10 +71,10 @@ export default function Section5() {
 															<div className="content-area">
 																<ul>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/clock1.svg" alt="" />10.00 AM -12.00 PM <span> | </span></Link>
+																		<Link href="/#"><img src="/assets/img/icons/clock1.svg" alt="" /> 10.00 - 12.00 <span> | </span></Link>
 																	</li>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />26/C Asana, New York </Link>
+																		<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />C31 Cocody, Abidjan </Link>
 																	</li>
 																</ul>
 																<div className="space20" />
@@ -104,7 +104,7 @@ export default function Section5() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn2"><span className="demo">purchase ticket now</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
+																	<Link href="/inscription" className="vl-btn2"><span className="demo">Participer</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
 																</div>
 															</div>
 														</div>
@@ -127,14 +127,14 @@ export default function Section5() {
 															<div className="content-area">
 																<ul>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/clock1.svg" alt="" />10.00 AM -12.00 PM <span> | </span></Link>
+																		<Link href="/#"><img src="/assets/img/icons/clock1.svg" alt="" />14.00 - 15.00 <span> | </span></Link>
 																	</li>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />26/C Asana, New York </Link>
+																		<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />C31 Cocody, Abidjan  </Link>
 																	</li>
 																</ul>
 																<div className="space20" />
-																<Link href="/event-single" className="head">Workshops Keynote so Elevate Craft</Link>
+																<Link href="/event-single" className="head">Ateliers Keynote pour élever l'artisanat</Link>
 																<div className="space24" />
 																<div className="author-area">
 																	<div className="autho-name-area">
@@ -160,7 +160,7 @@ export default function Section5() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn2"><span className="demo">purchase ticket now</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
+																	<Link href="/inscription" className="vl-btn2"><span className="demo">Participer</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
 																</div>
 															</div>
 														</div>
@@ -183,14 +183,14 @@ export default function Section5() {
 															<div className="content-area">
 																<ul>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/clock1.svg" alt="" />10.00 AM -12.00 PM <span> | </span></Link>
+																		<Link href="/#"><img src="/assets/img/icons/clock1.svg" alt="" />15.00 - 16.00 <span> | </span></Link>
 																	</li>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />26/C Asana, New York </Link>
+																		<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />C31 Cocody, Abidjan  </Link>
 																	</li>
 																</ul>
 																<div className="space20" />
-																<Link href="/event-single" className="head">Sustainability the Future Business</Link>
+																<Link href="/event-single" className="head">Durabilité, l'entreprise du futur</Link>
 																<div className="space24" />
 																<div className="author-area">
 																	<div className="autho-name-area">
@@ -216,7 +216,7 @@ export default function Section5() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn2"><span className="demo">purchase ticket now</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
+																	<Link href="/pricing-plan" className="vl-btn2"><span className="demo">Participer</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
 																</div>
 															</div>
 														</div>

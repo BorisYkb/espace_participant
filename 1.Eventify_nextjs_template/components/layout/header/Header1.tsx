@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import '../../../public/assets/css/EventVariables.css';
 
 
 export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSearch, handleSearch }: any) {
@@ -161,12 +162,19 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 													{/**/}
 													<li><Link href="/plan_tarifaire">Plan Tarifaire</Link></li>
 													<li><Link href="/faq">FAQ,s</Link></li>
-													<li><Link href="/connexion">Se Connecter</Link></li>
+													<li><Link href="/connexion" className='event-btn4'>Se Connecter</Link></li>
 												</ul>
 											</li>
-											<li><Link href="/inscription" className="vl-btn1">S'incrire</Link></li>
-											
-											<li><Link href="/connexion" className="vl-btn2">Se Connecter</Link></li>
+											<li>
+												<Link href="/connexion" className="event-btn4">
+													<span>Connexion</span>
+												</Link>
+											</li>
+											<li>
+												<Link href="/inscription" className="event-btn1">
+													<span>Inscription</span>
+												</Link>
+											</li>
 											
 										</ul>
 									</div>

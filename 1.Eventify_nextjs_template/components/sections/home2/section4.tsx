@@ -10,9 +10,9 @@ export default function Section4() {
 					<div className="row">
 						<div className="col-lg-5 m-auto">
 							<div className="team2-header heading4 space-margin60 text-center">
-								<h5>our 10+ event speakers</h5>
+								<h5>Intervenants</h5>
 								<div className="space18" />
-								<h2 className="text-anime-style-3">Our Event Speakers</h2>
+								<h2 className="text-anime-style-3">Nos intervenants</h2>
 							</div>
 						</div>
 					</div>

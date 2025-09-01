@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import  '../../../public/assets/css/EventVariables.css';
 
 export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSearch, handleSearch }: any) {
 	return (
@@ -177,6 +178,16 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSear
 											</li>*/}
 										</ul>
 									</div>
+									<li>
+										<Link href="/connexion" className="event-btn4">
+											<span>Connexion</span>
+										</Link>
+									</li>
+									<li>
+										<Link href="/inscription" className="event-btn1">
+											<span>Inscription</span>
+										</Link>
+									</li>
 									<div className="btn-area">
 										<div className="search-icon header__search header-search-btn" onClick={handleSearch}>
 											<a><img src="/assets/img/icons/search1.svg" alt="" /></a>
@@ -194,7 +205,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSear
 											
 										</ul>
 									</div>
-									<div className={`header-search-form-wrapper ${isSearch ? 'open' : ''}`}>
+									{/* <div className={`header-search-form-wrapper ${isSearch ? 'open' : ''}`}>
 										<div className="tx-search-close tx-close" onClick={handleSearch}><i className="fa-solid fa-xmark" /></div>
 										<div className="header-search-container">
 											<form role="search" className="search-form">
@@ -202,8 +213,8 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSear
 												<button type="submit" className="search-submit"><img src="/assets/img/icons/search1.svg" alt="" /></button>
 											</form>
 										</div>
-									</div>
-									{isSearch && <div className="body-overlay active" onClick={handleSearch} />}
+									</div> */}
+									{/* {isSearch && <div className="body-overlay active" onClick={handleSearch} />} */}
 								</div>
 							</div>
 						</div>

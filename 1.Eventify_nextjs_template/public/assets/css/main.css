@@ -1201,7 +1201,8 @@ Location:
 .vl-btn1 {
 	color: var(--ztc-text-text-2);
 	font-family: var(--grotesk);
-	font-size: var(--ztc-font-size-font-s20);
+	/* font-size: var(--ztc-font-size-font-s20); */
+	font-size: 1rem;
 	font-style: normal;
 	font-weight: var(--ztc-weight-bold);
 	line-height: 20px;
@@ -1210,7 +1211,8 @@ Location:
 	position: relative;
 	z-index: 1;
 	background: var(--ztc-bg-bg-3);
-	padding: 16px 20px;
+	padding: 13px 17px;
+	/* padding: 13px 17px; */
 	display: inline-block;
 	border-radius: 8px;
 }

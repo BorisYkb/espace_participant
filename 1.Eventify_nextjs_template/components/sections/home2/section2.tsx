@@ -56,7 +56,7 @@ export default function Section2() {
 								</div>
 								<div className="space32" />
 								<div className="btn-area1" data-aos="fade-left" data-aos-duration={1200}>
-									<Link href="/contact" className="vl-btn2"><span className="demo">Demander à participer</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
+									<Link href="/inscription" className="vl-btn2"><span className="demo">Demander à participer</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
 								</div>
 							</div>
 						</div>
