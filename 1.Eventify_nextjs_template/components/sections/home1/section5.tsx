@@ -45,8 +45,6 @@ export default function Section5() {
 								<div className="space16" />
 								<h2 className="text-anime-style-3">Vidéo de présentation de l'événement</h2>
 							</div>
-							
-							
 						</div>
 						<div className="col-lg-6">
 							<div className="video-play-btn">
