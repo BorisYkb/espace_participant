@@ -46,10 +46,9 @@ export default function Section1() {
 						<div className="row">
 							<div className="col-lg-6">
 								<div className="hero2-header">
-									<h5><img src="/assets/img/icons/sara2025.jpeg" alt="" />Le SARA, l'évènement à ne pas rater</h5>
-									<div className="space28" />
+									
 									<div className="hero1-header heading1">
-										<h5 data-aos="fade-left" data-aos-duration={800}><img src="/assets/img/icons/sub-logo1.svg" alt="" />Objectif principal, innover avec passion</h5>
+										<h5 data-aos="fade-left" data-aos-duration={800}><img src="/assets/img/icons/sara2025.jpeg" alt="" />Le SARA, l'évènement à ne pas rater</h5>
 										<div className="space16" />
 										<h1 className="text-anime-style-3">
 											Thème :
@@ -83,10 +82,9 @@ export default function Section1() {
 						<div className="row">
 							<div className="col-lg-6">
 								<div className="hero2-header">
-									<h5><img src="/assets/img/icons/sara2025.jpeg" alt="" />Le SARA, l'évènement à ne pas rater</h5>
-									<div className="space28" />
+									
 									<div className="hero1-header heading1">
-										<h5 data-aos="fade-left" data-aos-duration={800}><img src="/assets/img/icons/sub-logo1.svg" alt="" />Objectif principal, innover avec passion</h5>
+										<h5 data-aos="fade-left" data-aos-duration={800}><img src="/assets/img/icons/sara2025.jpeg" alt="" />Le SARA, l'évènement à ne pas rater</h5>
 										<div className="space16" />
 										<h1 className="text-anime-style-3">
 											Thème :
@@ -120,10 +118,9 @@ export default function Section1() {
 						<div className="row">
 							<div className="col-lg-6">
 								<div className="hero2-header">
-									<h5><img src="/assets/img/icons/sara2025.jpeg" alt="" />Le SARA, l'évènement à ne pas rater</h5>
-									<div className="space28" />
+									
 									<div className="hero1-header heading1">
-										<h5 data-aos="fade-left" data-aos-duration={800}><img src="/assets/img/icons/sub-logo1.svg" alt="" />Objectif principal, innover avec passion</h5>
+										<h5 data-aos="fade-left" data-aos-duration={800}><img src="/assets/img/icons/sara2025.jpeg" alt="" />Le SARA, l'évènement à ne pas rater</h5>
 										<div className="space16" />
 										<h1 className="text-anime-style-3">
 											Thème :

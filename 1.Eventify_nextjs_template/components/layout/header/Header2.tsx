@@ -189,9 +189,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSear
 										</Link>
 									</li>
 									<div className="btn-area">
-										<div className="search-icon header__search header-search-btn" onClick={handleSearch}>
-											<a><img src="/assets/img/icons/search1.svg" alt="" /></a>
-										</div>
+										
 										<ul>
 											<li>
 												<Link href="/#"><i className="fa-brands fa-facebook-f" /></Link>
