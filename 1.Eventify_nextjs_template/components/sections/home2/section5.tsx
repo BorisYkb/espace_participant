@@ -104,7 +104,7 @@ export default function Section5() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/inscription" className="vl-btn2"><span className="demo">Participer</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
+																	<Link href="#" className="vl-btn2"><span className="demo">5000 F</span></Link>
 																</div>
 															</div>
 														</div>
@@ -160,7 +160,7 @@ export default function Section5() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/inscription" className="vl-btn2"><span className="demo">Participer</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
+																	<Link href="#" className="vl-btn2"><span className="demo">7500 F</span></Link>
 																</div>
 															</div>
 														</div>
@@ -216,7 +216,7 @@ export default function Section5() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn2"><span className="demo">Participer</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
+																	<Link href="#" className="vl-btn2"><span className="demo">10 000 F</span></Link>
 																</div>
 															</div>
 														</div>
@@ -275,7 +275,7 @@ export default function Section5() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn2"><span className="demo">purchase ticket now</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
+																	<Link href="#" className="vl-btn2"><span className="demo">5000 F</span></Link>
 																</div>
 															</div>
 														</div>
@@ -331,7 +331,7 @@ export default function Section5() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn2"><span className="demo">purchase ticket now</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
+																	<Link href="#" className="vl-btn2"><span className="demo">7500 F</span></Link>
 																</div>
 															</div>
 														</div>
@@ -387,7 +387,7 @@ export default function Section5() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn2"><span className="demo">purchase ticket now</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
+																	<Link href="#" className="vl-btn2"><span className="demo">10 000 F</span></Link>
 																</div>
 															</div>
 														</div>
@@ -446,7 +446,7 @@ export default function Section5() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn2"><span className="demo">purchase ticket now</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
+																	<Link href="#" className="vl-btn2"><span className="demo">5000 F</span></Link>
 																</div>
 															</div>
 														</div>
@@ -502,7 +502,7 @@ export default function Section5() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn2"><span className="demo">purchase ticket now</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
+																	<Link href="#" className="vl-btn2"><span className="demo">7500 F</span></Link>
 																</div>
 															</div>
 														</div>
@@ -558,7 +558,7 @@ export default function Section5() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn2"><span className="demo">purchase ticket now</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
+																	<Link href="#" className="vl-btn2"><span className="demo">10 000 F</span></Link>
 																</div>
 															</div>
 														</div>

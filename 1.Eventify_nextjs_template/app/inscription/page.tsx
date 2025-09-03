@@ -37,7 +37,7 @@ export default function Contact() {
                                 
                                 <div className="col-lg-6" data-aos="zoom-in" data-aos-duration={1000}>
                                     <div className="contact4-boxarea">
-                                        <h3 className="text-anime-style-3">Inscrivez-vous dès maintenant</h3>
+                                        <h3 className="text-anime-style-3">Inscrivez-vous ici</h3>
                                         <div className="space9" />
                                         <div className="row">
                                             <div className="col-lg-12 col-md-6">
@@ -67,9 +67,9 @@ export default function Contact() {
                                                     <button type="submit" className="vl-btn1">Envoyer ma demande</button>
                                                 </div>
                                             </div>
-                                            <div className='col-lg-12 mt-3 text-center heading2'>
+                                            {/*<div className='col-lg-12 mt-3 text-center heading2'>
                                                 <p>Vous avez déjà un code d'accès ? <br /><Link href={'/connexion'}>Connecter vous</Link></p>
-                                            </div>
+                                            </div>*/}
                                         </div>
                                     </div>
                                 </div>

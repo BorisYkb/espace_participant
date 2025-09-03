@@ -9832,6 +9832,16 @@ html {
     box-shadow: 0 15px 40px rgba(0,0,0,0.3) !important;
 }
 
+.video-play-btn a:hover {
+    transform: scale(1.1);
+    background-color: rgba(255,255,255,1) !important;
+}
+
+.video-thumbnail img:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
 .icons-box:hover {
     transform: translateY(-5px);
     transition: all 0.3s ease;

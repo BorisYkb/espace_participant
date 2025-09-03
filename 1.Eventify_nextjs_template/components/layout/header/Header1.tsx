@@ -144,41 +144,44 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 											</li>
 											
 											
-											<li><Link href="/intervenant">Intervenant </Link></li>
-											<li>
-												<Link href="#">A propos de l'événement <i className="fa-solid fa-angle-down" /></Link>
+											
+											<li><Link href="/a_propos_de_levenement">A propos de l'événement </Link></li>
+											<li><li><Link href="/faq">FAQ,s</Link></li></li>
+											{/*<li>
+												
 												<ul className="dropdown-padding">
 													<li><Link href="/a_propos_de_levenement">Information</Link></li>
 													<li><Link href="/liste_des_activites">Liste des Activités</Link></li>
 													<li><Link href="/horaire_de_levenement">Calendrier</Link></li>
 													<li><Link href="/memories">Souvenir récents</Link></li>
-													{/*<li><Link href="/event-single">Détail de l'événement</Link></li>*/}
+													<li><Link href="/event-single">Détail de l'événement</Link></li>
 												</ul>
-											</li>
+											</li>*/}
 											
-											<li>
+											{/*<li>
 												<Link href="#">Pages <i className="fa-solid fa-angle-down" /></Link>
 												<ul className="dropdown-padding">
-													{/**/}
+													
 													<li><Link href="/plan_tarifaire">Plan Tarifaire</Link></li>
 													<li><Link href="/faq">FAQ,s</Link></li>
 													<li><Link href="/connexion" className='event-btn4'>Se Connecter</Link></li>
 												</ul>
-											</li>
-											<li>
-												<Link href="/connexion" className="event-btn4">
-													<span>Connexion</span>
-												</Link>
-											</li>
-											<li>
-												<Link href="/inscription" className="event-btn1">
-													<span>Inscription</span>
-												</Link>
-											</li>
+											</li>*/}
+											
 											
 										</ul>
 									</div>
-									{/*<div className="btn-area">
+									<li>
+										<Link href="/connexion" className="event-btn4">
+											<span>Connexion</span>
+										</Link>
+									</li>
+									<li>
+										<Link href="/inscription" className="event-btn1">
+											<span>Inscription</span>
+										</Link>
+									</li>
+									<div className="btn-area">
 										
 										<ul>
 											<li>
@@ -188,9 +191,13 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 											<li>
 												<Link href="/#" className="m-0"><i className="fa-brands fa-pinterest-p" /></Link>
 											</li>
+
+											<li>
+												<Link href="/#" className="m-2"><i className="fa-brands fa-instagram" /></Link>
+											</li>
 										</ul>
 									</div>
-									*/}
+									
 									{isSearch && <div className="body-overlay active" onClick={handleSearch} />}
 								</div>
 							</div>
