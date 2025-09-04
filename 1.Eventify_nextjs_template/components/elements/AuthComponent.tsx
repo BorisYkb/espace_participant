@@ -245,24 +245,24 @@ const AuthComponent = ({
 
   /**
    * Gère la soumission du formulaire de connexion
-   * @param {Event} event - L'événement de soumission
+   * @param {React.FormEvent<HTMLFormElement>} event - L'événement de soumission
    */
-  const handleLoginSubmit = async (event: Event) => {
+  const handleLoginSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     
     // Valider le formulaire
     if (!validateForm()) {
       return;
     }
-
+  
     setIsLoading(true);
     setError('');
-
+  
     try {
       // Simulation d'une requête API de connexion
       // Remplacez cette partie par votre logique d'authentification réelle
       await new Promise(resolve => setTimeout(resolve, 1500)); // Simulation de délai réseau
-
+  
       // Exemple de validation simple (à remplacer par votre logique)
       if (formData.accessCode === 'demo123' || formData.accessCode === 'admin') {
         setSuccess('Connexion réussie ! Redirection en cours...');
@@ -279,21 +279,21 @@ const AuthComponent = ({
         if (typeof window !== 'undefined') {
           sessionStorage.setItem('userData', JSON.stringify(userData));
         }
-
+  
         // Appeler la fonction de callback si fournie
         if (onLoginSuccess) {
           onLoginSuccess(userData);
         }
-
+  
         // Redirection après 2 secondes
         setTimeout(() => {
           router.push('/dashboard'); // Ou votre page de destination
         }, 2000);
-
+  
       } else {
         setError('Code d\'accès invalide. Veuillez réessayer.');
       }
-
+  
     } catch (error) {
       console.error('Erreur de connexion:', error);
       setError('Une erreur est survenue. Veuillez réessayer.');

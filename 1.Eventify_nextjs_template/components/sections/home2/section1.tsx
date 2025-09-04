@@ -16,7 +16,7 @@ const settings = {
 	cssEase: 'linear',
 	fade: true,
 	draggable: true,
-	// prevArrow: $(".testimonial-prev-arrow"),
+	// prevA,
 	// nextArrow: $(".testimonial-next-arrow"),
 }
 

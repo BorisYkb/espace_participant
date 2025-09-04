@@ -146,16 +146,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 											
 											
 											<li><Link href="/a_propos_de_levenement">A propos de l'événement </Link></li>
-											<li><li><Link href="/faq">FAQ,s</Link></li></li>
+											<li><Link href="/faq">FAQ,s</Link></li>
 											{/*<li>
 												
-												<ul className="dropdown-padding">
-													<li><Link href="/a_propos_de_levenement">Information</Link></li>
-													<li><Link href="/liste_des_activites">Liste des Activités</Link></li>
-													<li><Link href="/horaire_de_levenement">Calendrier</Link></li>
-													<li><Link href="/memories">Souvenir récents</Link></li>
-													<li><Link href="/event-single">Détail de l'événement</Link></li>
-												</ul>
 											</li>*/}
 											
 											{/*<li>

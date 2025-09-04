@@ -33,11 +33,11 @@ export default function Footer1() {
 							<div className="link-content">
 								<h3>Lien rapide</h3>
 								<ul>
-									<li><Link href="/about">Qui sommes-nous</Link></li>
+									<li><Link href="/#">Qui sommes-nous</Link></li>
 									
-									<li><Link href="/event">Liste des événements</Link></li>
+									<li><Link href="/#">Liste des événements</Link></li>
 									<li><Link href="/pricing-plan">Plan Tarifaire</Link></li>
-									<li><Link href="/contact">Nous Contactez</Link></li>
+									<li><Link href="/#">Nous Contactez</Link></li>
 								</ul>
 							</div>
 						</div>
@@ -46,14 +46,14 @@ export default function Footer1() {
 								<h3>Nous Contactez</h3>
 								<ul>
 									<li>
-										<Link href="/tel:+11234567890"><img src="/assets/img/icons/phn1.svg" alt="" />+1 123 456
+										<Link href="/#"><img src="/assets/img/icons/phn1.svg" alt="" />+1 123 456
 											7890</Link>
 									</li>
 									<li>
 										<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Abidjan Plateau</Link>
 									</li>
 									<li>
-										<Link href="/mailto:eventifyevent@gmail.com"><img src="/assets/img/icons/mail1.svg" alt="" />eventifyevent@gmail.com</Link>
+										<Link href="/#"><img src="/assets/img/icons/mail1.svg" alt="" />eventifyevent@gmail.com</Link>
 									</li>
 									<li>
 										<Link href="/#"> <img src="/assets/img/icons/world1.svg" alt="" />eventifyevent.com</Link>
