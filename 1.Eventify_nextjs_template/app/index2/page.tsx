@@ -9,6 +9,8 @@ import Section6 from '@/components/sections/home2/section6'
 import Section7 from '@/components/sections/home2/section7'
 import Section8 from '@/components/sections/home2/section8'
 import Section9 from '@/components/sections/home2/section9'
+
+
 export default function Home2() {
 
 	return (

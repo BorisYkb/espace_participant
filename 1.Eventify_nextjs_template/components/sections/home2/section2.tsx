@@ -20,7 +20,7 @@ export default function Section2() {
 								{/* Image de fond pour la vidéo */}
 								<div className="video-thumbnail position-relative">
 									<img 
-										src="/assets/img/sara-video-thumbnail.jpg" 
+										src="sara-presentation-video-2.webp" 
 										alt="SARA 2025 - Aperçu vidéo"
 										className="img-fluid rounded-3 w-100"
 										style={{minHeight: '350px', objectFit: 'cover'}}

@@ -7,16 +7,34 @@ export default function Section5() {
 	const [isOpen, setOpen] = useState(false)
 	return (
 		<>
-			<div className="video-presentation-section sp1">
-				<div className="container-fluid px-0">
+			<div className="video-presentation-section sp1" style={{
+				backgroundColor: '#F5F5DC', // Fond beige
+				backgroundImage: 'url(/assets/img/elements/elements13.png)',
+				backgroundPosition: 'center',
+				backgroundSize: 'cover',
+				backgroundRepeat: 'no-repeat',
+				position: 'relative'
+			}}>
+				{/* Overlay beige semi-transparent pour conserver la lisibilité */}
+				<div style={{
+					position: 'absolute',
+					top: 0,
+					left: 0,
+					right: 0,
+					bottom: 0,
+					backgroundColor: 'rgba(245, 245, 220, 0.8)',
+					zIndex: 1
+				}}></div>
+
+				<div className="container-fluid px-0" style={{ position: 'relative', zIndex: 2 }}>
 					<div className="row">
 						<div className="col-12">
 							<div className="video-container position-relative" data-aos="fade-up" data-aos-duration={800}>
 								{/* Image de fond pour la vidéo */}
-								
+
 								<div className="video-thumbnail">
-									<img 
-										src="/assets/img/sara-presentation-video.jpg" 
+									<img
+										src="sara-presentation-video.png"
 										alt="Vidéo de présentation SARA 2025"
 										className="img-fluid w-100"
 										style={{
@@ -29,8 +47,8 @@ export default function Section5() {
 									/>
 									{/* Bouton de lecture centré */}
 									<div className="video-play-btn position-absolute top-50 start-50 translate-middle">
-										<a 
-											onClick={() => setOpen(true)} 
+										<a
+											onClick={() => setOpen(true)}
 											className="popup-youtube d-flex align-items-center justify-content-center"
 											style={{
 												width: '120px',
@@ -48,13 +66,13 @@ export default function Section5() {
 											</svg>
 										</a>
 									</div>
-									
+
 									{/* Indicateur de lecture (optionnel) */}
-									<div className="video-indicator position-absolute bottom-0 start-0 w-100 p-4" 
-										 style={{
-											 background: 'linear-gradient(transparent, rgba(0,0,0,0.6))',
-											 color: 'white'
-										 }}>
+									<div className="video-indicator position-absolute bottom-0 start-0 w-100 p-4"
+										style={{
+											background: 'linear-gradient(transparent, rgba(0,0,0,0.6))',
+											color: 'white'
+										}}>
 										<div className="container">
 											<div className="row justify-content-center">
 												<div className="col-auto">
@@ -72,14 +90,14 @@ export default function Section5() {
 					</div>
 				</div>
 			</div>
-			
-			<ModalVideo 
-				channel='youtube' 
-				isOpen={isOpen} 
-				videoId="JXMWOmuR1hU" 
-				onClose={() => setOpen(false)} 
+
+			<ModalVideo
+				channel='youtube'
+				isOpen={isOpen}
+				videoId="JXMWOmuR1hU"
+				onClose={() => setOpen(false)}
 			/>
-			
+
 			<style jsx>{`
 				.video-play-btn a:hover {
 					transform: scale(1.15) !important;
@@ -93,8 +111,8 @@ export default function Section5() {
 				
 				@media (max-width: 768px) {
 					.video-thumbnail img {
-						height: 50vh !important;
-						min-height: 300px !important;
+						height: 55vh !important;
+						min-height: 350px !important;
 					}
 					
 					.video-play-btn a {
@@ -110,8 +128,8 @@ export default function Section5() {
 				
 				@media (max-width: 480px) {
 					.video-thumbnail img {
-						height: 40vh !important;
-						min-height: 250px !important;
+						height: 45vh !important;
+						min-height: 280px !important;
 					}
 					
 					.video-play-btn a {

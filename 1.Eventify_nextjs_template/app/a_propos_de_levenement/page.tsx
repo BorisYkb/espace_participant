@@ -7,7 +7,10 @@ import Link from "next/link"
 import RegistrationForm from '@/components/elements/RegistrationForm'
 import Section5 from '@/components/sections/home1/section5'
 import PastEventsSection from './component/PastEventsSection'
-export default function About() {
+
+
+
+export default function Page() {
 
 	return (
 		<>
