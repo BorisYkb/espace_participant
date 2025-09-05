@@ -44,12 +44,12 @@ export default function Countdown2() {
 		<div className="row">
 			<div className="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration={900}>
 				<div className="time-box">
-					<span id="days1" className="time-value">{timeParts.days}<span>Days</span></span>
+					<span id="days1" className="time-value">{timeParts.days}<span>Jours</span></span>
 				</div>
 			</div>
 			<div className="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration={1000}>
 				<div className="time-box">
-					<span id="hours1" className="time-value">{timeParts.hours}<span>Hours</span></span>
+					<span id="hours1" className="time-value">{timeParts.hours}<span>Heures</span></span>
 				</div>
 			</div>
 			<div className="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration={1100}>
@@ -59,7 +59,7 @@ export default function Countdown2() {
 			</div>
 			<div className="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration={1200}>
 				<div className="time-box">
-					<span id="seconds1" className="time-value">{timeParts.seconds}<span>Seconds</span></span>
+					<span id="seconds1" className="time-value">{timeParts.seconds}<span>Secondes</span></span>
 				</div>
 			</div>
 		</div>

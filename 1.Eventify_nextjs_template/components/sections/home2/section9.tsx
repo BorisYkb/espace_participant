@@ -14,16 +14,16 @@ export default function Section9() {
 								<div className="timer-btn-area">
 								<Countdown />
 									<div className="btn-area1">
-										<Link className="vl-btn2" href="/pricing-plan"><span className="demo">Buy A Ticket</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span>
+										<Link className="vl-btn2" href="/inscription"><span className="demo">Acheter</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span>
 										</Link>
 									</div>
 								</div>
 								<ul>
 									<li>
-										<Link href="/#"><img src="/assets/img/icons/calender1.svg" alt="" />30 January 2025 - 6pm to 11:30pm</Link>
+										<Link href="/#"><img src="/assets/img/icons/calender1.svg" alt="" />23 Mai 2025 - 6pm to 11:30pm</Link>
 									</li>
 									<li className="m-0">
-										<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Secret Location In The UK</Link>
+										<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Palais de la culture</Link>
 									</li>
 								</ul>
 							</div>

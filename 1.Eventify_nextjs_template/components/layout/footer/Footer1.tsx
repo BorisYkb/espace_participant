@@ -33,11 +33,11 @@ export default function Footer1() {
 							<div className="link-content">
 								<h3>Lien rapide</h3>
 								<ul>
-									<li><Link href="/#">Qui sommes-nous</Link></li>
+									<li><Link href="/a_propos_de_levenement">A propos des événements</Link></li>
 									
-									<li><Link href="/#">Liste des événements</Link></li>
-									<li><Link href="/pricing-plan">Plan Tarifaire</Link></li>
-									<li><Link href="/#">Nous Contactez</Link></li>
+									<li><Link href="/faq">FAQ's</Link></li>
+									<li><Link href="/connexion">Se connecter</Link></li>
+									<li><Link href="/inscription">S'inscrire</Link></li>
 								</ul>
 							</div>
 						</div>
@@ -46,8 +46,7 @@ export default function Footer1() {
 								<h3>Nous Contactez</h3>
 								<ul>
 									<li>
-										<Link href="/#"><img src="/assets/img/icons/phn1.svg" alt="" />+1 123 456
-											7890</Link>
+										<Link href="/#"><img src="/assets/img/icons/phn1.svg" alt="" />+225 0749668962</Link>
 									</li>
 									<li>
 										<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Abidjan Plateau</Link>

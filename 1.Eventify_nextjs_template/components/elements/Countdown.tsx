@@ -48,12 +48,12 @@ export default function Countdown({ style }: any) {
 				<div className="timer">
 					<div className="time-box">
 						<span id="days1" className="time-value">{timeParts.days}</span>
-						<br />Days
+						<br />Jours
 					</div>
 					<div className="space14" />
 					<div className="time-box">
 						<span id="hours1" className="time-value">{timeParts.hours}</span>
-						<br />Hours
+						<br />Heures
 					</div>
 					<div className="space14" />
 					<div className="time-box">
@@ -63,7 +63,7 @@ export default function Countdown({ style }: any) {
 					<div className="space14" />
 					<div className="time-box" style={{ margin: "0 26px 0 0" }}>
 						<span id="seconds1" className="time-value">{timeParts.seconds}</span>
-						<br />Seconds
+						<br />Secondes
 					</div>
 				</div>
 			</>}
@@ -72,16 +72,16 @@ export default function Countdown({ style }: any) {
 			{style === 1 && <>
 				<div className="timer">
 					<div className="time-box">
-						<span id="days" className="time-value">{timeParts.days} <span>DAYS</span></span>
+						<span id="days" className="time-value">{timeParts.days} <span>JOURS</span></span>
 					</div>
 					<div className="time-box">
-						<span id="hours" className="time-value">{timeParts.hours} <span>Hours</span></span>
+						<span id="hours" className="time-value">{timeParts.hours} <span>Heures</span></span>
 					</div>
 					<div className="time-box">
 						<span id="minutes" className="time-value">{timeParts.minutes} <span>Minutes</span></span>
 					</div>
 					<div className="time-box">
-						<span id="seconds" className="time-value">{timeParts.seconds} <span>Seconds</span></span>
+						<span id="seconds" className="time-value">{timeParts.seconds} <span>Secondes</span></span>
 					</div>
 				</div>
 
@@ -91,14 +91,14 @@ export default function Countdown({ style }: any) {
 					<div className="col-lg-3 col-md-6">
 						<div className="cta-counter-box">
 							<img src="/assets/img/elements/elements23.png" alt="" className="elements23 keyframe5" />
-							<h2><span id="days1" className="time-value">{timeParts.days} <span>DAYS</span></span></h2>
+							<h2><span id="days1" className="time-value">{timeParts.days} <span>JOURS</span></span></h2>
 						</div>
 						<div className="space50 d-lg-none d-block" />
 					</div>
 					<div className="col-lg-3 col-md-6">
 						<div className="cta-counter-box">
 							<img src="/assets/img/elements/elements23.png" alt="" className="elements23 keyframe5" />
-							<h2><span id="hours1" className="time-value">{timeParts.hours} <span>Hours</span> </span></h2>
+							<h2><span id="hours1" className="time-value">{timeParts.hours} <span>Heures</span> </span></h2>
 						</div>
 						<div className="space50 d-lg-none d-block" />
 					</div>
@@ -111,7 +111,7 @@ export default function Countdown({ style }: any) {
 					<div className="col-lg-3 col-md-6">
 						<div className="cta-counter-box">
 							<img src="/assets/img/elements/elements23.png" alt="" className="elements23 keyframe5" />
-							<h2><span id="seconds1" className="time-value">{timeParts.seconds}<span>Seconds</span></span></h2>
+							<h2><span id="seconds1" className="time-value">{timeParts.seconds}<span>Secondes</span></span></h2>
 						</div>
 					</div>
 				</div>
@@ -119,12 +119,12 @@ export default function Countdown({ style }: any) {
 			{style === 3 && <>
 				<div className="timer2">
 					<div className="time-box">
-						<span id="days" className="time-value">{timeParts.days} <span>DAYS</span></span>
+						<span id="days" className="time-value">{timeParts.days} <span>JOURS</span></span>
 						<br />
 					</div>
 					<div className="space14" />
 					<div className="time-box">
-						<span id="hours" className="time-value">{timeParts.hours} <span>Hours</span></span>
+						<span id="hours" className="time-value">{timeParts.hours} <span>Heures</span></span>
 						<br />
 					</div>
 					<div className="space14" />
@@ -134,7 +134,7 @@ export default function Countdown({ style }: any) {
 					</div>
 					<div className="space14" />
 					<div className="time-box" style={{ margin: '0 26px 0 0' }}>
-						<span id="seconds" className="time-value">{timeParts.seconds} <span>Seconds</span></span>
+						<span id="seconds" className="time-value">{timeParts.seconds} <span>Secondes</span></span>
 						<br />
 					</div>
 				</div>

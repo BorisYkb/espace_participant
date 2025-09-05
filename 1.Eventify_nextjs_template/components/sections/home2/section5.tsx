@@ -64,7 +64,7 @@ export default function Section5() {
 													<div className="row align-items-center">
 														<div className="col-lg-5">
 															<div className="img1">
-																<img src="/assets/img/all-images/event/event-img1.png" alt="" />
+																<img src="/assets/img/event_img/1.jpg" alt="" />
 															</div>
 														</div>
 														<div className="col-lg-7">
@@ -120,7 +120,7 @@ export default function Section5() {
 													<div className="row align-items-center">
 														<div className="col-lg-5">
 															<div className="img1">
-																<img src="/assets/img/all-images/event/event-img3.png" alt="" />
+																<img src="/assets/img/event_img/R.jpeg" alt="" />
 															</div>
 														</div>
 														<div className="col-lg-7">
@@ -176,7 +176,7 @@ export default function Section5() {
 													<div className="row align-items-center">
 														<div className="col-lg-5">
 															<div className="img1">
-																<img src="/assets/img/all-images/event/event-img2.png" alt="" />
+																<img src="/assets/img/event_img/2.jpg" alt="" />
 															</div>
 														</div>
 														<div className="col-lg-7">

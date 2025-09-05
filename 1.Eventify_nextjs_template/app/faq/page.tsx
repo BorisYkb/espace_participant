@@ -23,9 +23,9 @@ const handleAccordion = (key: any) => {
 							<div className="row">
 								<div className="col-lg-9 m-auto">
 									<div className="heading1 text-center">
-										<h1>Frequently Asked Question</h1>
+										<h1>Foire aux questions</h1>
 										<div className="space20" />
-										<Link href="/">Home <i className="fa-solid fa-angle-right" /> <span>Frequently Asked Question</span></Link>
+										<Link href="/">Accueil<i className="fa-solid fa-angle-right" /> <span>Foire aux questions</span></Link>
 									</div>
 								</div>
 							</div>
@@ -38,7 +38,7 @@ const handleAccordion = (key: any) => {
 							<div className="row">
 								<div className="col-lg-7 m-auto">
 									<div className="heading2 text-center space-margin60">
-										<h2>Frequently Asked Question</h2>
+										<h2>Foire aux questions</h2>
 									</div>
 								</div>
 							</div>
@@ -47,19 +47,19 @@ const handleAccordion = (key: any) => {
 									<div className="faq-widget-area">
 										<ul className="nav nav-pills" id="pills-tab" role="tablist">
 											<li className="nav-item" onClick={() => handleTab(1)}>
-												<button className={isTab == 1 ? "nav-link active" : "nav-link"} id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
+												<button className={isTab == 1 ? "nav-link active" : "nav-link"} id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Tout</button>
 											</li>
 											<li className="nav-item" onClick={() => handleTab(2)}>
-												<button className={isTab == 2 ? "nav-link active" : "nav-link"} id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Event Information</button>
+												<button className={isTab == 2 ? "nav-link active" : "nav-link"} id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Info sur l'événement</button>
 											</li>
 											<li className="nav-item" onClick={() => handleTab(3)}>
-												<button className={isTab == 3 ? "nav-link active" : "nav-link"} id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Registration &amp; Tickets</button>
+												<button className={isTab == 3 ? "nav-link active" : "nav-link"} id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Inscription &amp; Billets</button>
 											</li>
 											<li className="nav-item" onClick={() => handleTab(4)}>
-												<button className={isTab == 4 ? "nav-link active" : "nav-link"} id="pills-contact1-tab" data-bs-toggle="pill" data-bs-target="#pills-contact1" type="button" role="tab" aria-controls="pills-contact1" aria-selected="false">Event Experience</button>
+												<button className={isTab == 4 ? "nav-link active" : "nav-link"} id="pills-contact1-tab" data-bs-toggle="pill" data-bs-target="#pills-contact1" type="button" role="tab" aria-controls="pills-contact1" aria-selected="false">Experience événementielle</button>
 											</li>
 											<li className="nav-item" onClick={() => handleTab(5)}>
-												<button className={isTab == 5 ? "nav-link m-0 active" : "nav-link m-0"} id="pills-contact2-tab" data-bs-toggle="pill" data-bs-target="#pills-contact2" type="button" role="tab" aria-controls="pills-contact2" aria-selected="false">Speakers &amp; Sessions</button>
+												<button className={isTab == 5 ? "nav-link m-0 active" : "nav-link m-0"} id="pills-contact2-tab" data-bs-toggle="pill" data-bs-target="#pills-contact2" type="button" role="tab" aria-controls="pills-contact2" aria-selected="false">Intervenant &amp; Sessions</button>
 											</li>
 										</ul>
 										<div className="space48" />
@@ -72,11 +72,11 @@ const handleAccordion = (key: any) => {
 																<div className="accordion" id="accordionExample">
 																	<div className="accordion-item">
 																		<h2 className="accordion-header"onClick={() => handleAccordion (1)}>
-																			<button className={isAccordion == 1 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">What is Eventify, and who is it for?</button>
+																			<button className={isAccordion == 1 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Qu’est-ce le SARA et à qui s’adresse-t-il ?</button>
 																		</h2>
 																		<div id="collapseOne" className={isAccordion == 1 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
 																			<div className="accordion-body">
-																				<p>Eventify 2024 will be held on 26 at USA , located in New York. Full event details, including timings and venue information, will be provided after registration.</p>
+																				<p>SARA 2025 se tiendra du 23 Mai au 01 Juin à Abidjan. Tous les détails de l’événement, y compris les horaires et les informations sur le lieu, seront fournis après l’inscription.</p>
 																			</div>
 																		</div>
 																	</div>

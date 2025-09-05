@@ -7,6 +7,7 @@ import Link from "next/link"
 import RegistrationForm from '@/components/elements/RegistrationForm'
 import Section5 from '@/components/sections/home1/section5'
 import PastEventsSection from './component/PastEventsSection'
+import Countdown2 from '@/components/elements/Countdown2'
 
 
 
@@ -97,6 +98,31 @@ export default function Page() {
 					{/*===== ABOUT AREA ENDS =======*/}
 					<PastEventsSection />
 					
+					{/*===== CTA AREA STARTS =======*/}
+					<div className="cta1-section-area d-lg-none d-block">
+						<div className="container">
+							<div className="row">
+								<div className="col-lg-10 m-auto">
+									<div className="cta1-main-boxarea">
+										<div className="timer-btn-area">
+											<Countdown />
+											<div className="btn-area1">
+												<Link href="/pricing-plan" className="vl-btn1">Buy Ticket</Link>
+											</div>
+										</div>
+										<ul>
+											<li>
+												<Link href="/#"><img src="/assets/img/icons/calender1.svg" alt="" />30 January 2025 - 6pm to 11:30pm</Link>
+											</li>
+											<li className="m-0">
+												<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Secret Location In The UK</Link>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 					
 					
 					

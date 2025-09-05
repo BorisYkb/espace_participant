@@ -11,7 +11,7 @@ export default function Footer2() {
 							<div className="footer-logo-area">
 								<img src="/assets/img/logo/logo1.png" alt="" />
 								<div className="space16" />
-								<p>We are committed to creating a platform where business leaders, innovators, and professionals can come together to exchange ideas</p>
+								<p>Nous nous engageons à créer une plateforme où les chefs d’entreprise, les innovateurs et les professionnels peuvent se réunir pour échanger des idées</p>
 								<div className="space24" />
 								<ul>
 									<li>
@@ -23,36 +23,34 @@ export default function Footer2() {
 									<li>
 										<Link href="/#"><i className="fa-brands fa-linkedin-in" /></Link>
 									</li>
-									<li>
-										<Link href="/#" className="m-0"><i className="fa-brands fa-pinterest-p" /></Link>
-									</li>
+									
 								</ul>
 							</div>
 						</div>
 						<div className="col-lg-2 col-md-6">
 							<div className="link-content">
-								<h3>Quick Links</h3>
+								<h3>Lien Rapide</h3>
 								<ul>
-									<li><Link href="/about">About Us</Link></li>
-									<li><Link href="/blog">Our Blogs</Link></li>
-									<li><Link href="/event">Event Listing</Link></li>
-									<li><Link href="/pricing-plan">Pricing Plan</Link></li>
-									<li><Link href="/contact">Contact Us</Link></li>
+									<li><Link href="/a_propos_de_levenement">A propos des événements</Link></li>
+									
+									<li><Link href="/faq">FAQ's</Link></li>
+									<li><Link href="/connexion">Se connecter</Link></li>
+									<li><Link href="/inscription">S'inscrire</Link></li>
 								</ul>
 							</div>
 						</div>
 						<div className="col-lg-3 col-md-6">
 							<div className="link-content2">
-								<h3>Contact Us</h3>
+								<h3>Nous contactez</h3>
 								<ul>
 									<li>
-										<Link href="/tel:+11234567890"><img src="/assets/img/icons/phn1.svg" alt="" />+1 123 456 7890</Link>
+										<Link href="/tel:+11234567890"><img src="/assets/img/icons/phn1.svg" alt="" />+225 0749668962</Link>
 									</li>
 									<li>
-										<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Secret Location In The UK</Link>
+										<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Abidjan Plateau</Link>
 									</li>
 									<li>
-										<Link href="/mailto:eventifyevent@gmail.com"><img src="/assets/img/icons/mail1.svg" alt="" />eventifyevent@gmail.com</Link>
+										<Link href="/mailto:eventifyevent@gmail.com"><img src="/assets/img/icons/mail1.svg" alt="" />eventify@gmail.com</Link>
 									</li>
 									<li>
 										<Link href="/#"> <img src="/assets/img/icons/world1.svg" alt="" />eventifyevent.com</Link>
@@ -62,7 +60,7 @@ export default function Footer2() {
 						</div>
 						<div className="col-lg-4 col-md-6">
 							<div className="footer-social-box">
-								<h3>Our Recent Event Gallery</h3>
+								<h3>Notre galerie d’événements récents</h3>
 								<div className="space12" />
 								<div className="row">
 									<div className="col-lg-4 col-md-4 col-4">
