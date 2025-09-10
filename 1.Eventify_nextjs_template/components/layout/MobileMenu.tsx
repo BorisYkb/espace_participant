@@ -38,20 +38,21 @@ const handleAccordion = (key: any) => {
 						<li className="has-sub hash-has-sub"><span className={`submenu-button ${isAccordion  == 1 ? "submenu-opened" : ""}`}onClick={() => handleAccordion (1)}><em /></span>
 							<Link href="/#" className="hash-nav">Accueil </Link>
 							<ul className={`sub-menu ${isAccordion  == 1 ? "open-sub" : ""}`} style={{ display: `${isAccordion  == 1 ? "block" : "none"}` }}>
-								<li className="hash-has-sub"><Link href="/" className="hash-nav">Home One</Link></li>
-								<li className="hash-has-sub"><Link href="/index2" className="hash-nav">Home Two</Link></li>
-								<li className="hash-has-sub"><Link href="/index3" className="hash-nav">Home Three</Link></li>
-								<li className="hash-has-sub"><Link href="/index4" className="hash-nav">Home Four</Link></li>
-								<li className="hash-has-sub"><Link href="/index5" className="hash-nav">Home Five</Link></li>
-								<li className="hash-has-sub"><Link href="/index6" className="hash-nav">Home Six</Link></li>
-								<li className="hash-has-sub"><Link href="/index7" className="hash-nav">Home Seven</Link></li>
-								<li className="hash-has-sub"><Link href="/index8" className="hash-nav">Home Eight</Link></li>
-								<li className="hash-has-sub"><Link href="/index9" className="hash-nav">Home Nine</Link></li>
-								<li className="hash-has-sub"><Link href="/index10" className="hash-nav">Home Ten</Link></li>
+								<li className="hash-has-sub"><Link href="/" className="hash-nav">Accueil 1</Link></li>
+								<li className="hash-has-sub"><Link href="/index2" className="hash-nav">Accueil 2</Link></li>
+								<li className="hash-has-sub"><Link href="/index3" className="hash-nav">Accueil 3</Link></li>
+								<li className="hash-has-sub"><Link href="/index4" className="hash-nav">Accueil 4</Link></li>
+								<li className="hash-has-sub"><Link href="/index5" className="hash-nav">Accueil 5</Link></li>
+								<li className="hash-has-sub"><Link href="/index6" className="hash-nav">Accueil 6</Link></li>
+								<li className="hash-has-sub"><Link href="/index7" className="hash-nav">Accueil 7</Link></li>
+								<li className="hash-has-sub"><Link href="/index8" className="hash-nav">Accueil 8</Link></li>
+								<li className="hash-has-sub"><Link href="/index9" className="hash-nav">Accueil 9</Link></li>
+								<li className="hash-has-sub"><Link href="/index10" className="hash-nav">Accueil 10</Link></li>
 							</ul>
 						</li>
-						<li className="hash-has-sub"><Link href="/about" className="hash-nav">About Event</Link></li>
-						<li className="has-sub hash-has-sub"><span className={`submenu-button ${isAccordion  == 2 ? "submenu-opened" : ""}`}onClick={() => handleAccordion (2)}><em /></span>
+						<li className="hash-has-sub"><Link href="/a_propos_de_levenement" className="hash-nav">A propos de l'événement</Link></li>
+						<li className="hash-has-sub"><Link href="/faq" className="hash-nav">FAQ,s</Link></li>
+						{/*<li className="has-sub hash-has-sub"><span className={`submenu-button ${isAccordion  == 2 ? "submenu-opened" : ""}`}onClick={() => handleAccordion (2)}><em /></span>
 							<Link href="/features" className="hash-nav">Speakers</Link>
 							<ul className={`sub-menu ${isAccordion  == 2 ? "open-sub" : ""}`} style={{ display: `${isAccordion  == 2 ? "block" : "none"}` }}>
 								<li className="hash-has-sub"><Link href="/speakers" className="hash-nav">Speakers</Link></li>
@@ -78,15 +79,26 @@ const handleAccordion = (key: any) => {
 							<ul className={`sub-menu ${isAccordion  == 5 ? "open-sub" : ""}`} style={{ display: `${isAccordion  == 5 ? "block" : "none"}` }}>
 								<li className="hash-has-sub"><Link href="/memories" className="hash-nav">Our Memories</Link></li>
 								<li className="hash-has-sub"><Link href="/pricing-plan" className="hash-nav">Pricing Plan</Link></li>
-								<li className="hash-has-sub"><Link href="/faq" className="hash-nav">FAQ,s</Link></li>
+								
 								<li className="hash-has-sub"><Link href="/contact" className="hash-nav">Contact Us</Link></li>
 							</ul>
 						</li>
 						<li className="hash-has-sub"><Link href="/contact" className="hash-nav">Contact Us</Link></li>
+						*/}
+						<li>
+							<Link href="/connexion" className="event-btn4">
+								<span>Connexion</span>
+							</Link>
+						</li>
+						<li>
+							<Link href="/inscription" className="event-btn1">
+								<span>Inscription</span>
+							</Link>
+						</li>
 					</ul>
 
 					<div className="allmobilesection">
-						<Link href="//contact" className="vl-btn1">Contact Now</Link>
+						
 						<div className="single-footer">
 							<h3>Contact Info</h3>
 							<div className="footer1-contact-info">
@@ -95,7 +107,7 @@ const handleAccordion = (key: any) => {
 										<span><i className="fa-solid fa-phone-volume" /></span>
 									</div>
 									<div className="contact-info-text">
-										<Link href="//tel:+3(924)4596512">+3(924)4596512</Link>
+										<Link href="//tel:+3(924)4596512">+225 0749668962</Link>
 									</div>
 								</div>
 								<div className="contact-info-single">
@@ -107,19 +119,19 @@ const handleAccordion = (key: any) => {
 									</div>
 								</div>
 								<div className="single-footer">
-									<h3>Our Location</h3>
+									<h3>Localisation</h3>
 									<div className="contact-info-single">
 										<div className="contact-info-icon">
 											<span><i className="fa-solid fa-location-dot" /></span>
 										</div>
 										<div className="contact-info-text">
-											<Link href="//mailto:info@example.com">55 East Birchwood Ave.Brooklyn, <br />
-												New York 11201,United States</Link>
+											<Link href="//mailto:info@example.com">Cocody Rivera II, <br />
+												Abidjan, Côte d'ivoire</Link>
 										</div>
 									</div>
 								</div>
 								<div className="single-footer">
-									<h3>Social Links</h3>
+									<h3>Réseaux Sociaux</h3>
 									<div className="social-links-mobile-menu">
 										<ul>
 											<li>
@@ -131,9 +143,7 @@ const handleAccordion = (key: any) => {
 											<li>
 												<Link href="//#"><i className="fa-brands fa-linkedin-in" /></Link>
 											</li>
-											<li>
-												<Link href="//#"><i className="fa-brands fa-youtube" /></Link>
-											</li>
+											
 										</ul>
 									</div>
 								</div>
