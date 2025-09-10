@@ -44,13 +44,13 @@ export default function Footer2() {
 								<h3>Nous contactez</h3>
 								<ul>
 									<li>
-										<Link href="/tel:+11234567890"><img src="/assets/img/icons/phn1.svg" alt="" />+225 0749668962</Link>
+										<Link href="/#"><img src="/assets/img/icons/phn1.svg" alt="" />+225 0749668962</Link>
 									</li>
 									<li>
 										<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Abidjan Plateau</Link>
 									</li>
 									<li>
-										<Link href="/mailto:eventifyevent@gmail.com"><img src="/assets/img/icons/mail1.svg" alt="" />eventify@gmail.com</Link>
+										<Link href="/#"><img src="/assets/img/icons/mail1.svg" alt="" />eventify@gmail.com</Link>
 									</li>
 									<li>
 										<Link href="/#"> <img src="/assets/img/icons/world1.svg" alt="" />eventifyevent.com</Link>

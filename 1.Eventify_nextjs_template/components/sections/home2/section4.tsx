@@ -38,7 +38,7 @@ export default function Section4() {
 								</div>
 								<div className="space28" />
 								<div className="content-area">
-									<Link href="/speakers">Alex Robertson</Link>
+									<Link href="/intervenant">Alex Robertson</Link>
 									<div className="space16" />
 									<p>Finance Consultant</p>
 								</div>
@@ -65,7 +65,7 @@ export default function Section4() {
 								</div>
 								<div className="space28" />
 								<div className="content-area">
-									<Link href="/speakers">Alexy Sammo</Link>
+									<Link href="/intervenant">Alexy Sammo</Link>
 									<div className="space16" />
 									<p>HR Consultant</p>
 								</div>
@@ -92,7 +92,7 @@ export default function Section4() {
 								</div>
 								<div className="space28" />
 								<div className="content-area">
-									<Link href="/speakers">Andrew Symonds</Link>
+									<Link href="/intervenant">Andrew Symonds</Link>
 									<div className="space16" />
 									<p>Finance Consultant</p>
 								</div>
@@ -119,7 +119,7 @@ export default function Section4() {
 								</div>
 								<div className="space28" />
 								<div className="content-area">
-									<Link href="/speakers">Ben Stokes</Link>
+									<Link href="/intervenant">Ben Stokes</Link>
 									<div className="space16" />
 									<p>Finance Consultant</p>
 								</div>

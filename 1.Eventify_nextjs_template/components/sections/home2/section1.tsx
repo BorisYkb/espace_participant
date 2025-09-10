@@ -62,7 +62,7 @@ export default function Section1() {
 										</p>
 										<div className="space32" />
 										<div className="btn-area2" data-aos="fade-left" data-aos-duration={1100}>
-											<button className="event-btn4 .event-space1" onClick={scrollToRegistration}>S'inscrire</button>
+											<Link href="/inscription" className="event-btn4 .event-space1">S'inscrire</Link>
 											<Link href="/connexion" className="event-btn1">Se Connecter</Link>
 										</div>
 									</div>

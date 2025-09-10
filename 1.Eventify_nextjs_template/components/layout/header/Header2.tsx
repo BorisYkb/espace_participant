@@ -12,7 +12,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSear
 								
 								<div className="header-elements">
 									<div className="site-logo">
-										<Link href="/"><img src="/assets/img/logo/logo2.png" alt="" /></Link>
+										<Link href="/"><img src="/assets/img/event_img/SARA-2025-LOGO-2.jpg" alt="" /></Link>
 									</div>
 									<div className="main-menu">
 										<ul>

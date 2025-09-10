@@ -216,7 +216,7 @@ export default function Section5() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="#" className="vl-btn2"><span className="demo">10 000 F</span></Link>
+																	<Link href="/connexion" className="vl-btn2"><span className="demo">10 000 F</span></Link>
 																</div>
 															</div>
 														</div>
@@ -275,7 +275,7 @@ export default function Section5() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="#" className="vl-btn2"><span className="demo">5000 F</span></Link>
+																	<Link href="/connexion" className="vl-btn2"><span className="demo">5000 F</span></Link>
 																</div>
 															</div>
 														</div>
@@ -331,7 +331,7 @@ export default function Section5() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="#" className="vl-btn2"><span className="demo">7500 F</span></Link>
+																	<Link href="/connexion" className="vl-btn2"><span className="demo">7500 F</span></Link>
 																</div>
 															</div>
 														</div>
@@ -387,7 +387,7 @@ export default function Section5() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="#" className="vl-btn2"><span className="demo">10 000 F</span></Link>
+																	<Link href="/connexion" className="vl-btn2"><span className="demo">10 000 F</span></Link>
 																</div>
 															</div>
 														</div>
@@ -446,7 +446,7 @@ export default function Section5() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="#" className="vl-btn2"><span className="demo">5000 F</span></Link>
+																	<Link href="/connexion" className="vl-btn2"><span className="demo">5000 F</span></Link>
 																</div>
 															</div>
 														</div>
@@ -502,7 +502,7 @@ export default function Section5() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="#" className="vl-btn2"><span className="demo">7500 F</span></Link>
+																	<Link href="/connexion" className="vl-btn2"><span className="demo">7500 F</span></Link>
 																</div>
 															</div>
 														</div>
@@ -558,7 +558,7 @@ export default function Section5() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="#" className="vl-btn2"><span className="demo">10 000 F</span></Link>
+																	<Link href="/connexion" className="vl-btn2"><span className="demo">10 000 F</span></Link>
 																</div>
 															</div>
 														</div>
