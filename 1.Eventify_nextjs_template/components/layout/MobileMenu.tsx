@@ -35,9 +35,9 @@ const handleAccordion = (key: any) => {
 				</div>
 				<div className="mobile-nav mobile-nav1">
 					<ul className="mobile-nav-list nav-list1">
-						<li className="has-sub hash-has-sub"><span className={`submenu-button ${isAccordion  == 1 ? "submenu-opened" : ""}`}onClick={() => handleAccordion (1)}><em /></span>
+						<li className="has-sub hash-has-sub">
 							<Link href="/#" className="hash-nav">Accueil </Link>
-							<ul className={`sub-menu ${isAccordion  == 1 ? "open-sub" : ""}`} style={{ display: `${isAccordion  == 1 ? "block" : "none"}` }}>
+							{/* <ul className={`sub-menu ${isAccordion  == 1 ? "open-sub" : ""}`} style={{ display: `${isAccordion  == 1 ? "block" : "none"}` }}>
 								<li className="hash-has-sub"><Link href="/" className="hash-nav">Accueil 1</Link></li>
 								<li className="hash-has-sub"><Link href="/index2" className="hash-nav">Accueil 2</Link></li>
 								<li className="hash-has-sub"><Link href="/index3" className="hash-nav">Accueil 3</Link></li>
@@ -48,7 +48,7 @@ const handleAccordion = (key: any) => {
 								<li className="hash-has-sub"><Link href="/index8" className="hash-nav">Accueil 8</Link></li>
 								<li className="hash-has-sub"><Link href="/index9" className="hash-nav">Accueil 9</Link></li>
 								<li className="hash-has-sub"><Link href="/index10" className="hash-nav">Accueil 10</Link></li>
-							</ul>
+							</ul> */}
 						</li>
 						<li className="hash-has-sub"><Link href="/a_propos_de_levenement" className="hash-nav">A propos de l'événement</Link></li>
 						<li className="hash-has-sub"><Link href="/faq" className="hash-nav">FAQ,s</Link></li>
@@ -86,7 +86,7 @@ const handleAccordion = (key: any) => {
 						<li className="hash-has-sub"><Link href="/contact" className="hash-nav">Contact Us</Link></li>
 						*/}
 						<li>
-							<Link href="/connexion" className="event-btn4">
+							<Link href="http://localhost:8082/auth/jwt/sign-in/?returnTo=%2Fparticipant%2F" className="event-btn4">
 								<span>Connexion</span>
 							</Link>
 						</li>

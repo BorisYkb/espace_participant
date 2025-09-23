@@ -12,9 +12,9 @@ export default function Section9() {
 						<div className="col-lg-10 m-auto">
 							<div className="cta1-main-boxarea">
 								<div className="timer-btn-area">
-								<Countdown />
+									<Countdown />
 									<div className="btn-area1">
-										<Link className="vl-btn2" href="/inscription"><span className="demo">Acheter</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span>
+										<Link className="vl-btn2" href="/inscription"><span className="demo">Acheter</span>
 										</Link>
 									</div>
 								</div>

@@ -22,7 +22,7 @@ export default function Home() {
 				<Section4 />
 				
 				<Section7 />
-				<RegistrationForm/>
+				
 				
 			</Layout>
 			

@@ -15,11 +15,12 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 							<div className="col-lg-12">
 								<div className="header-elements">
 									<div className="site-logo">
-										<Link href="/"><img src="/assets/img/logo/logo1.png" alt="" /></Link>
+										<Link href="/"><img src="/assets/img/logo/logo6.png" alt="" /></Link>
 									</div>
+									<div className='space12' />
 									<div className="main-menu">
 										<ul>
-											<li>
+											{/*<li>
 												<Link href="/#">Accueil <i className="fa-solid fa-angle-down" /></Link>
 												<div className="tp-submenu">
 													<div className="row">
@@ -141,10 +142,11 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 														</div>
 													</div>
 												</div>
-											</li>
+											</li>*/}
 											
 											
 											
+											<li><Link href="/#">Accueil </Link></li>
 											<li><Link href="/a_propos_de_levenement">A propos de l'événement </Link></li>
 											<li><Link href="/faq">FAQ,s</Link></li>
 											{/*<li>
@@ -164,8 +166,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 											
 										</ul>
 									</div>
+									<div className='space12' />
 									<li>
-										<Link href="/connexion" className="event-btn4">
+										<Link href="http://localhost:8082/auth/jwt/sign-in/?returnTo=%2Fparticipant%2F" className="event-btn4">
 											<span>Connexion</span>
 										</Link>
 									</li>
@@ -174,6 +177,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 											<span>Inscription</span>
 										</Link>
 									</li>
+									{/*
 									<div className="btn-area">
 										
 										<ul>
@@ -191,7 +195,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 										</ul>
 									</div>
 									
-									{isSearch && <div className="body-overlay active" onClick={handleSearch} />}
+									{isSearch && <div className="body-overlay active" onClick={handleSearch} />}*/}
 								</div>
 							</div>
 						</div>

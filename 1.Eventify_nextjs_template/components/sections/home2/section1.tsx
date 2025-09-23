@@ -40,7 +40,7 @@ export default function Section1() {
 					<img src="/assets/img/elements/elements10.png" alt="" className="elements10" />
 					<img src="/assets/img/elements/elements11.png" alt="" className="elements11" />
 					<div className="img1">
-						<img src="/assets/img/all-images/hero/hero-img2.png" alt="" />
+						<img src="/assets/img/all-images/hero/hero-img4.png" alt="" />
 					</div>
 					<div className="container">
 						<div className="row">
@@ -61,9 +61,9 @@ export default function Section1() {
 											c’est un véritable rendez-vous d’inspiration et d’opportunités.
 										</p>
 										<div className="space32" />
-										<div className="btn-area2" data-aos="fade-left" data-aos-duration={1100}>
+										<div className="btn-area2" data-aos="fade-left" data-aos-duration={2100}>
 											<button className="event-btn4 .event-space1" onClick={scrollToRegistration}>S'inscrire</button>
-											<Link href="/connexion" className="event-btn1">Se Connecter</Link>
+											<Link href="http://localhost:8082/auth/jwt/sign-in/?returnTo=%2Fparticipant%2F" className="event-btn1">Se Connecter</Link>
 										</div>
 									</div>
 								</div>
@@ -76,7 +76,7 @@ export default function Section1() {
 					<img src="/assets/img/elements/elements10.png" alt="" className="elements10" />
 					<img src="/assets/img/elements/elements11.png" alt="" className="elements11" />
 					<div className="img1">
-						<img src="/assets/img/all-images/hero/hero-img3.png" alt="" />
+						<img src="/assets/img/all-images/hero/hero-img4.png" alt="" />
 					</div>
 					<div className="container">
 						<div className="row">

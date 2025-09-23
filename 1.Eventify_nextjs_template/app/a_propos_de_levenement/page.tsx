@@ -107,7 +107,7 @@ export default function Page() {
 										<div className="timer-btn-area">
 											<Countdown />
 											<div className="btn-area1">
-												<Link href="/pricing-plan" className="vl-btn1">Buy Ticket</Link>
+												<Link href="/pricing-plan" className="vl-btn1">Acheter</Link>
 											</div>
 										</div>
 										<ul>

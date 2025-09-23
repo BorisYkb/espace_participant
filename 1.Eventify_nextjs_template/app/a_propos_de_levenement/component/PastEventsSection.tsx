@@ -12,7 +12,7 @@ export default function PastEventsSection() {
 							<div className="heading2 text-center space-margin60">
 								<h5>Notre Expérience</h5>
 								<div className="space18" />
-								<h2 className="text-anime-style-3">Événements auxquels nous avons participé</h2>
+								<h2 className="text-anime-style-3">Nos Événements Passés</h2>
 								<div className="space16" />
 								<p>Découvrez notre riche expérience à travers les événements majeurs où nous avons été présents.</p>
 							</div>
