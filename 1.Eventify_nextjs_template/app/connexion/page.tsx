@@ -76,7 +76,7 @@ export default function ContactPage() {
 											<div className='col-lg-12 mt-3 text-center heading2'>
 												<p>
 													Vous n'avez encore de code d'accès ? <br />
-													<Link href="/">Allez S'inscrire</Link>
+													<Link href="/inscription">Inscrivez-vous</Link>
 												</p>
 											</div>
 										</div>

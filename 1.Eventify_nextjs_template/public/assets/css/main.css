@@ -1217,6 +1217,8 @@ Location:
 	border-radius: 8px;
 }
 
+
+
 .vl-btn1:hover {
 	transition: all 0.4s;
 	color: var(--ztc-text-text-1);
@@ -1280,6 +1282,29 @@ Location:
 	border-radius: 8px;
 }
 
+.vl-btn2-prix{
+	color: var(--ztc-text-text-2);
+	font-family: var(--grotesk);
+	font-size: var(--ztc-font-size-font-s13);
+	font-style: normal;
+	font-weight: var(--ztc-weight-bold);
+	line-height: 15px;
+	text-transform: uppercase;
+	transition: all 0.4s;
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	border-radius: 8px;
+}
+
+.vl-btn2-prix span.demo {
+	display: inline-block;
+	background: var(--ztc-bg-bg-5);
+	transition: all 0.4s;
+	border-radius: 70px;
+	padding: 13px 13px;
+}
+
 .vl-btn2 span.demo {
 	display: inline-block;
 	background: var(--ztc-bg-bg-5);
@@ -1300,6 +1325,11 @@ Location:
 	line-height: 54px;
 	font-size: var(--ztc-font-size-font-s20);
 	transform: rotate(-45deg);
+}
+
+.vl-btn2-prix:hover {
+	transition: all 0.4s;
+	color: var(--ztc-text-text-5);
 }
 
 .vl-btn2:hover {
@@ -3232,7 +3262,7 @@ Location:
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 160px 0 90px;
+	padding: 160px 0 70px;
 }
 
 .inner-page-header .heading1 a {

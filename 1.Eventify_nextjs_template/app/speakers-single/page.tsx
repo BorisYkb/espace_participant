@@ -76,7 +76,7 @@ export default function SpeakersSingle() {
 																<div className="space32" />
 																<h4>Mobile Number:</h4>
 																<div className="space12" />
-																<Link href="/tel:+(123)4567890">+(123) 456 7890</Link>
+																<Link href="/#">+(123) 456 7890</Link>
 																<div className="space32" />
 																<h4>Date Of Birth:</h4>
 																<div className="space12" />
@@ -159,7 +159,7 @@ export default function SpeakersSingle() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn1"><span className="demo">purchase ticket Now</span></Link>
+																	<Link href="/plan_tarifaire" className="vl-btn1"><span className="demo">purchase ticket Now</span></Link>
 																</div>
 															</div>
 														</div>
@@ -210,7 +210,7 @@ export default function SpeakersSingle() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn1"><span className="demo">purchase ticket Now</span></Link>
+																	<Link href="/plan_tarifaire" className="vl-btn1"><span className="demo">purchase ticket Now</span></Link>
 																</div>
 															</div>
 															<div className="space30 d-lg-none d-block" />
@@ -273,7 +273,7 @@ export default function SpeakersSingle() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn1"><span className="demo">purchase ticket Now</span></Link>
+																	<Link href="/plan_tarifaire" className="vl-btn1"><span className="demo">purchase ticket Now</span></Link>
 																</div>
 															</div>
 														</div>
@@ -296,7 +296,7 @@ export default function SpeakersSingle() {
 										<div className="timer-btn-area">
 										<Countdown />
 											<div className="btn-area1">
-												<Link href="/pricing-plan" className="vl-btn1">Buy Ticket</Link>
+												<Link href="/plan_tarifaire" className="vl-btn1">Buy Ticket</Link>
 											</div>
 										</div>
 										<ul>
@@ -322,7 +322,7 @@ export default function SpeakersSingle() {
 										<div className="timer-btn-area">
 										<Countdown />
 											<div className="btn-area1">
-												<Link href="/pricing-plan" className="vl-btn1">Buy Ticket</Link>
+												<Link href="/plan_tarifaire" className="vl-btn1">Buy Ticket</Link>
 											</div>
 										</div>
 										<ul>

@@ -1,5 +1,6 @@
 'use client'
 import Countdown from '@/components/elements/Countdown'
+import Footer1 from '@/components/layout/footer/Footer1'
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 import { useState } from "react"
@@ -24,8 +25,8 @@ const handleAccordion = (key: any) => {
 								<div className="col-lg-9 m-auto">
 									<div className="heading1 text-center">
 										<h1>Foire aux questions</h1>
-										<div className="space20" />
-										<Link href="/">Accueil<i className="fa-solid fa-angle-right" /> <span>Foire aux questions</span></Link>
+										
+										
 									</div>
 								</div>
 							</div>
@@ -35,13 +36,7 @@ const handleAccordion = (key: any) => {
 					{/*===== FAQ AREA STARTS =======*/}
 					<div className="faq-inner-section-area sp1">
 						<div className="container">
-							<div className="row">
-								<div className="col-lg-7 m-auto">
-									<div className="heading2 text-center space-margin60">
-										<h2>Foire aux questions</h2>
-									</div>
-								</div>
-							</div>
+							
 							<div className="row">
 								<div className="col-lg-11">
 									<div className="faq-widget-area">
@@ -707,11 +702,9 @@ const handleAccordion = (key: any) => {
 							<div className="row">
 								<div className="col-lg-10 m-auto">
 									<div className="cta1-main-boxarea">
-										<div className="timer-btn-area">
+										<div className="timer-btn-area display-flex align-items-center justify-content-center">
 											<Countdown />
-											<div className="btn-area1">
-												<Link href="/pricing-plan" className="vl-btn1">Buy Ticket</Link>
-											</div>
+											
 										</div>
 										<ul>
 											<li>
@@ -727,33 +720,9 @@ const handleAccordion = (key: any) => {
 						</div>
 					</div>
 					{/*===== CTA AREA ENDS =======*/}
-					{/*===== CTA AREA STARTS =======*/}
-					<div className="cta1-section-area d-lg-none d-block">
-						<div className="container">
-							<div className="row">
-								<div className="col-lg-10 m-auto">
-									<div className="cta1-main-boxarea">
-										<div className="timer-btn-area">
-											<Countdown />
-											<div className="btn-area1">
-												<Link href="/pricing-plan" className="vl-btn1">Buy Ticket</Link>
-											</div>
-										</div>
-										<ul>
-											<li>
-												<Link href="/#"><img src="/assets/img/icons/calender1.svg" alt="" />30 January 2025 - 6pm to 11:30pm</Link>
-											</li>
-											<li className="m-0">
-												<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Secret Location In The UK</Link>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+					
 				</div>
-
+				<Footer1 />
 			</Layout>
 		</>
 	)

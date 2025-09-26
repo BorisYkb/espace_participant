@@ -5,7 +5,7 @@ export default function PastEventsSection() {
 	return (
 		<>
 			{/*===== PAST EVENTS SECTION STARTS =======*/}
-			<div className="past-events-section sp2">
+			<div id="evenement_recent" className="past-events-section sp2">
 				<div className="container">
 					<div className="row">
 						<div className="col-lg-6 m-auto">

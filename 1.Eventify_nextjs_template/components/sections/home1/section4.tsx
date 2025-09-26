@@ -64,7 +64,7 @@ export default function Section4() {
 							<div className="team-header space-margin60 heading2">
 								<h5 data-aos="fade-left" data-aos-duration={800}>Nos Intervenants</h5>
 								<div className="space16" />
-								<h2 className="text-anime-style-3">Équipe business Inervenant</h2>
+								<h2 className="text-anime-style-3">Équipe Intervenantes</h2>
 							</div>
 						</div>
 					</div>

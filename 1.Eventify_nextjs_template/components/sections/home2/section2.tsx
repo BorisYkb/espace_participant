@@ -79,7 +79,7 @@ export default function Section2() {
 								
 								<div className="space32" />
 								
-								{/* Bouton d'action */}
+								{/* Bouton d'action
 								<div className="btn-area1" data-aos="fade-left" data-aos-duration={1200}>
 									<Link 
 										href="/inscription" 
@@ -90,7 +90,7 @@ export default function Section2() {
 											<i className="fa-solid fa-arrow-right" />
 										</span>
 									</Link>
-								</div>
+								</div> */}
 							</div>
 						</div>
 					</div>

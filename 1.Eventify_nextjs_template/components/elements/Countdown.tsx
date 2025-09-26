@@ -45,7 +45,7 @@ export default function Countdown({ style }: any) {
 
 
 			{!style && <>
-				<div className="timer">
+				<div className="timer align-items-center" >
 					<div className="time-box">
 						<span id="days1" className="time-value">{timeParts.days}</span>
 						<br />Jours
@@ -70,7 +70,7 @@ export default function Countdown({ style }: any) {
 
 
 			{style === 1 && <>
-				<div className="timer">
+				<div className="timer align-items-center">
 					<div className="time-box">
 						<span id="days" className="time-value">{timeParts.days} <span>JOURS</span></span>
 					</div>

@@ -4,6 +4,7 @@ import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 import ContactCarousel from '../connexion/ContactCarousel' // Importer le composant carrousel
 import '../../public/assets/css/ContactCarousel.css'; // Importer les styles CSS
+import Footer1 from '@/components/layout/footer/Footer1'
 
 export default function Contact() {
 
@@ -17,8 +18,8 @@ export default function Contact() {
                                 <div className="col-lg-6 m-auto">
                                     <div className="heading1 text-center">
                                         <h1>Inscription</h1>
-                                        <div className="space20" />
-                                        <Link href="/">Accueil <i className="fa-solid fa-angle-right" /> <span>Inscription</span></Link>
+                                        
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -78,6 +79,7 @@ export default function Contact() {
                     </div>
                     {/*===== CONTACT AREA ENDS =======*/}
                 </div>
+                <Footer1 />
             </Layout>
         </>
     )

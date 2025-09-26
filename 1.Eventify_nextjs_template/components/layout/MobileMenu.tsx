@@ -15,7 +15,7 @@ const handleAccordion = (key: any) => {
 					<div className="col-12">
 						<div className="mobile-header-elements">
 							<div className="mobile-logo">
-								<Link href="//"><img src="/assets/img/logo/logo1.png" alt="" /></Link>
+								<Link href="//"><img src="/assets/img/event_img/SARA-2025-LOGO-2.jpg" alt="" /></Link>
 							</div>
 							<div className="mobile-nav-icon dots-menu" onClick={handleMobileMenu}>
 								<i className="fa-solid fa-bars-staggered" />
@@ -27,7 +27,7 @@ const handleAccordion = (key: any) => {
 			<div className={`mobile-sidebar mobile-sidebar1 ${isMobileMenu ? 'mobile-menu-active' : ''}`}>
 				<div className="logosicon-area">
 					<div className="logos">
-						<img src="/assets/img/logo/logo2.png" alt="" />
+						<img src="/assets/img/event_img/SARA-2025-LOGO-2.jpg" alt="" />
 					</div>
 					<div className="menu-close" onClick={handleMobileMenu}>
 						<i className="fa-solid fa-xmark" />
@@ -55,23 +55,23 @@ const handleAccordion = (key: any) => {
 						{/*<li className="has-sub hash-has-sub"><span className={`submenu-button ${isAccordion  == 2 ? "submenu-opened" : ""}`}onClick={() => handleAccordion (2)}><em /></span>
 							<Link href="/features" className="hash-nav">Speakers</Link>
 							<ul className={`sub-menu ${isAccordion  == 2 ? "open-sub" : ""}`} style={{ display: `${isAccordion  == 2 ? "block" : "none"}` }}>
-								<li className="hash-has-sub"><Link href="/speakers" className="hash-nav">Speakers</Link></li>
-								<li className="hash-has-sub"><Link href="/speakers-single" className="hash-nav">Speakers Details</Link></li>
+								<li className="hash-has-sub"><Link href="/intervenant" className="hash-nav">Intervenants</Link></li>
+								<li className="hash-has-sub"><Link href="/speakers-single" className="hash-nav">Détails intervenant</Link></li>
 							</ul>
 						</li>
-						<li className="has-sub hash-has-sub"><span className={`submenu-button ${isAccordion  == 3 ? "submenu-opened" : ""}`}onClick={() => handleAccordion (3)}><em /></span>
+						{/* <li className="has-sub hash-has-sub"><span className={`submenu-button ${isAccordion  == 3 ? "submenu-opened" : ""}`}onClick={() => handleAccordion (3)}><em /></span>
 							<Link href="/features" className="hash-nav">Schedule</Link>
 							<ul className={`sub-menu ${isAccordion  == 3 ? "open-sub" : ""}`} style={{ display: `${isAccordion  == 3 ? "block" : "none"}` }}>
 								<li className="hash-has-sub"><Link href="/event" className="hash-nav">Our Event</Link></li>
 								<li className="hash-has-sub"><Link href="/event-schedule" className="hash-nav">Event Schedule</Link></li>
 								<li className="hash-has-sub"><Link href="/event-single" className="hash-nav">Event Details</Link></li>
 							</ul>
-						</li>
-						<li className="has-sub hash-has-sub"><span className={`submenu-button ${isAccordion  == 4 ? "submenu-opened" : ""}`}onClick={() => handleAccordion (4)}><em /></span>
+						</li> */}
+						{/* <li className="has-sub hash-has-sub"><span className={`submenu-button ${isAccordion  == 4 ? "submenu-opened" : ""}`}onClick={() => handleAccordion (4)}><em /></span>
 							<Link href="/#" className="hash-nav">Blogs</Link>
 							<ul className={`sub-menu ${isAccordion  == 4 ? "open-sub" : ""}`} style={{ display: `${isAccordion  == 4 ? "block" : "none"}` }}>
-								<li className="hash-has-sub"><Link href="/blog" className="hash-nav">Our Blog</Link></li>
-								<li className="hash-has-sub"><Link href="/blog-single" className="hash-nav">Blog Details</Link></li>
+								<li className="hash-has-sub"><Link href="/blog" className="hash-nav">Blog</Link></li>
+								<li className="hash-has-sub"><Link href="/blog-single" className="hash-nav">Details Blog</Link></li>
 							</ul>
 						</li>
 						<li className="has-sub hash-has-sub"><span className={`submenu-button ${isAccordion  == 5 ? "submenu-opened" : ""}`}onClick={() => handleAccordion (5)}><em /></span>
@@ -84,10 +84,10 @@ const handleAccordion = (key: any) => {
 							</ul>
 						</li>
 						<li className="hash-has-sub"><Link href="/contact" className="hash-nav">Contact Us</Link></li>
-						*/}
+						 */}
 						<li>
 							<Link href="http://localhost:8082/auth/jwt/sign-in/?returnTo=%2Fparticipant%2F" className="event-btn4">
-								<span>Connexion</span>
+								<span className='color-white'>Connexion</span>
 							</Link>
 						</li>
 						<li>
@@ -97,59 +97,7 @@ const handleAccordion = (key: any) => {
 						</li>
 					</ul>
 
-					<div className="allmobilesection">
-						
-						<div className="single-footer">
-							<h3>Contact Info</h3>
-							<div className="footer1-contact-info">
-								<div className="contact-info-single">
-									<div className="contact-info-icon">
-										<span><i className="fa-solid fa-phone-volume" /></span>
-									</div>
-									<div className="contact-info-text">
-										<Link href="//tel:+3(924)4596512">+225 0749668962</Link>
-									</div>
-								</div>
-								<div className="contact-info-single">
-									<div className="contact-info-icon">
-										<span><i className="fa-solid fa-envelope" /></span>
-									</div>
-									<div className="contact-info-text">
-										<Link href="//mailto:info@example.com">info@example.com</Link>
-									</div>
-								</div>
-								<div className="single-footer">
-									<h3>Localisation</h3>
-									<div className="contact-info-single">
-										<div className="contact-info-icon">
-											<span><i className="fa-solid fa-location-dot" /></span>
-										</div>
-										<div className="contact-info-text">
-											<Link href="//mailto:info@example.com">Cocody Rivera II, <br />
-												Abidjan, Côte d'ivoire</Link>
-										</div>
-									</div>
-								</div>
-								<div className="single-footer">
-									<h3>Réseaux Sociaux</h3>
-									<div className="social-links-mobile-menu">
-										<ul>
-											<li>
-												<Link href="//#"><i className="fa-brands fa-facebook-f" /></Link>
-											</li>
-											<li>
-												<Link href="//#"><i className="fa-brands fa-instagram" /></Link>
-											</li>
-											<li>
-												<Link href="//#"><i className="fa-brands fa-linkedin-in" /></Link>
-											</li>
-											
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+					
 				</div>
 			</div>
 		</>
