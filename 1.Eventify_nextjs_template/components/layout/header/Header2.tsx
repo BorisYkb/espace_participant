@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import  '../../../public/assets/css/EventVariables.css';
+// import  '../../../public/assets/css/EventVariables.css';
 
 export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSearch, handleSearch }: any) {
 	return (
@@ -12,174 +12,18 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSear
 								
 								<div className="header-elements">
 									<div className="site-logo">
-										<Link href="/"><img src="/assets/img/logo/logo6.png" alt="" /></Link>
+										<Link href="/index2"><img src="/assets/img/logo/logo6.png" alt="" /></Link>
 									</div>
 									<div className='space12'/>
 									
 									<div className="main-menu">
 										<ul>
-											{/*<li>
-												<Link href="/#">Accueil <i className="fa-solid fa-angle-down" /></Link>
-												<div className="tp-submenu">
-													<div className="row">
-														<div className="col-lg-12">
-															<div className="all-images-menu">
-																<div className="homemenu-thumb">
-																	<div className="img1">
-																		<img src="/assets/img/all-images/demo/demo-img1.png" alt="" />
-																	</div>
-																	<div className="homemenu-btn">
-																		<Link className="vl-btn2" href="/"><span className="demo">View Demo</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span>
-																		</Link>
-																	</div>
-																	<div className="homemenu-text">
-																		<Link href="/">Eventify-Homepage 01</Link>
-																	</div>
-																</div>
-																<div className="homemenu-thumb">
-																	<div className="img1">
-																		<img src="/assets/img/all-images/demo/demo-img2.png" alt="" />
-																	</div>
-																	<div className="homemenu-btn">
-																		<Link className="vl-btn2" href="/index2"><span className="demo">View Demo</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span>
-																		</Link>
-																	</div>
-																	<div className="homemenu-text">
-																		<Link href="/index2">Eventify-Homepage 02</Link>
-																	</div>
-																</div>
-																<div className="homemenu-thumb">
-																	<div className="img1">
-																		<img src="/assets/img/all-images/demo/demo-img3.png" alt="" />
-																	</div>
-																	<div className="homemenu-btn">
-																		<Link className="vl-btn2" href="/index3"><span className="demo">View Demo</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span>
-																		</Link>
-																	</div>
-																	<div className="homemenu-text">
-																		<Link href="/index3">Eventify-Homepage 03</Link>
-																	</div>
-																</div>
-																<div className="homemenu-thumb">
-																	<div className="img1">
-																		<img src="/assets/img/all-images/demo/demo-img4.png" alt="" />
-																	</div>
-																	<div className="homemenu-btn">
-																		<Link className="vl-btn2" href="/index4"><span className="demo">View Demo</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span>
-																		</Link>
-																	</div>
-																	<div className="homemenu-text">
-																		<Link href="/index4">Eventify-Homepage 04</Link>
-																	</div>
-																</div>
-																<div className="homemenu-thumb" style={{ margin: 0 }}>
-																	<div className="img1">
-																		<img src="/assets/img/all-images/demo/demo-img5.png" alt="" />
-																	</div>
-																	<div className="homemenu-btn">
-																		<Link className="vl-btn2" href="/index5"><span className="demo">View Demo</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span>
-																		</Link>
-																	</div>
-																	<div className="homemenu-text">
-																		<Link href="/index5">Eventify-Homepage 05</Link>
-																	</div>
-																</div>
-															</div>
-															<div className="all-images-menu">
-																<div className="homemenu-thumb">
-																	<div className="img1">
-																		<img src="/assets/img/all-images/demo/demo-img6.png" alt="" />
-																	</div>
-																	<div className="homemenu-btn">
-																		<Link className="vl-btn2" href="/index6"><span className="demo">View Demo</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span>
-																		</Link>
-																	</div>
-																	<div className="homemenu-text">
-																		<Link href="/index6">Eventify-Homepage 06</Link>
-																	</div>
-																</div>
-																<div className="homemenu-thumb">
-																	<div className="img1">
-																		<img src="/assets/img/all-images/demo/demo-img7.png" alt="" />
-																	</div>
-																	<div className="homemenu-btn">
-																		<Link className="vl-btn2" href="/index7"><span className="demo">View Demo</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span>
-																		</Link>
-																	</div>
-																	<div className="homemenu-text">
-																		<Link href="/index7">Eventify-Homepage 07</Link>
-																	</div>
-																</div>
-																<div className="homemenu-thumb">
-																	<div className="img1">
-																		<img src="/assets/img/all-images/demo/demo-img8.png" alt="" />
-																	</div>
-																	<div className="homemenu-btn">
-																		<Link className="vl-btn2" href="/index8"><span className="demo">View Demo</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span>
-																		</Link>
-																	</div>
-																	<div className="homemenu-text">
-																		<Link href="/index8">Eventify-Homepage 08</Link>
-																	</div>
-																</div>
-																<div className="homemenu-thumb">
-																	<div className="img1">
-																		<img src="/assets/img/all-images/demo/demo-img9.png" alt="" />
-																	</div>
-																	<div className="homemenu-btn">
-																		<Link className="vl-btn2" href="/index9"><span className="demo">View Demo</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span>
-																		</Link>
-																	</div>
-																	<div className="homemenu-text">
-																		<Link href="/index9">Eventify-Homepage 09</Link>
-																	</div>
-																</div>
-																<div className="homemenu-thumb" style={{ margin: 0 }}>
-																	<div className="img1">
-																		<img src="/assets/img/all-images/demo/demo-img10.png" alt="" />
-																	</div>
-																	<div className="homemenu-btn">
-																		<Link className="vl-btn2" href="/index10"><span className="demo">View Demo</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span>
-																		</Link>
-																	</div>
-																	<div className="homemenu-text">
-																		<Link href="/index10">Eventify-Homepage 10</Link>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</li>
-											*/}
-											<li><Link href="/index2">Accueil </Link></li>
-											<li><Link href="/a_propos_de_levenement">A propos de l'événement</Link></li>
-											<li><Link href="/faq">FAQ,s</Link></li>
 											
-											{/*<li>
-												<Link href="/#">Schedule <i className="fa-solid fa-angle-down" /></Link>
-												<ul className="dropdown-padding">
-													<li><Link href="/event">Our Event</Link></li>
-													<li><Link href="/event-schedule">Event Schedule</Link></li>
-													<li><Link href="/event-single">Event Details</Link></li>
-												</ul>
-											</li>
-											<li>
-												<Link href="/#">Blogs <i className="fa-solid fa-angle-down" /></Link>
-												<ul className="dropdown-padding">
-													<li><Link href="/blog">Our Blog</Link></li>
-													<li><Link href="/blog-single">Blog Details</Link></li>
-												</ul>
-											</li>
-											<li>
-												<Link href="/#">Pages <i className="fa-solid fa-angle-down" /></Link>
-												<ul className="dropdown-padding">
-													<li><Link href="/memories">Our Memories</Link></li>
-													<li><Link href="/pricing-plan">Pricing Plan</Link></li>
-													
-													<li><Link href="/contact">Contact Us</Link></li>
-												</ul>
-											</li>*/}
+											<li><Link href="/index2">Accueil </Link></li>
+											<li><Link href="/a_propos_de_levenement2">A propos de l'événement</Link></li>
+											<li><Link href="/faq2">FAQ,s</Link></li>
+											
+											
 										</ul>
 									</div>
 									<div className='space12'/>

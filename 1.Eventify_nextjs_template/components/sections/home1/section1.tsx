@@ -4,13 +4,7 @@ import Link from 'next/link'
 
 
 export default function Section1() {
-	// Fonction pour défiler vers RegistrationForm
-	const scrollToRegistration: () => void = () => {
-		const el = document.getElementById('RegistrationForm');
-		if (el) {
-			el.scrollIntoView({ behavior: 'smooth' });
-		}
-	}
+	
 	return (
 		<>
 
@@ -36,7 +30,7 @@ export default function Section1() {
 								</p>
 								<div className="space32" />
 								<div className="btn-area1" data-aos="fade-left" data-aos-duration={1100}>
-									<button className="vl-btn1 border-0" onClick={scrollToRegistration}>S'inscrire</button>
+									<Link href="/inscription" className="vl-btn1 border-0">S'inscrire</Link>
 									<Link href="http://localhost:8082/auth/jwt/sign-in/?returnTo=%2Fparticipant%2F" className="vl-btn2">Se Connecter</Link>
 								</div>
 							</div>

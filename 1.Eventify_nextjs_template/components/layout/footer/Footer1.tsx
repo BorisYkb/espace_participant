@@ -9,9 +9,11 @@ export default function Footer1() {
 					<div className="row display-flex justify-content-center">
 						<div className="col-lg-4 col-md-8">
 							<div className="footer-logo-area">
-								<img src="/assets/img/logo/logo2.png" alt="" />
+								<div className="link-content2">
+									<h3>Réseaux Sociaux</h3>
+								</div>
 								<div className="space16" />
-								<p>Nous nous engageons à créer une plateforme où les chefs d’entreprise, les innovateurs et les professionnels peuvent se réunir pour échanger des idées</p>
+								
 								<div className="space24" />
 								<ul>
 									<li>
@@ -64,7 +66,7 @@ export default function Footer1() {
 										<div className="img1">
 											<img src="/assets/img/all-images/footer/footer-img1.png" alt="" />
 											<div className="icons">
-												<Link href="/a_propos_de_levenement#evenement_recent"><i className="fa-brands fa-instagram" /></Link>
+												<Link href="/a_propos_de_levenement2#evenement_recent"><i className="fa-brands fa-instagram" /></Link>
 											</div>
 										</div>
 									</div>
@@ -72,7 +74,7 @@ export default function Footer1() {
 										<div className="img1">
 											<img src="/assets/img/all-images/footer/footer-img2.png" alt="" />
 											<div className="icons">
-												<Link href="/a_propos_de_levenement#evenement_recent"><i className="fa-brands fa-instagram" /></Link>
+												<Link href="/a_propos_de_levenement2#evenement_recent"><i className="fa-brands fa-instagram" /></Link>
 											</div>
 										</div>
 									</div>
@@ -80,7 +82,7 @@ export default function Footer1() {
 										<div className="img1">
 											<img src="/assets/img/all-images/footer/footer-img3.png" alt="" />
 											<div className="icons">
-												<Link href="/a_propos_de_levenement#evenement_recent"><i className="fa-brands fa-instagram" /></Link>
+												<Link href="/a_propos_de_levenement2#evenement_recent"><i className="fa-brands fa-instagram" /></Link>
 											</div>
 										</div>
 									</div>
@@ -88,7 +90,7 @@ export default function Footer1() {
 										<div className="img1">
 											<img src="/assets/img/all-images/footer/footer-img4.png" alt="" />
 											<div className="icons">
-												<Link href="/a_propos_de_levenement#evenement_recent"><i className="fa-brands fa-instagram" /></Link>
+												<Link href="/a_propos_de_levenement2#evenement_recent"><i className="fa-brands fa-instagram" /></Link>
 											</div>
 										</div>
 									</div>
@@ -96,7 +98,7 @@ export default function Footer1() {
 										<div className="img1">
 											<img src="/assets/img/all-images/footer/footer-img5.png" alt="" />
 											<div className="icons">
-												<Link href="/a_propos_de_levenement#evenement_recent"><i className="fa-brands fa-instagram" /></Link>
+												<Link href="/a_propos_de_levenement2#evenement_recent"><i className="fa-brands fa-instagram" /></Link>
 											</div>
 										</div>
 									</div>
@@ -104,7 +106,7 @@ export default function Footer1() {
 										<div className="img1">
 											<img src="/assets/img/all-images/footer/footer-img6.png" alt="" />
 											<div className="icons">
-												<Link href="/a_propos_de_levenement#evenement_recent"><i className="fa-brands fa-instagram" /></Link>
+												<Link href="/a_propos_de_levenement2#evenement_recent"><i className="fa-brands fa-instagram" /></Link>
 											</div>
 										</div>
 									</div>

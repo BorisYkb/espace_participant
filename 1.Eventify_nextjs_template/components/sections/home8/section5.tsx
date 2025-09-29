@@ -72,7 +72,7 @@ export default function Section5() {
 							<Swiper {...swiperOptions} className=" owl-carousel">
 								<SwiperSlide className="team-widget-boxarea">
 									<div className="img1 image-anime">
-										<img src="/assets/img/all-images/team/team-img28.png" alt="" />
+										<img src="/assets/img/all-images/team/femme.jpg" alt="" />
 										<ul>
 											<li>
 												<Link href="/#"><i className="fa-brands fa-facebook-f" /></Link>
@@ -222,14 +222,14 @@ export default function Section5() {
 								</SwiperSlide>
 							</Swiper>
 
-<div className="owl-nav">
-	<button type="button" role="presentation" className="owl-prev h1p">
-		<i className="fa-solid fa-angle-left" />
-	</button>
-	<button type="button" role="presentation" className="owl-next h1n">
-		<i className="fa-solid fa-angle-right" />
-	</button>
-</div>
+							<div className="owl-nav">
+								<button type="button" role="presentation" className="owl-prev h1p">
+									<i className="fa-solid fa-angle-left" />
+								</button>
+								<button type="button" role="presentation" className="owl-next h1n">
+									<i className="fa-solid fa-angle-right" />
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>

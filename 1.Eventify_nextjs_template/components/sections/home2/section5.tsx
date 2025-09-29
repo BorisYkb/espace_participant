@@ -81,30 +81,18 @@ export default function Section5() {
 																<Link href="/ActiviteDetail" className="head">Cérémonie officiel de l'ouverture du salon</Link>
 																<div className="space24" />
 																<div className="author-area">
-																	<div className="autho-name-area">
+																	<div className="autho-name-area" style={{display: 'flex', alignItems: 'center' , gap: '8px', border: 'none'}}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img1.png" alt="" />
 																		</div>
-																		
-																	</div>
-																	<div className="autho-name-area" style={{ padding: '0 12px' }}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
-																		
-																	</div>
-																	<div className="autho-name-area" style={{ padding: '0 12px' }}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
-																		
 																	</div>
-																	<div className="autho-name-area" style={{ padding: '0 12px', border: 'none' }}>
-																		<div className="img1">
-																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
-																		</div>
-																		
-																	</div>
+																	
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
@@ -141,18 +129,15 @@ export default function Section5() {
 																<Link href="/ActiviteDetail" className="head">Ateliers pour élever l'artisanat</Link>
 																<div className="space24" />
 																<div className="author-area">
-																	<div className="autho-name-area">
+																	<div className="autho-name-area" style={{display: 'flex', alignItems: 'center' , gap: '8px', border: 'none'}}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img1.png" alt="" />
 																		</div>
-																		
-																	</div>
-																	<div className="autho-name-area" style={{ padding: '0 12px', border: 'none' }}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
-																		
 																	</div>
+																	
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
@@ -189,21 +174,21 @@ export default function Section5() {
 																<Link href="/ActiviteDetail" className="head">Durabilité, l'entreprise du futur</Link>
 																<div className="space24" />
 																<div className="author-area">
-																	<div className="autho-name-area">
+																	<div className="autho-name-area" style={{display: 'flex', alignItems: 'center' , gap: '8px', border: 'none'}}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img1.png" alt="" />
 																		</div>
-																	</div>
-																	<div className="autho-name-area" style={{ padding: '0 12px' }}>
+																		<div className="img1">
+																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
+																		</div>
+																		<div className="img1">
+																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
+																		</div>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
 																	</div>
-																	<div className="autho-name-area" style={{ padding: '0 12px', border: 'none'}}>
-																		<div className="img1">
-																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
-																		</div>
-																	</div>
+																	
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
@@ -243,21 +228,18 @@ export default function Section5() {
 																<Link href="/event-single" className="head">Cérémonie officiel de l'ouverture du salon</Link>
 																<div className="space24" />
 																<div className="author-area">
-																	<div className="autho-name-area">
+																	<div className="autho-name-area" style={{display: 'flex', alignItems: 'center' , gap: '8px', border: 'none'}}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img1.png" alt="" />
 																		</div>
-																	</div>
-																	<div className="autho-name-area" style={{ padding: '0 12px' }}>
+																		<div className="img1">
+																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
+																		</div>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
 																	</div>
-																	<div className="autho-name-area" style={{ padding: '0 12px', border: 'none' }}>
-																		<div className="img1">
-																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
-																		</div>
-																	</div>
+																	
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
@@ -291,19 +273,18 @@ export default function Section5() {
 																	</li>
 																</ul>
 																<div className="space20" />
-																<Link href="/event-single" className="head">Ateliers pour élever l'artisanat</Link>
+																<Link href="/ActiviteDetail" className="head">Ateliers pour élever l'artisanat</Link>
 																<div className="space24" />
 																<div className="author-area">
-																	<div className="autho-name-area">
+																	<div className="autho-name-area" style={{display: 'flex', alignItems: 'center' , gap: '8px', border: 'none'}}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img1.png" alt="" />
 																		</div>
-																	</div>
-																	<div className="autho-name-area" style={{ padding: '0 12px', border: 'none' }}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
 																	</div>
+																	
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
@@ -330,17 +311,17 @@ export default function Section5() {
 															<div className="content-area">
 																<ul>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/clock1.svg" alt="" />10.00 AM -12.00 PM <span> | </span></Link>
+																		<Link href="#"><img src="/assets/img/icons/clock1.svg" alt="" />10.00 AM -12.00 PM <span> | </span></Link>
 																	</li>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />26/C Asana, New York </Link>
+																		<Link href="#"><img src="/assets/img/icons/location1.svg" alt="" />26/C Asana, New York </Link>
 																	</li>
 																</ul>
 																<div className="space20" />
-																<Link href="/event-single" className="head">Durabilité, l'entreprise du futur</Link>
+																<Link href="/ActiviteDetail" className="head">Durabilité, l'entreprise du futur</Link>
 																<div className="space24" />
-																<div className="author-area">
-																	<div className="autho-name-area" style={{ padding: '0 12px', border: 'none' }}>
+																<div className="author-area" >
+																	<div className="autho-name-area" style={{ display: 'flex', alignItems: 'center' , gap: '8px', border: 'none'}}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img1.png" alt="" />
 																		</div>
@@ -382,19 +363,18 @@ export default function Section5() {
 																	</li>
 																</ul>
 																<div className="space20" />
-																<Link href="/event-single" className="head">Business World Event Introduction</Link>
+																<Link href="/ActiviteDetail" className="head">Business World Event Introduction</Link>
 																<div className="space24" />
 																<div className="author-area">
-																	<div className="autho-name-area">
+																	<div className="autho-name-area" style={{display: 'flex', alignItems: 'center' , gap: '8px', border: 'none'}}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img1.png" alt="" />
 																		</div>
-																	</div>
-																	<div className="autho-name-area" style={{ padding: '0 12px', border: 'none' }}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
 																	</div>
+																	
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
@@ -431,12 +411,10 @@ export default function Section5() {
 																<Link href="/ActiviteDetail" className="head">Workshops Keynote so Elevate Craft</Link>
 																<div className="space24" />
 																<div className="author-area">
-																	<div className="autho-name-area">
+																	<div className="autho-name-area" style={{ display: 'flex', alignItems: 'center' , gap: '8px', border: 'none'}}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img1.png" alt="" />
 																		</div>
-																	</div>
-																	<div className="autho-name-area" style={{ padding: '0 12px', border: 'none' }}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
@@ -477,20 +455,19 @@ export default function Section5() {
 																<Link href="/ActiviteDetail" className="head">Sustainability the Future Business</Link>
 																<div className="space24" />
 																<div className="author-area">
-																	<div className="autho-name-area">
+																	<div className="autho-name-area" style={{ display: 'flex', alignItems: 'center' , gap: '8px', border: 'none'}}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img1.png" alt="" />
 																		</div>
-																	</div>
-																	<div className="autho-name-area" style={{ padding: '0 12px', border: 'none' }}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
 																	</div>
+																	
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/connexion" className="vl-btn2-prix"><span className="demo">10 000 FCFA</span></Link>
+																	<Link href="/inscription" className="vl-btn2-prix"><span className="demo">10 000 FCFA</span></Link>
 																</div>
 															</div>
 														</div>

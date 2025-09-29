@@ -8,10 +8,15 @@ export default function Footer2() {
 				<div className="container">
 					<div className="row display-flex justify-content-center gap-5">
 						<div className="col-lg-3 col-md-6">
+							<div className="link-content2">
+								<h3>Réseaux Sociaux</h3>
+								
+								
+							</div>
+
+							
 							<div className="footer-logo-area">
-								<img src="/assets/img/logo/logo1.png" alt="" />
-								<div className="space16" />
-								<p>Nous nous engageons à créer une plateforme où les chefs d’entreprise, les innovateurs et les professionnels peuvent se réunir pour échanger des idées</p>
+								
 								<div className="space24" />
 								<ul>
 									<li>
@@ -44,13 +49,13 @@ export default function Footer2() {
 								<h3>Contacts</h3>
 								<ul>
 									<li>
-										<Link href="/#"><img src="/assets/img/icons/phn1.svg" alt="" />+225 0749668962</Link>
+										<Link href="#"><img src="/assets/img/icons/phn1.svg" alt="" />+225 0749668962</Link>
 									</li>
 									<li>
-										<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Abidjan Plateau</Link>
+										<Link href="#"><img src="/assets/img/icons/location1.svg" alt="" />Abidjan Plateau</Link>
 									</li>
 									<li>
-										<Link href="/#"><img src="/assets/img/icons/mail1.svg" alt="" />eventify@gmail.com</Link>
+										<Link href="#"><img src="/assets/img/icons/mail1.svg" alt="" />eventify@gmail.com</Link>
 									</li>
 									
 								</ul>
@@ -65,7 +70,7 @@ export default function Footer2() {
 										<div className="img1">
 											<img src="/assets/img/all-images/footer/footer-img1.png" alt="" />
 											<div className="icons">
-												<Link href="/a_propos_de_levenement#evenement_recent"><i className="fa-brands fa-instagram" /></Link>
+												<Link href="/a_propos_de_levenement2#evenement_recent"><i className="fa-brands fa-instagram" /></Link>
 											</div>
 										</div>
 									</div>
@@ -73,7 +78,7 @@ export default function Footer2() {
 										<div className="img1">
 											<img src="/assets/img/all-images/footer/footer-img2.png" alt="" />
 											<div className="icons">
-												<Link href="/a_propos_de_levenement#evenement_recent"><i className="fa-brands fa-instagram" /></Link>
+												<Link href="/a_propos_de_levenement2#evenement_recent"><i className="fa-brands fa-instagram" /></Link>
 											</div>
 										</div>
 									</div>
@@ -81,7 +86,7 @@ export default function Footer2() {
 										<div className="img1">
 											<img src="/assets/img/all-images/footer/footer-img3.png" alt="" />
 											<div className="icons">
-												<Link href="/a_propos_de_levenement#evenement_recent"><i className="fa-brands fa-instagram" /></Link>
+												<Link href="/a_propos_de_levenement2#evenement_recent"><i className="fa-brands fa-instagram" /></Link>
 											</div>
 										</div>
 									</div>
@@ -89,7 +94,7 @@ export default function Footer2() {
 										<div className="img1">
 											<img src="/assets/img/all-images/footer/footer-img4.png" alt="" />
 											<div className="icons">
-												<Link href="/a_propos_de_levenement#evenement_recent"><i className="fa-brands fa-instagram" /></Link>
+												<Link href="/a_propos_de_levenement2#evenement_recent"><i className="fa-brands fa-instagram" /></Link>
 											</div>
 										</div>
 									</div>
@@ -97,7 +102,7 @@ export default function Footer2() {
 										<div className="img1">
 											<img src="/assets/img/all-images/footer/footer-img5.png" alt="" />
 											<div className="icons">
-												<Link href="/a_propos_de_levenement#evenement_recent"><i className="fa-brands fa-instagram" /></Link>
+												<Link href="/a_propos_de_levenement2#evenement_recent"><i className="fa-brands fa-instagram" /></Link>
 											</div>
 										</div>
 									</div>
@@ -105,7 +110,7 @@ export default function Footer2() {
 										<div className="img1">
 											<img src="/assets/img/all-images/footer/footer-img6.png" alt="" />
 											<div className="icons">
-												<Link href="/a_propos_de_levenement#evenement_recent"><i className="fa-brands fa-instagram" /></Link>
+												<Link href="/a_propos_de_levenement2#evenement_recent"><i className="fa-brands fa-instagram" /></Link>
 											</div>
 										</div>
 									</div>

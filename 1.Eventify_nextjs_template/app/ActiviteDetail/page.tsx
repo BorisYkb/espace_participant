@@ -1,8 +1,8 @@
 'use client'
 import { useState } from 'react'
-import { X, ChevronLeft, ChevronRight, Clock, MapPin } from 'lucide-react'
+import { X, ChevronLeft, ChevronRight, Clock, MapPin, Ticket, TicketsPlane } from 'lucide-react'
 import ModalVideo from 'react-modal-video'
-import "@/node_modules/react-modal-video/css/modal-video.css"
+
 import Countdown from '@/components/elements/Countdown'
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
@@ -487,7 +487,7 @@ export default function SaraActivityDetail() {
 									<div className="blog-deatils-content heading2">
 										<ul>
 											<li>
-												<Link href="/#">
+												<Link href="#">
 													<svg className="icon" width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
 														<path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
 													</svg>
@@ -495,17 +495,23 @@ export default function SaraActivityDetail() {
 												</Link>
 											</li>
 											<li>
-												<Link href="/#">
+												<Link href="#">
 													<Clock className="icon" size={16} />
 													09H 30 - 12H 00 <span> | </span>
 												</Link>
 											</li>
 											<li>
-												<Link href="/#">
+												<Link href="#">
 													<MapPin className="icon" size={16} />
 													Palais de la Culture
 												</Link>
 											</li>
+											{/* <li>
+												<Link href="#">
+													<Ticket className="icon" size={18} />
+													Paiement unique pour toutes les activités
+												</Link>
+											</li> */}
 										</ul>
 										<div className="space18" />
 										<h2>Technologies Innovantes pour l'Agriculture Africaine Durable</h2>

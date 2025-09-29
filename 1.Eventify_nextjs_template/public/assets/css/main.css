@@ -2457,11 +2457,11 @@ Location:
 	opacity: 0.9 !important;
 }
 
-.hero2-slider-area .slick-slide.slick-current.slick-active .btn-area1 {
+/* .hero2-slider-area .slick-slide.slick-current.slick-active .btn-area1 {
 	transition: transform 1800ms ease, opacity 1800ms ease;
 	transform: translateX(0px);
 	opacity: 1;
-}
+} */
 
 .hero2-slider-area .slick-slide.slick-current.slick-active .about-btnarea {
 	transition: transform 1700ms ease, opacity 1700ms ease;
@@ -2490,7 +2490,7 @@ Location:
 .hero2-slider-area .her2-section-area {
 	position: relative;
 	z-index: 1;
-	padding: 250px 0 110px;
+	padding: 200px 0 90px;
 	overflow: hidden;
 	background-image: url(../img/bg/header-bg3.png);
 	background-position: center;
@@ -6959,6 +6959,10 @@ Location:
 	display: inline-block;
 }
 
+.footer2-sertion-area .link-content2 .footer-logo-area ul li {
+	display: inline-block;
+}
+
 .footer2-sertion-area .footer-logo-area ul li a {
 	height: 40px;
 	width: 40px;
@@ -6974,7 +6978,28 @@ Location:
 	margin: 0 6px 0 0;
 }
 
+.footer2-sertion-area .link-content2 .footer-logo-area ul li a {
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	display: inline-block;
+	transition: all 0.4s;
+	color: var(--ztc-text-text-1);
+	border-radius: 165px;
+	background: rgba(255, 255, 255, 0.1);
+	font-size: var(--ztc-font-size-font-s18);
+	margin: 0 6px 0 0;
+}
+
 .footer2-sertion-area .footer-logo-area ul li a:hover {
+	background: var(--ztc-bg-bg-5);
+	transition: all 0.4s;
+	color: var(--ztc-text-text-2);
+}
+
+.footer2-sertion-area .link-content2 .footer-logo-area ul li a:hover {
 	background: var(--ztc-bg-bg-5);
 	transition: all 0.4s;
 	color: var(--ztc-text-text-2);
@@ -15806,7 +15831,7 @@ html {
 .brands2-section-area {
 	position: relative;
 	z-index: 1;
-	background-image: url(../img/bg/header-bg3.png);
+	/* background-image: url(../img/bg/header-bg3.png); */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -15827,7 +15852,7 @@ html {
 	background: rgba(255, 255, 255, 0.06);
 	backdrop-filter: blur(5px);
 	text-align: center;
-	padding: 32px;
+	padding: 30px;
 	transition: all 0.4s;
 	margin-bottom: 30px;
 }
@@ -18224,7 +18249,47 @@ html {
 	}
 }
 
+/* Pour la couleur verte */
+
+.team8-section-rea .team-slider-area8 .owl-nave {
+	position: absolute;
+	top: -130px;
+	right: 0;
+}
+
+@media (max-width: 767px) {
+	.team8-section-rea .team-slider-area8 .owl-nave {
+		text-align: center;
+		margin-top: 30px;
+		position: relative;
+		right: 0;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.team8-section-rea .team-slider-area8 .owl-nave {
+		text-align: center;
+		margin-top: 30px;
+		position: relative;
+		left: 0;
+	}
+}
+
 .team8-section-rea .team-slider-area8 .owl-nav button {
+	height: 56px;
+	width: 56px;
+	text-align: center;
+	line-height: 56px;
+	border-radius: 50%;
+	transition: all 0.4s;
+	background: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(2px);
+	font-size: var(--ztc-font-size-font-s20);
+	display: inline-block;
+	color: var(--ztc-text-text-1);
+}
+
+.team8-section-rea .team-slider-area8 .owl-nave button {
 	height: 56px;
 	width: 56px;
 	text-align: center;
@@ -18244,7 +18309,17 @@ html {
 	transition: all 0.4s;
 }
 
+.team8-section-rea .team-slider-area8 .owl-nave button:hover {
+	background: var(--ztc-text-text-6);
+	color: var(--ztc-text-text-1);
+	transition: all 0.4s;
+}
+
 .team8-section-rea .team-slider-area8 .owl-nav button.owl-prev {
+	margin: 0 16px 0 0;
+}
+
+.team8-section-rea .team-slider-area8 .owl-nave button.owl-prev {
 	margin: 0 16px 0 0;
 }
 
@@ -18264,10 +18339,16 @@ html {
 	transition: all 0.6s;
 }
 
+/* Pour vert */
+.team8-section-rea .team-slider-area8 .team-widget-boxarea:hover .img1 .vert {
+	bottom: 20px;
+	transition: all 0.6s;
+}
+
 .team8-section-rea .team-slider-area8 .team-widget-boxarea .img1 {
 	position: relative;
 	z-index: 1;
-	border-radius: 200px 200px 4px 4px;
+	border-radius: none;
 	overflow: hidden;
 	transition: all 0.4s;
 }
@@ -18276,11 +18357,21 @@ html {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
-	border-radius: 200px 200px 4px 4px;
+	
 	transition: all 0.4s;
 }
 
 .team8-section-rea .team-slider-area8 .team-widget-boxarea .img1 ul {
+	position: absolute;
+	bottom: -250px;
+	width: 100%;
+	transition: all 0.6s;
+	z-index: 2;
+	left: 15%;
+	right: 15%;
+}
+
+.team8-section-rea .team-slider-area8 .team-widget-boxarea .img1 ul .vert{
 	position: absolute;
 	bottom: -250px;
 	width: 100%;
@@ -18312,6 +18403,32 @@ html {
 .team8-section-rea .team-slider-area8 .team-widget-boxarea .img1 ul li a:hover {
 	background: var(--ztc-text-text-15);
 	color: var(--ztc-text-text-1);
+	transition: all 0.4s;
+}
+
+/* Pour vert */
+.team8-section-rea .team-slider-area8 .team-widget-boxarea .img1 .vert li {
+	display: inline-block;
+}
+
+.team8-section-rea .team-slider-area8 .team-widget-boxarea .img1 .vert li a {
+	height: 44px;
+	width: 44px;
+	text-align: center;
+	line-height: 44px;
+	border-radius: 50%;
+	display: inline-block;
+	transition: all 0.4s;
+	line-height: 44px;
+	color: var(--ztc-text-text-2);
+	font-size: var(--ztc-font-size-font-s18);
+	background: #fff;
+	margin: 0 10px 0 0;
+}
+
+.team8-section-rea .team-slider-area8 .team-widget-boxarea .img1 .vert li a:hover {
+	background: var(--ztc-text-text-6);
+	color: var(--ztc-text-text-2);
 	transition: all 0.4s;
 }
 

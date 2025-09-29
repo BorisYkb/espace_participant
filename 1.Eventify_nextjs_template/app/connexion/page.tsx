@@ -3,7 +3,7 @@ import Countdown from '@/components/elements/Countdown'
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 import ContactCarousel from './ContactCarousel' // Importer le composant carrousel
-import '../../public/assets/css/ContactCarousel.css'; // Importer les styles CSS
+
 
 export default function ContactPage() {
 

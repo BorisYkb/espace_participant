@@ -12,7 +12,7 @@ export default function Section7() {
 							<div className="pricingplan heading4 text-center space-margin60">
 								<h5>Plan Tarifaire</h5>
 								<div className="space18" />
-								<h2 className="text-anime-style-3">Obtenez votre billet d’entrée</h2>
+								<h2 className="text-anime-style-3">Choisissez votre Type d'Accès</h2>
 							</div>
 						</div>
 					</div>
@@ -20,7 +20,7 @@ export default function Section7() {
 						<div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration={800}>
 							<div className="pricing-boxarea">
 								<div className="ticket-box">
-									<p>Regulier</p>
+									<p>Standard</p>
 									<div className="space16" />
 									<h3>5000 F</h3>
 									<div className="space24" />
@@ -39,7 +39,7 @@ export default function Section7() {
 						<div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration={1000}>
 							<div className="pricing-boxarea box2">
 								<div className="ticket-box">
-									<p>Premium</p>
+									<p>VIP</p>
 									<div className="space16" />
 									<h3>7500 F</h3>
 									<div className="space24" />
@@ -58,7 +58,7 @@ export default function Section7() {
 						<div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration={1200}>
 							<div className="pricing-boxarea">
 								<div className="ticket-box">
-									<p>Platinium</p>
+									<p>VVIP</p>
 									<div className="space16" />
 									<h3>10 000 F</h3>
 									<div className="space24" />

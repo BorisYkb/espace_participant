@@ -15,7 +15,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 							<div className="col-lg-12">
 								<div className="header-elements">
 									<div className="site-logo">
-										<Link href="/"><img src="/assets/img/logo/logo6.png" alt="" /></Link>
+										<Link href="/index2"><img src="/assets/img/logo/logo6.png" alt="" /></Link>
 									</div>
 									<div className='space12' />
 									<div className="main-menu">

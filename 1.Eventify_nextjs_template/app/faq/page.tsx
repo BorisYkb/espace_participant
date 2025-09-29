@@ -53,9 +53,9 @@ const handleAccordion = (key: any) => {
 											<li className="nav-item" onClick={() => handleTab(4)}>
 												<button className={isTab == 4 ? "nav-link active" : "nav-link"} id="pills-contact1-tab" data-bs-toggle="pill" data-bs-target="#pills-contact1" type="button" role="tab" aria-controls="pills-contact1" aria-selected="false">Experience événementielle</button>
 											</li>
-											<li className="nav-item" onClick={() => handleTab(5)}>
+											{/* <li className="nav-item" onClick={() => handleTab(5)}>
 												<button className={isTab == 5 ? "nav-link m-0 active" : "nav-link m-0"} id="pills-contact2-tab" data-bs-toggle="pill" data-bs-target="#pills-contact2" type="button" role="tab" aria-controls="pills-contact2" aria-selected="false">Intervenant &amp; Sessions</button>
-											</li>
+											</li> */}
 										</ul>
 										<div className="space48" />
 										<div className="tab-content" id="pills-tabContent">

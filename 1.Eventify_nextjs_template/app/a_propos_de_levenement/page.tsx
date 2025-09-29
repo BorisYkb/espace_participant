@@ -4,10 +4,10 @@ import Countdown from '@/components/elements/Countdown'
 import Layout from "@/components/layout/Layout"
 import BrandSlider from '@/components/slider/BrandSlider'
 import Link from "next/link"
-import RegistrationForm from '@/components/elements/RegistrationForm'
+
 import Section5 from '@/components/sections/home1/section5'
 import PastEventsSection from './component/PastEventsSection'
-import Countdown2 from '@/components/elements/Countdown2'
+
 import SARADescriptionSection from './component/SARADescriptionSection'
 
 import { useState } from 'react'
@@ -44,13 +44,7 @@ export default function Page() {
 					{/*===== OTHERS AREA STARTS =======*/}
 					<div className="brands3-section-area sp2">
 						<div className="container">
-							<div className="row">
-								<div className="col-lg-5 m-auto">
-									<div className="brand-header heading4 space-margin60 text-center">
-										<h3>Nos Sponsors</h3>
-									</div>
-								</div>
-							</div>
+							
 							<div className="row">
 								<div className="col-lg-12" data-aos="zoom-in" data-aos-duration={800}>
 									<BrandSlider />

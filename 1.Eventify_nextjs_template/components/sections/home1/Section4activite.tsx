@@ -62,8 +62,6 @@ export default function Section4activite() {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="team-header space-margin60 heading2">
-                                
-                                <div className="space16" />
                                 <h2 className="text-anime-style-3">Intervenants de l'activité</h2>
                             </div>
                         </div>
@@ -73,10 +71,8 @@ export default function Section4activite() {
                             <Swiper {...swiperOptions} className="team-slider-area ">
                                 <SwiperSlide className="team-widget-boxarea">
                                     <div className="img1 image-anime">
-                                        <img src="/assets/img/all-images/team/team-img2.png" alt="" />
+                                        <img src="/assets/img/all-images/team/femme.jpg" alt="" />
                                         <ul>
-                                            
-
                                             <li>
                                                 <div className="text-area">
                                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, voluptatibus! Natus amet voluptatem est dolor, alias fugiat sed praesentium molestias, illum odit, illo ratione recusandae non harum vel minus laboriosam.</p>
@@ -100,14 +96,14 @@ export default function Section4activite() {
                                     </div>
                                     <div className="space20" />
                                     <div className="text-area">
-                                        <Link href="/intervenant">Kendra Cremin</Link>
+                                        <Link href="#">Kendra Cremin</Link>
                                         <div className="space16" />
                                         <p>Consultante d'affaire</p>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide className="team-widget-boxarea">
                                     <div className="img1 image-anime">
-                                        <img src="/assets/img/all-images/team/team-img1.png" alt="" />
+                                        <img src="/assets/img/all-images/team/femme.jpg" alt="" />
                                         <ul>
                                             
 
@@ -140,7 +136,7 @@ export default function Section4activite() {
                                 </SwiperSlide>
                                 <SwiperSlide className="team-widget-boxarea">
                                     <div className="img1 image-anime">
-                                        <img src="/assets/img/all-images/team/team-img3.png" alt="" />
+                                        <img src="/assets/img/all-images/team/femme.jpg" alt="" />
                                         <ul>
                                             
 
@@ -173,7 +169,7 @@ export default function Section4activite() {
                                 </SwiperSlide>
                                 <SwiperSlide className="team-widget-boxarea">
                                     <div className="img1 image-anime">
-                                        <img src="/assets/img/all-images/team/team-img2.png" alt="" />
+                                        <img src="/assets/img/all-images/team/femme.jpg" alt="" />
                                         <ul>
                                             
 
@@ -206,7 +202,7 @@ export default function Section4activite() {
                                 </SwiperSlide>
                                 <SwiperSlide className="team-widget-boxarea">
                                     <div className="img1 image-anime">
-                                        <img src="/assets/img/all-images/team/team-img1.png" alt="" />
+                                        <img src="/assets/img/all-images/team/femme.jpg" alt="" />
                                         <ul>
                                             
 
@@ -239,7 +235,7 @@ export default function Section4activite() {
                                 </SwiperSlide>
                                 <SwiperSlide className="team-widget-boxarea">
                                     <div className="img1 image-anime">
-                                        <img src="/assets/img/all-images/team/team-img3.png" alt="" />
+                                        <img src="/assets/img/all-images/team/femme.jpg" alt="" />
                                         <ul>
                                             
 
