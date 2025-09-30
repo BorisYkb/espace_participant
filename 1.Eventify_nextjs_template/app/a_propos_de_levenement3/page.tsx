@@ -11,8 +11,8 @@ import PastEventsSection from './component/PastEventsSection'
 import SARADescriptionSection from './component/SARADescriptionSection'
 
 import { useState } from 'react'
-import Footer1 from '@/components/layout/footer/Footer1'
-import Header1_3 from '../index3/Header1_3'
+
+import Countdown2 from '@/components/elements/Countdown2'
 
 
 
@@ -21,17 +21,16 @@ export default function Page() {
 	return (
 		<>
 
-			<Layout  >
-				<Header1_3 />
+			<Layout headerStyle={1_3} footerStyle={3} >
+				
 				<div>
 					
-					<div className="inner-page-header" style={{ backgroundImage: 'url(assets/img/bg/header-bg5.png)' }}>
+					<div className="inner-page-header" style={{ backgroundImage: 'url(assets/img/bg/header-bg4.png)' }}>
 						<div className="container">
 							<div className="row">
 								<div className="col-lg-4 m-auto">
 									<div className="heading1 text-center">
 										<h1>À propos de l'événement</h1>
-										
 										
 									</div>
 								</div>
@@ -61,7 +60,20 @@ export default function Page() {
 					{/*===== CTA AREA STARTS =======*/}
 					
 					
-					<div className="cta1-section-area d-lg-block d-block">
+
+					<div className="others-timer-area sp2 d-lg-block d-none">
+						<div className="container">
+							<div className="row">
+								<div className="col-lg-12">
+									<div className="timer">
+										<Countdown2 />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					{/* <div className="cta1-section-area d-lg-block d-block">
 						<div className="container">
 							<div className="row">
 								<div className="col-lg-10 m-auto">
@@ -82,7 +94,7 @@ export default function Page() {
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> */}
 					
 				</div>
 				

@@ -173,7 +173,7 @@ export default function Header1_3({ scroll, isMobileMenu, handleMobileMenu, isSe
 										</Link>
 									</li>
 									<li>
-										<Link href="/inscription" className="event-btn1">
+										<Link href="/inscription3" className="event-btn5">
 											<span>Inscription</span>
 										</Link>
 									</li>

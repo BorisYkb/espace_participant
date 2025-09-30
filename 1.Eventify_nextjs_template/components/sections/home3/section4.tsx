@@ -63,9 +63,9 @@ export default function Section4() {
 					<div className="row">
 						<div className="col-lg-5">
 							<div className="team2-header heading5 space-margin60">
-								<h5>our 10+ event speakers</h5>
+								
 								<div className="space18" />
-								<h2 className="text-anime-style-3">Our Event Speakers</h2>
+								<h2 className="text-anime-style-3">Nos Intervenant</h2>
 							</div>
 						</div>
 					</div>
@@ -77,10 +77,8 @@ export default function Section4() {
 										<img src="/assets/img/elements/elements21.png" alt="" className="elements21" />
 										<img src="/assets/img/elements/elements22.png" alt="" className="elements22" />
 										<div className="img1">
-											<img src="/assets/img/all-images/team/team-img8.png" alt="" className="team-img4" />
-											<div className="share">
-												<Link href="/#"><img src="/assets/img/icons/share1.svg" alt="" /></Link>
-											</div>
+											<img src="/assets/img/all-images/team/femme.jpg" alt="" className="team-img4" />
+											
 											<ul>
 												<li>
 													<Link href="/#" className="icon1"><i className="fa-brands fa-facebook-f" /></Link>
@@ -99,7 +97,7 @@ export default function Section4() {
 									</div>
 									<div className="space28" />
 									<div className="content-area">
-										<Link href="/speakers">Alex Robertson</Link>
+										<Link href="#">Alex Robertson</Link>
 										<div className="space16" />
 										<p>Finance Consultant</p>
 									</div>
@@ -109,10 +107,8 @@ export default function Section4() {
 										<img src="/assets/img/elements/elements21.png" alt="" className="elements21" />
 										<img src="/assets/img/elements/elements22.png" alt="" className="elements22" />
 										<div className="img1">
-											<img src="/assets/img/all-images/team/team-img9.png" alt="" className="team-img4" />
-											<div className="share">
-												<Link href="/#"><img src="/assets/img/icons/share1.svg" alt="" /></Link>
-											</div>
+											<img src="/assets/img/all-images/team/femme.jpg" alt="" className="team-img4" />
+											
 											<ul>
 												<li>
 													<Link href="/#" className="icon1"><i className="fa-brands fa-facebook-f" /></Link>
@@ -131,7 +127,7 @@ export default function Section4() {
 									</div>
 									<div className="space28" />
 									<div className="content-area">
-										<Link href="/speakers">Alexy Sammo</Link>
+										<Link href="#">Alexy Sammo</Link>
 										<div className="space16" />
 										<p>HR Consultant</p>
 									</div>
@@ -141,10 +137,10 @@ export default function Section4() {
 										<img src="/assets/img/elements/elements21.png" alt="" className="elements21" />
 										<img src="/assets/img/elements/elements22.png" alt="" className="elements22" />
 										<div className="img1">
-											<img src="/assets/img/all-images/team/team-img10.png" alt="" className="team-img4" />
-											<div className="share">
+											<img src="/assets/img/all-images/team/femme.jpg" alt="" className="team-img4" />
+											{/* <div className="share">
 												<Link href="/#"><img src="/assets/img/icons/share1.svg" alt="" /></Link>
-											</div>
+											</div> */}
 											<ul>
 												<li>
 													<Link href="/#" className="icon1"><i className="fa-brands fa-facebook-f" /></Link>
@@ -163,7 +159,7 @@ export default function Section4() {
 									</div>
 									<div className="space28" />
 									<div className="content-area">
-										<Link href="/speakers">Andrew Symonds</Link>
+										<Link href="#">Andrew Symonds</Link>
 										<div className="space16" />
 										<p>Finance Consultant</p>
 									</div>
@@ -173,10 +169,8 @@ export default function Section4() {
 										<img src="/assets/img/elements/elements21.png" alt="" className="elements21" />
 										<img src="/assets/img/elements/elements22.png" alt="" className="elements22" />
 										<div className="img1">
-											<img src="/assets/img/all-images/team/team-img11.png" alt="" className="team-img4" />
-											<div className="share">
-												<Link href="/#"><img src="/assets/img/icons/share1.svg" alt="" /></Link>
-											</div>
+											<img src="/assets/img/all-images/team/femme.jpg" alt="" className="team-img4" />
+											
 											<ul>
 												<li>
 													<Link href="/#" className="icon1"><i className="fa-brands fa-facebook-f" /></Link>
@@ -195,7 +189,7 @@ export default function Section4() {
 									</div>
 									<div className="space28" />
 									<div className="content-area">
-										<Link href="/speakers">Ben Stokes</Link>
+										<Link href="#">Ben Stokes</Link>
 										<div className="space16" />
 										<p>Finance Consultant</p>
 									</div>
@@ -205,10 +199,8 @@ export default function Section4() {
 										<img src="/assets/img/elements/elements21.png" alt="" className="elements21" />
 										<img src="/assets/img/elements/elements22.png" alt="" className="elements22" />
 										<div className="img1">
-											<img src="/assets/img/all-images/team/team-img8.png" alt="" className="team-img4" />
-											<div className="share">
-												<Link href="/#"><img src="/assets/img/icons/share1.svg" alt="" /></Link>
-											</div>
+											<img src="/assets/img/all-images/team/femme.jpg" alt="" className="team-img4" />
+											
 											<ul>
 												<li>
 													<Link href="/#" className="icon1"><i className="fa-brands fa-facebook-f" /></Link>
@@ -227,7 +219,7 @@ export default function Section4() {
 									</div>
 									<div className="space28" />
 									<div className="content-area">
-										<Link href="/speakers">Alex Robertson</Link>
+										<Link href="#">Alex Robertson</Link>
 										<div className="space16" />
 										<p>Finance Consultant</p>
 									</div>
@@ -237,10 +229,8 @@ export default function Section4() {
 										<img src="/assets/img/elements/elements21.png" alt="" className="elements21" />
 										<img src="/assets/img/elements/elements22.png" alt="" className="elements22" />
 										<div className="img1">
-											<img src="/assets/img/all-images/team/team-img9.png" alt="" className="team-img4" />
-											<div className="share">
-												<Link href="/#"><img src="/assets/img/icons/share1.svg" alt="" /></Link>
-											</div>
+											<img src="/assets/img/all-images/team/femme.jpg" alt="" className="team-img4" />
+											
 											<ul>
 												<li>
 													<Link href="/#" className="icon1"><i className="fa-brands fa-facebook-f" /></Link>
@@ -259,7 +249,7 @@ export default function Section4() {
 									</div>
 									<div className="space28" />
 									<div className="content-area">
-										<Link href="/speakers">Alexy Sammo</Link>
+										<Link href="#">Alexy Sammo</Link>
 										<div className="space16" />
 										<p>HR Consultant</p>
 									</div>
@@ -269,10 +259,8 @@ export default function Section4() {
 										<img src="/assets/img/elements/elements21.png" alt="" className="elements21" />
 										<img src="/assets/img/elements/elements22.png" alt="" className="elements22" />
 										<div className="img1">
-											<img src="/assets/img/all-images/team/team-img10.png" alt="" className="team-img4" />
-											<div className="share">
-												<Link href="/#"><img src="/assets/img/icons/share1.svg" alt="" /></Link>
-											</div>
+											<img src="/assets/img/all-images/team/femme.jpg" alt="" className="team-img4" />
+											
 											<ul>
 												<li>
 													<Link href="/#" className="icon1"><i className="fa-brands fa-facebook-f" /></Link>
@@ -291,7 +279,7 @@ export default function Section4() {
 									</div>
 									<div className="space28" />
 									<div className="content-area">
-										<Link href="/speakers">Andrew Symonds</Link>
+										<Link href="#">Andrew Symonds</Link>
 										<div className="space16" />
 										<p>Finance Consultant</p>
 									</div>
@@ -301,10 +289,8 @@ export default function Section4() {
 										<img src="/assets/img/elements/elements21.png" alt="" className="elements21" />
 										<img src="/assets/img/elements/elements22.png" alt="" className="elements22" />
 										<div className="img1">
-											<img src="/assets/img/all-images/team/team-img11.png" alt="" className="team-img4" />
-											<div className="share">
-												<Link href="/#"><img src="/assets/img/icons/share1.svg" alt="" /></Link>
-											</div>
+											<img src="/assets/img/all-images/team/femme.jpg" alt="" className="team-img4" />
+											
 											<ul>
 												<li>
 													<Link href="/#" className="icon1"><i className="fa-brands fa-facebook-f" /></Link>
@@ -323,21 +309,21 @@ export default function Section4() {
 									</div>
 									<div className="space28" />
 									<div className="content-area">
-										<Link href="/speakers">Ben Stokes</Link>
+										<Link href="#">Ben Stokes</Link>
 										<div className="space16" />
 										<p>Finance Consultant</p>
 									</div>
 								</SwiperSlide>
 							</Swiper>
 
-<div className="owl-nav">
-	<button type="button" role="presentation" className="owl-prev h1p">
-		<i className="fa-solid fa-angle-left" />
-	</button>
-	<button type="button" role="presentation" className="owl-next h1n">
-		<i className="fa-solid fa-angle-right" />
-	</button>
-</div>
+							<div className="owl-nav">
+								<button type="button" role="presentation" className="owl-prev h1p">
+									<i className="fa-solid fa-angle-left" />
+								</button>
+								<button type="button" role="presentation" className="owl-next h1n">
+									<i className="fa-solid fa-angle-right" />
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>

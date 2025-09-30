@@ -1,4 +1,3 @@
-
 import Link from 'next/link'
 
 export default function Footer2() {
@@ -6,7 +5,7 @@ export default function Footer2() {
 		<>
 			<div className="footer2-sertion-area">
 				<div className="container">
-					<div className="row display-flex justify-content-center gap-5">
+					<div className="row display-flex justify-content-around">
 						<div className="col-lg-3 col-md-6">
 							<div className="link-content2">
 								<h3>Réseaux Sociaux</h3>

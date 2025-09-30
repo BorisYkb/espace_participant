@@ -79,7 +79,7 @@ export default function Contact() {
                     </div>
                     {/*===== CONTACT AREA ENDS =======*/}
                 </div>
-                <Footer1 />
+                
             </Layout>
         </>
     )

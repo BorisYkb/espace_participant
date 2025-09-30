@@ -20,8 +20,8 @@ const handleAccordion = (key: any) => {
 	return (
 		<>
 
-			<Layout  >
-				<Header1_2 />
+			<Layout headerStyle={1_2} footerStyle={1} >
+				
 				
 				<div>
 					<div className="inner-page-header" style={{ backgroundImage: 'url(assets/img/bg/header-bg15.png)' }}>
@@ -39,12 +39,12 @@ const handleAccordion = (key: any) => {
 					</div>
 					{/*===== HERO AREA ENDS =======*/}
 					{/*===== FAQ AREA STARTS =======*/}
-					<div className="faq-inner-section-area sp1">
+					<div className="faq-inner-section-area2 sp1">
 						<div className="container">
 							
 							<div className="row">
 								<div className="col-lg-11">
-									<div className="faq-widget-area">
+									<div className="faq-widget-area2">
 										<ul className="nav nav-pills" id="pills-tab" role="tablist">
 											<li className="nav-item" onClick={() => handleTab(1)}>
 												<button className={isTab == 1 ? "nav-link active" : "nav-link"} id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Tout</button>
@@ -63,7 +63,7 @@ const handleAccordion = (key: any) => {
 											</li> */}
 										</ul>
 										<div className="space48" />
-										<div className="tab-content" id="pills-tabContent">
+										<div className="tab-content2" id="pills-tabContent">
 											<div className={isTab == 1 ? "tab-pane fade show active" : "tab-pane fade"} id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabIndex={0}>
 												<div className="faq-section-area">
 													<div className="row">
@@ -702,7 +702,7 @@ const handleAccordion = (key: any) => {
 					</div>
 					{/*===== FAQ AREA ENDS =======*/}
 					{/*===== CTA AREA STARTS =======*/}
-					<div className="cta1-section-area d-lg-block d-block">
+					{/* <div className="cta1-section-area d-lg-block d-block">
 						<div className="container">
 							<div className="row">
 								<div className="col-lg-10 m-auto">
@@ -723,11 +723,36 @@ const handleAccordion = (key: any) => {
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> */}
 					{/*===== CTA AREA ENDS =======*/}
 					
+					<div className="cta2-section-area">
+						<div className="container">
+							<div className="row">
+								<div className="col-lg-10 m-auto ">
+									<div className="cta1-main-boxarea ">
+										<div className="timer-btn-area display-flex align-items-center justify-content-center">
+											<Countdown />
+											
+										</div>
+										<div className='display-flex align-items-center justify-content-center'>
+											<ul >
+												<li>
+													<Link href="/#"><img src="/assets/img/icons/calender1.svg" alt="" />23 Mai 2025 - 6pm to 11:30pm</Link>
+												</li>
+												<li className="m-0">
+													<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Palais de la culture d'Abidjan</Link>
+												</li>
+											</ul>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-				{/* <Footer1 /> */}
+				<Footer1 />
 			</Layout>
 		</>
 	)

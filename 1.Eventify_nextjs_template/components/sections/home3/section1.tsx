@@ -13,30 +13,24 @@ export default function Section1() {
 					<div className="row">
 						<div className="col-lg-8 m-auto">
 							<div className="hero3-header text-center">
-								<h5><img src="/assets/img/icons/sub-logo1.svg" alt="" />Join the the Future of Design</h5>
+								<h5>Le SARA, l'évènement à ne pas rater</h5>
 								<div className="space32" />
-								<h1 className="text-anime-style-3">Yearly designer</h1>
+								<h1 className="text-anime-style-3">Thème :</h1>
 								<div className="space24" />
-								<h1 className="text-anime-style-3"><span className="conferences">Conferences</span> ‘<span>25</span></h1>
+								<h1 className="text-anime-style-3">Innover et Réussir en 2025</h1>
 								<div className="space40" />
 								<div className="btn-area1">
-									<Link href="/event-schedule" className="vl-btn3">Reserve premium Seat</Link>
-									<Link href="/pricing-plan" className="vl-btn3 btn2">buy ticket now</Link>
+									<Link href="/inscription" className="vl-btn3" aria-label="S'inscrire à la conférence SARA">S'inscrire</Link>
+									<Link href="http://localhost:8082/auth/jwt/sign-in/?returnTo=%2Fparticipant%2F" className="vl-btn3 btn2">Se Connecter</Link>
 								</div>
-								<div className="arrow-btnarea">
-									<Link href="/about">
-										<div className="content" >
-											<CircleText text="Build Success Brand." />
-										</div>
-										<img src="/assets/img/icons/arrow1.svg" alt="" className="arrow1" />
-									</Link>
-								</div>
+								
 								<div className="date-btn aniamtion-key-1">
 									<h4>15</h4>
 									<div className="space14" />
-									<p>January</p>
+									<p>Janvier</p>
 									<div className="space20" />
-									<Link href="/pricing-plan">Buy Ticket</Link>
+									
+									<p>Sur 3 jours</p>
 								</div>
 							</div>
 						</div>

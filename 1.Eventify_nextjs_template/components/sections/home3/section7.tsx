@@ -10,14 +10,14 @@ export default function Section7() {
 	return (
 		<>
 
-			<div className="event3-section-area sp1">
+			<div className="event3-section-area sp1" >
 				<div className="container">
-					<div className="row">
+					<div className="row" >
 						<div className="col-lg-6 m-auto">
 							<div className="event2-header heading5 text-center space-margin60">
-								<h5>Event Schedule</h5>
+								<h5>Activités</h5>
 								<div className="space18" />
-								<h2 className="text-anime-style-3">Our Events Schedule Plan</h2>
+								<h2 className="text-anime-style-3">Calendrier de toutes les Activités</h2>
 							</div>
 						</div>
 					</div>
@@ -29,8 +29,8 @@ export default function Section7() {
 										<button className={isTab == 1 ? "nav-link active" : "nav-link"} id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
 											<span className="calender"><img src="/assets/img/icons/calender2.svg" alt="" /></span>
 											<span className="pl-8">
-												<span className="day">Day One</span>
-												<span className="date">May 25, 2024</span>
+												<span className="day">Jour 1</span>
+												<span className="date">23 Mai, 2025</span>
 											</span>
 										</button>
 									</li>
@@ -38,8 +38,8 @@ export default function Section7() {
 										<button className={isTab == 2 ? "nav-link active" : "nav-link"} id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
 											<span className="calender"><img src="/assets/img/icons/calender2.svg" alt="" /></span>
 											<span className="pl-8">
-												<span className="day">Day Two</span>
-												<span className="date">May 26, 2024</span>
+												<span className="day">Jour 2</span>
+												<span className="date">24 Mai, 2025</span>
 											</span>
 										</button>
 									</li>
@@ -47,8 +47,8 @@ export default function Section7() {
 										<button className={isTab == 3 ? "nav-link m-0 active" : "nav-link m-0"} id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
 											<span className="calender"><img src="/assets/img/icons/calender2.svg" alt="" /> </span>
 											<span className="pl-8">
-												<span className="day">Day Three</span>
-												<span className="date">May 27, 2024</span>
+												<span className="day">Jour 3</span>
+												<span className="date">25 Mai, 2025</span>
 											</span>
 										</button>
 									</li>
@@ -73,40 +73,35 @@ export default function Section7() {
 															<div className="content-area">
 																<ul>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/clock1.svg" alt="" />10.00 AM -12.00 PM <span> | </span></Link>
+																		<Link href="#"><img src="/assets/img/icons/clock1.svg" alt="" />10.00 - 12.00 <span> | </span></Link>
 																	</li>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />26/C Asana, New York </Link>
+																		<Link href="#"><img src="/assets/img/icons/location1.svg" alt="" />C31 Cocody, Abidjan </Link>
 																	</li>
 																</ul>
 																<div className="space20" />
-																<Link href="/event-single" className="head">Elevate User Experience Expertise</Link>
+																<Link href="/ActiviteDetail3" className="head">Cérémonie officiel de l'ouverture du salon</Link>
 																<div className="space24" />
 																<div className="author-area">
-																	<div className="autho-name-area">
+																	<div className="autho-name-area" style={{display: 'flex', alignItems: 'center' , gap: '8px', border: 'none'}}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img1.png" alt="" />
 																		</div>
-																		<div className="text">
-																			<Link href="/speakers">Alex Roberton</Link>
-																			<div className="space8" />
-																			<p>UI/UX Designer</p>
-																		</div>
-																	</div>
-																	<div className="autho-name-area" style={{ padding: '0 0 0 12px', border: 'none' }}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
-																		<div className="text">
-																			<Link href="/speakers">Alexys Archer</Link>
-																			<div className="space8" />
-																			<p>WP Developer</p>
+																		<div className="img1">
+																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
+																		</div>
+																		<div className="img1">
+																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
 																	</div>
+																	
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn3"><span className="demo">purchase ticket</span></Link>
+																	<Link href="#" className="vl-btn3"><span className="demo">5000 FCFA</span></Link>
 																</div>
 															</div>
 														</div>
@@ -125,40 +120,35 @@ export default function Section7() {
 															<div className="content-area">
 																<ul>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/clock1.svg" alt="" />10.00 AM -12.00 PM <span> | </span></Link>
+																		<Link href="#"><img src="/assets/img/icons/clock1.svg" alt="" />10.00 - 12.00 <span> | </span></Link>
 																	</li>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />26/C Asana, New York </Link>
+																		<Link href="#"><img src="/assets/img/icons/location1.svg" alt="" />C31 Cocody, Abidjan </Link>
 																	</li>
 																</ul>
 																<div className="space20" />
-																<Link href="/event-single" className="head">Elevate User Experience Expertise</Link>
+																<Link href="/ActiviteDetail3" className="head">Elevate User Experience Expertise</Link>
 																<div className="space24" />
 																<div className="author-area">
-																	<div className="autho-name-area">
+																	<div className="autho-name-area" style={{display: 'flex', alignItems: 'center' , gap: '8px', border: 'none'}}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img1.png" alt="" />
 																		</div>
-																		<div className="text">
-																			<Link href="/speakers">Alex Roberton</Link>
-																			<div className="space8" />
-																			<p>UI/UX Designer</p>
-																		</div>
-																	</div>
-																	<div className="autho-name-area" style={{ padding: '0 0 0 12px', border: 'none' }}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
-																		<div className="text">
-																			<Link href="/speakers">Alexys Archer</Link>
-																			<div className="space8" />
-																			<p>WP Developer</p>
+																		<div className="img1">
+																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
+																		</div>
+																		<div className="img1">
+																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
 																	</div>
+																	
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn3"><span className="demo">purchase ticket</span></Link>
+																	<Link href="#" className="vl-btn3"><span className="demo">7000 FCFA</span></Link>
 																</div>
 															</div>
 															<div className="space30 d-lg-none d-block" />
@@ -189,40 +179,35 @@ export default function Section7() {
 															<div className="content-area">
 																<ul>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/clock1.svg" alt="" />10.00 AM -12.00 PM <span> | </span></Link>
+																		<Link href="#"><img src="/assets/img/icons/clock1.svg" alt="" />10.00 - 12.00 <span> | </span></Link>
 																	</li>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />26/C Asana, New York </Link>
+																		<Link href="#"><img src="/assets/img/icons/location1.svg" alt="" />C31 Cocody, Abidjan </Link>
 																	</li>
 																</ul>
 																<div className="space20" />
-																<Link href="/event-single" className="head">Elevate User Experience Expertise</Link>
+																<Link href="/ActiviteDetail3" className="head">Elevate User Experience Expertise</Link>
 																<div className="space24" />
 																<div className="author-area">
-																	<div className="autho-name-area">
+																	<div className="autho-name-area" style={{display: 'flex', alignItems: 'center' , gap: '8px', border: 'none'}}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img1.png" alt="" />
 																		</div>
-																		<div className="text">
-																			<Link href="/speakers">Alex Roberton</Link>
-																			<div className="space8" />
-																			<p>UI/UX Designer</p>
-																		</div>
-																	</div>
-																	<div className="autho-name-area" style={{ padding: '0 0 0 12px', border: 'none' }}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
-																		<div className="text">
-																			<Link href="/speakers">Alexys Archer</Link>
-																			<div className="space8" />
-																			<p>WP Developer</p>
+																		<div className="img1">
+																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
+																		</div>
+																		<div className="img1">
+																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
 																	</div>
+																	
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn3"><span className="demo">purchase ticket</span></Link>
+																	<Link href="#" className="vl-btn3"><span className="demo">10 000 FCFA</span></Link>
 																</div>
 															</div>
 														</div>
@@ -250,40 +235,35 @@ export default function Section7() {
 															<div className="content-area">
 																<ul>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/clock1.svg" alt="" />10.00 AM -12.00 PM <span> | </span></Link>
+																		<Link href="#"><img src="/assets/img/icons/clock1.svg" alt="" />10.00 - 12.00 <span> | </span></Link>
 																	</li>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />26/C Asana, New York </Link>
+																		<Link href="#"><img src="/assets/img/icons/location1.svg" alt="" />C31 Cocody, Abidjan </Link>
 																	</li>
 																</ul>
 																<div className="space20" />
-																<Link href="/event-single" className="head">Elevate User Experience Expertise</Link>
+																<Link href="/ActiviteDetail3" className="head">Elevate User Experience Expertise</Link>
 																<div className="space24" />
 																<div className="author-area">
-																	<div className="autho-name-area">
+																	<div className="autho-name-area" style={{display: 'flex', alignItems: 'center' , gap: '8px', border: 'none'}}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img1.png" alt="" />
 																		</div>
-																		<div className="text">
-																			<Link href="/speakers">Alex Roberton</Link>
-																			<div className="space8" />
-																			<p>UI/UX Designer</p>
-																		</div>
-																	</div>
-																	<div className="autho-name-area" style={{ padding: '0 0 0 12px', border: 'none' }}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
-																		<div className="text">
-																			<Link href="/speakers">Alexys Archer</Link>
-																			<div className="space8" />
-																			<p>WP Developer</p>
+																		<div className="img1">
+																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
+																		</div>
+																		<div className="img1">
+																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
 																	</div>
+																	
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn3"><span className="demo">purchase ticket</span></Link>
+																	<Link href="#" className="vl-btn3"><span className="demo">6000 FCFA</span></Link>
 																</div>
 															</div>
 														</div>
@@ -302,40 +282,35 @@ export default function Section7() {
 															<div className="content-area">
 																<ul>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/clock1.svg" alt="" />10.00 AM -12.00 PM <span> | </span></Link>
+																		<Link href="#"><img src="/assets/img/icons/clock1.svg" alt="" />10.00 - 12.00 <span> | </span></Link>
 																	</li>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />26/C Asana, New York </Link>
+																		<Link href="#"><img src="/assets/img/icons/location1.svg" alt="" />C31 Cocody, Abidjan </Link>
 																	</li>
 																</ul>
 																<div className="space20" />
-																<Link href="/event-single" className="head">Elevate User Experience Expertise</Link>
+																<Link href="/ActiviteDetail3" className="head">Elevate User Experience Expertise</Link>
 																<div className="space24" />
 																<div className="author-area">
-																	<div className="autho-name-area">
+																	<div className="autho-name-area" style={{display: 'flex', alignItems: 'center' , gap: '8px', border: 'none'}}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img1.png" alt="" />
 																		</div>
-																		<div className="text">
-																			<Link href="/speakers">Alex Roberton</Link>
-																			<div className="space8" />
-																			<p>UI/UX Designer</p>
-																		</div>
-																	</div>
-																	<div className="autho-name-area" style={{ padding: '0 0 0 12px', border: 'none' }}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
-																		<div className="text">
-																			<Link href="/speakers">Alexys Archer</Link>
-																			<div className="space8" />
-																			<p>WP Developer</p>
+																		<div className="img1">
+																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
+																		</div>
+																		<div className="img1">
+																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
 																	</div>
+																	
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn3"><span className="demo">purchase ticket</span></Link>
+																	<Link href="#" className="vl-btn3"><span className="demo">8000 FCFA</span></Link>
 																</div>
 															</div>
 															<div className="space30 d-lg-none d-block" />
@@ -366,40 +341,35 @@ export default function Section7() {
 															<div className="content-area">
 																<ul>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/clock1.svg" alt="" />10.00 AM -12.00 PM <span> | </span></Link>
+																		<Link href="#"><img src="/assets/img/icons/clock1.svg" alt="" />10.00 - 12.00 <span> | </span></Link>
 																	</li>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />26/C Asana, New York </Link>
+																		<Link href="#"><img src="/assets/img/icons/location1.svg" alt="" />C31 Cocody, Abidjan </Link>
 																	</li>
 																</ul>
 																<div className="space20" />
-																<Link href="/event-single" className="head">Elevate User Experience Expertise</Link>
+																<Link href="/ActiviteDetail3" className="head">Elevate User Experience Expertise</Link>
 																<div className="space24" />
 																<div className="author-area">
-																	<div className="autho-name-area">
+																	<div className="autho-name-area" style={{display: 'flex', alignItems: 'center' , gap: '8px', border: 'none'}}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img1.png" alt="" />
 																		</div>
-																		<div className="text">
-																			<Link href="/speakers">Alex Roberton</Link>
-																			<div className="space8" />
-																			<p>UI/UX Designer</p>
-																		</div>
-																	</div>
-																	<div className="autho-name-area" style={{ padding: '0 0 0 12px', border: 'none' }}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
-																		<div className="text">
-																			<Link href="/speakers">Alexys Archer</Link>
-																			<div className="space8" />
-																			<p>WP Developer</p>
+																		<div className="img1">
+																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
+																		</div>
+																		<div className="img1">
+																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
 																	</div>
+																	
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn3"><span className="demo">purchase ticket</span></Link>
+																	<Link href="#" className="vl-btn3"><span className="demo">10 000 FCFA</span></Link>
 																</div>
 															</div>
 														</div>
@@ -427,40 +397,35 @@ export default function Section7() {
 															<div className="content-area">
 																<ul>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/clock1.svg" alt="" />10.00 AM -12.00 PM <span> | </span></Link>
+																		<Link href="#"><img src="/assets/img/icons/clock1.svg" alt="" />10.00 - 12.00 <span> | </span></Link>
 																	</li>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />26/C Asana, New York </Link>
+																		<Link href="#"><img src="/assets/img/icons/location1.svg" alt="" />C31 Cocody, Abidjan </Link>
 																	</li>
 																</ul>
 																<div className="space20" />
-																<Link href="/event-single" className="head">Elevate User Experience Expertise</Link>
+																<Link href="/ActiviteDetail3" className="head">Elevate User Experience Expertise</Link>
 																<div className="space24" />
 																<div className="author-area">
-																	<div className="autho-name-area">
+																	<div className="autho-name-area" style={{display: 'flex', alignItems: 'center' , gap: '8px', border: 'none'}}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img1.png" alt="" />
 																		</div>
-																		<div className="text">
-																			<Link href="/speakers">Alex Roberton</Link>
-																			<div className="space8" />
-																			<p>UI/UX Designer</p>
-																		</div>
-																	</div>
-																	<div className="autho-name-area" style={{ padding: '0 0 0 12px', border: 'none' }}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
-																		<div className="text">
-																			<Link href="/speakers">Alexys Archer</Link>
-																			<div className="space8" />
-																			<p>WP Developer</p>
+																		<div className="img1">
+																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
+																		</div>
+																		<div className="img1">
+																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
 																	</div>
+																	
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn3"><span className="demo">purchase ticket</span></Link>
+																	<Link href="#" className="vl-btn3"><span className="demo">Gratuit</span></Link>
 																</div>
 															</div>
 														</div>
@@ -479,40 +444,35 @@ export default function Section7() {
 															<div className="content-area">
 																<ul>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/clock1.svg" alt="" />10.00 AM -12.00 PM <span> | </span></Link>
+																		<Link href="#"><img src="/assets/img/icons/clock1.svg" alt="" />10.00 - 12.00 <span> | </span></Link>
 																	</li>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />26/C Asana, New York </Link>
+																		<Link href="#"><img src="/assets/img/icons/location1.svg" alt="" />C31 Cocody, Abidjan </Link>
 																	</li>
 																</ul>
 																<div className="space20" />
-																<Link href="/event-single" className="head">Elevate User Experience Expertise</Link>
+																<Link href="/ActiviteDetail3" className="head">Elevate User Experience Expertise</Link>
 																<div className="space24" />
 																<div className="author-area">
-																	<div className="autho-name-area">
+																	<div className="autho-name-area" style={{display: 'flex', alignItems: 'center' , gap: '8px', border: 'none'}}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img1.png" alt="" />
 																		</div>
-																		<div className="text">
-																			<Link href="/speakers">Alex Roberton</Link>
-																			<div className="space8" />
-																			<p>UI/UX Designer</p>
-																		</div>
-																	</div>
-																	<div className="autho-name-area" style={{ padding: '0 0 0 12px', border: 'none' }}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
-																		<div className="text">
-																			<Link href="/speakers">Alexys Archer</Link>
-																			<div className="space8" />
-																			<p>WP Developer</p>
+																		<div className="img1">
+																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
+																		</div>
+																		<div className="img1">
+																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
 																	</div>
+																	
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn3"><span className="demo">purchase ticket</span></Link>
+																	<Link href="#" className="vl-btn3"><span className="demo">Gratuit</span></Link>
 																</div>
 															</div>
 															<div className="space30 d-lg-none d-block" />
@@ -543,40 +503,33 @@ export default function Section7() {
 															<div className="content-area">
 																<ul>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/clock1.svg" alt="" />10.00 AM -12.00 PM <span> | </span></Link>
+																		<Link href="#"><img src="/assets/img/icons/clock1.svg" alt="" />10.00 - 12.00 <span> | </span></Link>
 																	</li>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />26/C Asana, New York </Link>
+																		<Link href="#"><img src="/assets/img/icons/location1.svg" alt="" />C31 Cocody, Abidjan </Link>
 																	</li>
 																</ul>
 																<div className="space20" />
-																<Link href="/event-single" className="head">Elevate User Experience Expertise</Link>
+																<Link href="/ActiviteDetail3" className="head">Elevate User Experience Expertise</Link>
 																<div className="space24" />
 																<div className="author-area">
-																	<div className="autho-name-area">
+																	<div className="autho-name-area" style={{display: 'flex', alignItems: 'center' , gap: '8px', border: 'none'}}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img1.png" alt="" />
 																		</div>
-																		<div className="text">
-																			<Link href="/speakers">Alex Roberton</Link>
-																			<div className="space8" />
-																			<p>UI/UX Designer</p>
-																		</div>
-																	</div>
-																	<div className="autho-name-area" style={{ padding: '0 0 0 12px', border: 'none' }}>
 																		<div className="img1">
 																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
-																		<div className="text">
-																			<Link href="/speakers">Alexys Archer</Link>
-																			<div className="space8" />
-																			<p>WP Developer</p>
+																		<div className="img1">
+																			<img src="/assets/img/all-images/testimonials/testimonial-img2.png" alt="" />
 																		</div>
+																		
 																	</div>
+																	
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn3"><span className="demo">purchase ticket</span></Link>
+																	<Link href="#" className="vl-btn3"><span className="demo">Gratuit</span></Link>
 																</div>
 															</div>
 														</div>

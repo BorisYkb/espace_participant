@@ -3,7 +3,7 @@ import { useState } from 'react'
 import CountUp from 'react-countup'
 import Link from 'next/link'
 import ModalVideo from 'react-modal-video'
-
+import 'react-modal-video/css/modal-video.min.css'
 
 export default function Section2() {
 	const [isOpen, setOpen] = useState(false)

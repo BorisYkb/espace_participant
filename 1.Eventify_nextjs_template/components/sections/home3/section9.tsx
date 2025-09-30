@@ -63,9 +63,9 @@ export default function Section9() {
 					<div className="row">
 						<div className="col-lg-6 m-auto">
 							<div className="memory3-header text-center heading5 space-margin60">
-								<h5>recent year Memories</h5>
+								<h5>Notre Expérience</h5>
 								<div className="space18" />
-								<h2 className="text-anime-style-3">Recent Memories 2024</h2>
+								<h2 className="text-anime-style-3">Nos Evènements Passés</h2>
 							</div>
 						</div>
 					</div>

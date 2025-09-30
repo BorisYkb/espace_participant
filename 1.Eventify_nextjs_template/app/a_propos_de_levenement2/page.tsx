@@ -12,7 +12,7 @@ import SARADescriptionSection from './component/SARADescriptionSection'
 
 import { useState } from 'react'
 import Footer1 from '@/components/layout/footer/Footer1'
-import Header1_2 from '../index2/Header1_2'
+
 
 
 
@@ -21,8 +21,8 @@ export default function Page() {
 	return (
 		<>
 
-			<Layout  >
-				<Header1_2 />
+			<Layout headerStyle={1_2} footerStyle={1}>
+				
 				<div>
 					
 					<div className="inner-page-header" style={{ backgroundImage: 'url(assets/img/bg/header-bg5.png)' }}>
@@ -60,7 +60,7 @@ export default function Page() {
 					{/*===== CTA AREA STARTS =======*/}
 					
 					
-					<div className="cta1-section-area d-lg-block d-block">
+					{/* <div className="cta1-section-area d-lg-block d-block">
 						<div className="container">
 							<div className="row">
 								<div className="col-lg-10 m-auto">
@@ -77,6 +77,32 @@ export default function Page() {
 												<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Secret Location In The UK</Link>
 											</li>
 										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div> */}
+
+					<div className="cta2-section-area">
+						<div className="container">
+							<div className="row">
+								<div className="col-lg-10 m-auto ">
+									<div className="cta1-main-boxarea ">
+										<div className="timer-btn-area display-flex align-items-center justify-content-center">
+											<Countdown />
+											
+										</div>
+										<div className='display-flex align-items-center justify-content-center'>
+											<ul >
+												<li>
+													<Link href="/#"><img src="/assets/img/icons/calender1.svg" alt="" />23 Mai 2025 - 6pm to 11:30pm</Link>
+												</li>
+												<li className="m-0">
+													<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Palais de la culture d'Abidjan</Link>
+												</li>
+											</ul>
+										</div>
+										
 									</div>
 								</div>
 							</div>

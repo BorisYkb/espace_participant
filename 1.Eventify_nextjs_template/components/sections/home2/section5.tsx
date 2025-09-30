@@ -71,14 +71,14 @@ export default function Section5() {
 															<div className="content-area">
 																<ul>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/clock1.svg" alt="" /> 10.00 - 12.00 <span> | </span></Link>
+																		<Link href="#"><img src="/assets/img/icons/clock1.svg" alt="" /> 10.00 - 12.00 <span> | </span></Link>
 																	</li>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />C31 Cocody, Abidjan </Link>
+																		<Link href="#"><img src="/assets/img/icons/location1.svg" alt="" />C31 Cocody, Abidjan </Link>
 																	</li>
 																</ul>
 																<div className="space20" />
-																<Link href="/ActiviteDetail" className="head">Cérémonie officiel de l'ouverture du salon</Link>
+																<Link href="/ActiviteDetail2" className="head">Cérémonie officiel de l'ouverture du salon</Link>
 																<div className="space24" />
 																<div className="author-area">
 																	<div className="autho-name-area" style={{display: 'flex', alignItems: 'center' , gap: '8px', border: 'none'}}>
@@ -119,14 +119,14 @@ export default function Section5() {
 															<div className="content-area">
 																<ul>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/clock1.svg" alt="" />14.00 - 15.00 <span> | </span></Link>
+																		<Link href="#"><img src="/assets/img/icons/clock1.svg" alt="" />14.00 - 15.00 <span> | </span></Link>
 																	</li>
 																	<li>
-																		<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />C31 Cocody, Abidjan  </Link>
+																		<Link href="#"><img src="/assets/img/icons/location1.svg" alt="" />C31 Cocody, Abidjan  </Link>
 																	</li>
 																</ul>
 																<div className="space20" />
-																<Link href="/ActiviteDetail" className="head">Ateliers pour élever l'artisanat</Link>
+																<Link href="/ActiviteDetail2" className="head">Ateliers pour élever l'artisanat</Link>
 																<div className="space24" />
 																<div className="author-area">
 																	<div className="autho-name-area" style={{display: 'flex', alignItems: 'center' , gap: '8px', border: 'none'}}>
@@ -171,7 +171,7 @@ export default function Section5() {
 																	</li>
 																</ul>
 																<div className="space20" />
-																<Link href="/ActiviteDetail" className="head">Durabilité, l'entreprise du futur</Link>
+																<Link href="/ActiviteDetail2" className="head">Durabilité, l'entreprise du futur</Link>
 																<div className="space24" />
 																<div className="author-area">
 																	<div className="autho-name-area" style={{display: 'flex', alignItems: 'center' , gap: '8px', border: 'none'}}>
@@ -225,7 +225,7 @@ export default function Section5() {
 																	</li>
 																</ul>
 																<div className="space20" />
-																<Link href="/event-single" className="head">Cérémonie officiel de l'ouverture du salon</Link>
+																<Link href="/ActiviteDetail2" className="head">Cérémonie officiel de l'ouverture du salon</Link>
 																<div className="space24" />
 																<div className="author-area">
 																	<div className="autho-name-area" style={{display: 'flex', alignItems: 'center' , gap: '8px', border: 'none'}}>
@@ -273,7 +273,7 @@ export default function Section5() {
 																	</li>
 																</ul>
 																<div className="space20" />
-																<Link href="/ActiviteDetail" className="head">Ateliers pour élever l'artisanat</Link>
+																<Link href="/ActiviteDetail2" className="head">Ateliers pour élever l'artisanat</Link>
 																<div className="space24" />
 																<div className="author-area">
 																	<div className="autho-name-area" style={{display: 'flex', alignItems: 'center' , gap: '8px', border: 'none'}}>
@@ -318,7 +318,7 @@ export default function Section5() {
 																	</li>
 																</ul>
 																<div className="space20" />
-																<Link href="/ActiviteDetail" className="head">Durabilité, l'entreprise du futur</Link>
+																<Link href="/ActiviteDetail2" className="head">Durabilité, l'entreprise du futur</Link>
 																<div className="space24" />
 																<div className="author-area" >
 																	<div className="autho-name-area" style={{ display: 'flex', alignItems: 'center' , gap: '8px', border: 'none'}}>
@@ -363,7 +363,7 @@ export default function Section5() {
 																	</li>
 																</ul>
 																<div className="space20" />
-																<Link href="/ActiviteDetail" className="head">Business World Event Introduction</Link>
+																<Link href="/ActiviteDetail2" className="head">Business World Event Introduction</Link>
 																<div className="space24" />
 																<div className="author-area">
 																	<div className="autho-name-area" style={{display: 'flex', alignItems: 'center' , gap: '8px', border: 'none'}}>
@@ -408,7 +408,7 @@ export default function Section5() {
 																	</li>
 																</ul>
 																<div className="space20" />
-																<Link href="/ActiviteDetail" className="head">Workshops Keynote so Elevate Craft</Link>
+																<Link href="/ActiviteDetail2" className="head">Workshops Keynote so Elevate Craft</Link>
 																<div className="space24" />
 																<div className="author-area">
 																	<div className="autho-name-area" style={{ display: 'flex', alignItems: 'center' , gap: '8px', border: 'none'}}>
@@ -452,7 +452,7 @@ export default function Section5() {
 																	</li>
 																</ul>
 																<div className="space20" />
-																<Link href="/ActiviteDetail" className="head">Sustainability the Future Business</Link>
+																<Link href="/ActiviteDetail2" className="head">Sustainability the Future Business</Link>
 																<div className="space24" />
 																<div className="author-area">
 																	<div className="autho-name-area" style={{ display: 'flex', alignItems: 'center' , gap: '8px', border: 'none'}}>

@@ -10,7 +10,7 @@ export default function Section3() {
 					<div className="row">
 						<div className="col-lg-5 m-auto">
 							<div className="brand-header heading4 space-margin60 text-center">
-								<h3>Join 4,000+ companies already growing</h3>
+								<h3>Nos Sponsors</h3>
 							</div>
 						</div>
 					</div>

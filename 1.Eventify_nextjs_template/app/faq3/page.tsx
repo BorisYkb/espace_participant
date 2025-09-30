@@ -7,6 +7,7 @@ import Link from "next/link"
 import { useState } from "react"
 
 import Header1_3 from '../index3/Header1_3'
+import Countdown2 from '@/components/elements/Countdown2'
 
 export default function Faq3() {
 	const [isTab, setIsTab] = useState(1)
@@ -21,17 +22,16 @@ const handleAccordion = (key: any) => {
 	return (
 		<>
 
-			<Layout  >
-				<Header1_3 />
+			<Layout headerStyle={1_3}  footerStyle={3}>
+				
 				
 				<div>
-					<div className="inner-page-header" style={{ backgroundImage: 'url(assets/img/bg/header-bg15.png)' }}>
+					<div className="inner-page-header" style={{ backgroundImage: 'url(assets/img/bg/header-bg4.png)' }}>
 						<div className="container">
 							<div className="row">
 								<div className="col-lg-9 m-auto">
 									<div className="heading1 text-center">
 										<h1>Foire aux questions</h1>
-										
 										
 									</div>
 								</div>
@@ -40,12 +40,12 @@ const handleAccordion = (key: any) => {
 					</div>
 					{/*===== HERO AREA ENDS =======*/}
 					{/*===== FAQ AREA STARTS =======*/}
-					<div className="faq-inner-section-area sp1">
+					<div className="faq-inner-section-area3 sp1">
 						<div className="container">
 							
 							<div className="row">
 								<div className="col-lg-11">
-									<div className="faq-widget-area">
+									<div className="faq-widget-area3">
 										<ul className="nav nav-pills" id="pills-tab" role="tablist">
 											<li className="nav-item" onClick={() => handleTab(1)}>
 												<button className={isTab == 1 ? "nav-link active" : "nav-link"} id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Tout</button>
@@ -64,7 +64,7 @@ const handleAccordion = (key: any) => {
 											</li> */}
 										</ul>
 										<div className="space48" />
-										<div className="tab-content" id="pills-tabContent">
+										<div className="tab-content3" id="pills-tabContent">
 											<div className={isTab == 1 ? "tab-pane fade show active" : "tab-pane fade"} id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabIndex={0}>
 												<div className="faq-section-area">
 													<div className="row">
@@ -703,7 +703,7 @@ const handleAccordion = (key: any) => {
 					</div>
 					{/*===== FAQ AREA ENDS =======*/}
 					{/*===== CTA AREA STARTS =======*/}
-					<div className="cta1-section-area d-lg-block d-block">
+					{/* <div className="cta1-section-area d-lg-block d-block">
 						<div className="container">
 							<div className="row">
 								<div className="col-lg-10 m-auto">
@@ -724,8 +724,20 @@ const handleAccordion = (key: any) => {
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> */}
 					{/*===== CTA AREA ENDS =======*/}
+
+					<div className="others-timer-area sp2 d-lg-block d-none">
+						<div className="container">
+							<div className="row">
+								<div className="col-lg-12">
+									<div className="timer">
+										<Countdown2 />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 					
 				</div>
 				{/* <Footer1 /> */}

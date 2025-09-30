@@ -2827,7 +2827,7 @@ Location:
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 250px 0 110px;
+	padding: 170px 0 80px;
 }
 
 @media (max-width: 767px) {
@@ -18877,6 +18877,263 @@ html {
 	line-height: 24px;
 	padding: 0 18px 18px 18px;
 }
+
+
+/* ====================POUR INDEX3 +++++++++++++++++++++++ */
+.faq-inner-section-area3 {
+	position: relative;
+	z-index: 1;
+}
+
+.faq-inner-section-area3 .faq-widget-area3 ul {
+	justify-content: center;
+	background: #F4F4F4;
+	border-radius: 16px;
+	padding: 18px;
+	width: 994px;
+	margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+	.faq-inner-section-area3 .faq-widget-area3 ul {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.faq-inner-section-area3 .faq-widget-area3 ul {
+		width: 100%;
+	}
+}
+
+.faq-inner-section-area3 .faq-widget-area3 ul li button {
+	color: var(--ztc-text-text-2);
+	text-align: center;
+	font-family: var(--grotesk);
+	font-size: var(--ztc-font-size-font-s18);
+	font-style: normal;
+	font-weight: 700;
+	line-height: 18px;
+	/* 100% */
+	display: inline-block;
+	background: var(--ztc-text-text-1);
+	padding: 16px 20px;
+	border-radius: 4px;
+	margin: 0 16px 0 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.faq-inner-section-area3 .faq-widget-area3 ul li button {
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 767px) {
+	.faq-inner-section-area3 .faq-widget-area3 ul li button {
+		margin-bottom: 10px;
+	}
+}
+
+.faq-inner-section-area3 .faq-widget-area3 ul li button.active {
+	background: var(--ztc-text-text-15);
+	transition: all 0.4s;
+	color: var(--ztc-text-text-2);
+}
+
+.faq-inner-section-area3 .faq-widget-area3 .tab-content3 .tab-pane .faq-section-area .accordian-area .accordion-item {
+	border: none;
+	background: var(--ztc-text-text-15);
+	border-radius: 8px;
+	padding: 0;
+}
+
+.faq-inner-section-area3 .faq-widget-area3 .tab-content3 .tab-pane .faq-section-area .accordian-area .accordion-item button {
+	color: var(--ztc-text-text-2);
+	font-family: var(--grotesk);
+	font-size: var(--ztc-font-size-font-s18);
+	font-style: normal;
+	font-weight: 700;
+	line-height: 18px;
+	/* 100% */
+	letter-spacing: -0.36px;
+	border: none;
+	box-shadow: none;
+	background: #F4F4F4;
+	padding: 20px 18px;
+}
+
+.faq-inner-section-area3 .faq-widget-area3 .tab-content3 .tab-pane .faq-section-area .accordian-area .accordion-item button.accordion-button:not(.collapsed) {
+	background: none;
+	transition: all 0.4s;
+}
+
+.faq-inner-section-area3 .faq-widget-area3 .tab-content3 .tab-pane .faq-section-area .accordian-area .accordion-item button.accordion-button:not(.collapsed)::before {
+	background: var(--ztc-text-text-1);
+}
+
+.faq-inner-section-area3 .faq-widget-area3 .tab-content3 .tab-pane .faq-section-area .accordian-area .accordion-item button.accordion-button:not(.collapsed)::after {
+	filter: brightness(0);
+}
+
+.faq-inner-section-area3 .faq-widget-area3 .tab-content3 .tab-pane .faq-section-area .accordian-area .accordion-item button::before {
+	height: 28px;
+	width: 28px;
+	background: var(--ztc-text-text-15);
+	transition: all 0.4s;
+	border-radius: 50%;
+	content: "";
+	position: absolute;
+	right: 14px;
+}
+
+.faq-inner-section-area3 .faq-widget-area3 .tab-content3 .tab-pane .faq-section-area .accordian-area .accordion-item button::after {
+	z-index: 1;
+}
+
+.faq-inner-section-area3 .faq-widget-area3 .tab-content3 .tab-pane .faq-section-area .accordian-area .accordion-item .accordion-body {
+	padding: 0;
+}
+
+.faq-inner-section-area3 .faq-widget-area3 .tab-content3 .tab-pane .faq-section-area .accordian-area .accordion-item .accordion-body p {
+	color: var(--ztc-text-text-18);
+	font-family: var(--grotesk);
+	font-size: var(--ztc-font-size-font-s16);
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+	padding: 0 18px 18px 18px;
+}
+/* ====================POUR INDEX3 +++++++++++++++++++++++ */
+
+
+/* ====================POUR INDEX2 +++++++++++++++++++++++ */
+.faq-inner-section-area2 {
+	position: relative;
+	z-index: 1;
+}
+
+.faq-inner-section-area2 .faq-widget-area2 ul {
+	justify-content: center;
+	background: #F4F4F4;
+	border-radius: 16px;
+	padding: 18px;
+	width: 994px;
+	margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+	.faq-inner-section-area2 .faq-widget-area2 ul {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.faq-inner-section-area2 .faq-widget-area2 ul {
+		width: 100%;
+	}
+}
+
+.faq-inner-section-area2 .faq-widget-area2 ul li button {
+	color: var(--ztc-text-text-2);
+	text-align: center;
+	font-family: var(--grotesk);
+	font-size: var(--ztc-font-size-font-s18);
+	font-style: normal;
+	font-weight: 700;
+	line-height: 18px;
+	/* 100% */
+	display: inline-block;
+	background: var(--ztc-text-text-1);
+	padding: 16px 20px;
+	border-radius: 4px;
+	margin: 0 16px 0 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.faq-inner-section-area2 .faq-widget-area2 ul li button {
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 767px) {
+	.faq-inner-section-area2 .faq-widget-area2 ul li button {
+		margin-bottom: 10px;
+	}
+}
+
+.faq-inner-section-area2 .faq-widget-area2 ul li button.active {
+	background: var(--ztc-text-text-6);
+	transition: all 0.4s;
+	color: var(--ztc-text-text-2);
+}
+
+.faq-inner-section-area2 .faq-widget-area2 .tab-content2 .tab-pane .faq-section-area .accordian-area .accordion-item {
+	border: none;
+	background: var(--ztc-text-text-6);
+	border-radius: 8px;
+	padding: 0;
+}
+
+.faq-inner-section-area2 .faq-widget-area2 .tab-content2 .tab-pane .faq-section-area .accordian-area .accordion-item button {
+	color: var(--ztc-text-text-2);
+	font-family: var(--grotesk);
+	font-size: var(--ztc-font-size-font-s18);
+	font-style: normal;
+	font-weight: 700;
+	line-height: 18px;
+	/* 100% */
+	letter-spacing: -0.36px;
+	border: none;
+	box-shadow: none;
+	background: #F4F4F4;
+	padding: 20px 18px;
+}
+
+.faq-inner-section-area2 .faq-widget-area2 .tab-content2 .tab-pane .faq-section-area .accordian-area .accordion-item button.accordion-button:not(.collapsed) {
+	background: none;
+	transition: all 0.4s;
+}
+
+.faq-inner-section-area2 .faq-widget-area2 .tab-content2 .tab-pane .faq-section-area .accordian-area .accordion-item button.accordion-button:not(.collapsed)::before {
+	background: var(--ztc-text-text-1);
+}
+
+.faq-inner-section-area2 .faq-widget-area2 .tab-content2 .tab-pane .faq-section-area .accordian-area .accordion-item button.accordion-button:not(.collapsed)::after {
+	filter: brightness(0);
+}
+
+.faq-inner-section-area2 .faq-widget-area2 .tab-content2 .tab-pane .faq-section-area .accordian-area .accordion-item button::before {
+	height: 28px;
+	width: 28px;
+	background: var(--ztc-text-text-6);
+	transition: all 0.4s;
+	border-radius: 50%;
+	content: "";
+	position: absolute;
+	right: 14px;
+}
+
+.faq-inner-section-area2 .faq-widget-area2 .tab-content2 .tab-pane .faq-section-area .accordian-area .accordion-item button::after {
+	z-index: 1;
+}
+
+.faq-inner-section-area2 .faq-widget-area2 .tab-content2 .tab-pane .faq-section-area .accordian-area .accordion-item .accordion-body {
+	padding: 0;
+}
+
+.faq-inner-section-area2 .faq-widget-area2 .tab-content2 .tab-pane .faq-section-area .accordian-area .accordion-item .accordion-body p {
+	color: var(--ztc-text-text-18);
+	font-family: var(--grotesk);
+	font-size: var(--ztc-font-size-font-s16);
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+	padding: 0 18px 18px 18px;
+}
+/* ====================POUR INDEX2 +++++++++++++++++++++++ */
+
+
+
 
 /*============= FAQ CSS AREA ===============*/
 /*============= CONTACT CSS AREA ===============*/
