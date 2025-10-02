@@ -104,6 +104,7 @@
 	width: 1px;
 	transition: all 0.4s;
 	background: var(--ztc-bg-bg-2);
+	border: 2px solid var(--ztc-text-text-1);
 	left: 50%;
 	top: 0;
 	border-radius: 7px;
@@ -135,8 +136,8 @@
 
 .event-btn2:hover {
 	transition: all 0.4s;
-	background: var(--ztc-bg-bg-1);
-	color: var(--ztc-text-text-2);
+	background: var(--ztc-bg-bg-2);
+	color: var(--ztc-text-text-1);
 }
 
 .event-btn2:hover::before {
@@ -161,7 +162,7 @@
 	width: 36px;
 	transition: all 0.4s;
 	border-radius: 50%;
-	background: var(--ztc-bg-bg-1);
+	background: var(--ztc-bg-bg-2);
 	opacity: 0.1;
 	left: 8px;
 	top: 8px;
@@ -173,7 +174,8 @@
 	height: 100%;
 	width: 1px;
 	transition: all 0.4s;
-	background: var(--ztc-bg-bg-1);
+	background: var(--ztc-bg-bg-2);
+	border: 2px solid var(--ztc-text-text-1);
 	left: 50%;
 	top: 0;
 	border-radius: 7px;
@@ -270,7 +272,7 @@
 	border-radius: 8px;
 	text-decoration: none;
 	cursor: pointer;
-	border: 2px solid var(--ztc-text-text-2);
+	/* border: 2px solid var(--ztc-text-text-2); */
 }
 
 .event-btn4:hover {
@@ -314,6 +316,79 @@
 	width: 1px;
 	transition: all 0.4s;
 	background: var(--ztc-bg-bg-2);
+	border: 2px solid var(--ztc-text-text-1);
+	left: 50%;
+	top: 0;
+	border-radius: 7px;
+	visibility: hidden;
+	opacity: 0;
+	z-index: -1;
+}
+
+/* ===== EVENT-BTN6 - Blanc avec bordure noire ===== */
+.event-btn6 {
+	color: var(--ztc-text-text-18);
+	font-family: var(--ztc-family-font1);
+	font-size: 0.9rem;
+	font-style: normal;
+	font-weight: var(--ztc-weight-bold);
+	line-height: 20px;
+	text-transform: uppercase;
+	transition: all 0.4s;
+	position: relative;
+	z-index: 1;
+	background: var(--ztc-bg-bg-1);
+	padding: 11px 15px;
+	display: inline-block;
+	border-radius: 8px;
+	text-decoration: none;
+	cursor: pointer;
+	border: 2px solid var(--ztc-text-text-2);
+}
+
+.event-btn6:hover {
+	transition: all 0.4s;
+	background: var(--ztc-bg-bg-2);
+	color: var(--ztc-text-text-1);
+	border: none;
+}
+
+.event-btn6:hover::before {
+	width: 100%;
+	transition: all 0.4s;
+	visibility: visible;
+	opacity: 1;
+	left: 0;
+	top: 0;
+}
+
+.event-btn6:hover::after {
+	background: var(--ztc-bg-bg-1);
+	opacity: 0.1;
+	transition: all 0.4s;
+}
+
+.event-btn6::after {
+	position: absolute;
+	content: "";
+	height: 36px;
+	width: 36px;
+	transition: all 0.4s;
+	border-radius: 50%;
+	background: var(--ztc-bg-bg-2);
+	opacity: 0.1;
+	left: 8px;
+	top: 8px;
+}
+
+.event-btn6::before {
+	position: absolute;
+	content: "";
+	height: 100%;
+	width: 1px;
+	transition: all 0.4s;
+	background: var(--ztc-bg-bg-2);
+	border: 2px solid var(--ztc-text-text-1);
 	left: 50%;
 	top: 0;
 	border-radius: 7px;
@@ -325,7 +400,7 @@
 
 /* ===== EVENT-BTN5 - ROSE avec bordure noire ===== */
 .event-btn5 {
-	color: var(--ztc-text-text-18);
+	color: var(--ztc-text-text-1);
 	font-family: var(--ztc-family-font1);
 	font-size: 0.9rem;
 	font-style: normal;
@@ -335,13 +410,13 @@
 	transition: all 0.4s;
 	position: relative;
 	z-index: 1;
-	background: var(--ztc-bg-bg-11);
+	background: var(--ztc-bg-bg-7);
 	padding: 11px 15px;
 	display: inline-block;
 	border-radius: 8px;
 	text-decoration: none;
 	cursor: pointer;
-	border: 2px solid var(--ztc-text-text-2);
+	
 }
 
 .event-btn5:hover {
@@ -385,6 +460,78 @@
 	width: 1px;
 	transition: all 0.4s;
 	background: var(--ztc-bg-bg-2);
+	border: 2px solid var(--ztc-text-text-1);
+	left: 50%;
+	top: 0;
+	border-radius: 7px;
+	visibility: hidden;
+	opacity: 0;
+	z-index: -1;
+}
+
+/* ===== EVENT-BTN7 - ROSE avec bordure noire ===== */
+.event-btn7 {
+	color: var(--ztc-text-text-1);
+	font-family: var(--ztc-family-font1);
+	font-size: 0.9rem;
+	font-style: normal;
+	font-weight: var(--ztc-weight-bold);
+	line-height: 20px;
+	text-transform: uppercase;
+	transition: all 0.4s;
+	position: relative;
+	z-index: 1;
+	background: var(--ztc-bg-bg-9);
+	padding: 11px 15px;
+	display: inline-block;
+	border-radius: 8px;
+	text-decoration: none;
+	cursor: pointer;
+	
+}
+
+.event-btn7:hover {
+	transition: all 0.4s;
+	background: var(--ztc-bg-bg-2);
+	color: var(--ztc-text-text-1);
+}
+
+.event-btn7:hover::before {
+	width: 100%;
+	transition: all 0.4s;
+	visibility: visible;
+	opacity: 1;
+	left: 0;
+	top: 0;
+}
+
+.event-btn7:hover::after {
+	background: var(--ztc-bg-bg-1);
+	opacity: 0.1;
+	transition: all 0.4s;
+}
+
+.event-btn7::after {
+	position: absolute;
+	content: "";
+	height: 36px;
+	width: 36px;
+	transition: all 0.4s;
+	border-radius: 50%;
+	background: var(--ztc-bg-bg-2);
+	opacity: 0.1;
+	left: 8px;
+	top: 8px;
+}
+
+.event-btn7::before {
+	position: absolute;
+	content: "";
+	height: 100%;
+	width: 1px;
+	transition: all 0.4s;
+	background: var(--ztc-bg-bg-2);
+	border: 2px solid var(--ztc-text-text-1);
 	left: 50%;
 	top: 0;
 	border-radius: 7px;

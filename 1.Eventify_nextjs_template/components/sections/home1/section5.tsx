@@ -8,12 +8,14 @@ export default function Section5() {
 	return (
 		<>
 			<div className="video-presentation-section sp1" style={{
-				backgroundColor: '#F5F5DC', // Fond beige
+				backgroundColor: '#ffffffff', // Fond beige
 				backgroundImage: 'url(/assets/img/elements/elements13.png)',
 				backgroundPosition: 'center',
 				backgroundSize: 'cover',
 				backgroundRepeat: 'no-repeat',
-				position: 'relative'
+				position: 'relative',
+				paddingBottom: '0',
+				
 			}}>
 				{/* Overlay beige semi-transparent pour conserver la lisibilité */}
 				<div style={{
@@ -22,7 +24,8 @@ export default function Section5() {
 					left: 0,
 					right: 0,
 					bottom: 0,
-					backgroundColor: 'rgba(245, 245, 220, 0.8)',
+					padding: '0',
+					margin: '0',
 					zIndex: 1
 				}}></div>
 

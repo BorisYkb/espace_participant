@@ -683,7 +683,7 @@ export default function SARADescriptionSection() {
 
       {/* Section Organisateur */}
       <div className="organizer-section">
-        <h2 className="organizer-title">Organisateur</h2>
+        <h2 className="organizer-title">Organisateurs & Sponsors</h2>
       
         <div className="organizer-content">
           {/* Logo */}

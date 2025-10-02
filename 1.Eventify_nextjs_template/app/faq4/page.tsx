@@ -20,8 +20,8 @@ const handleAccordion = (key: any) => {
 	return (
 		<>
 
-			<Layout  >
-				<Header1_4 />
+			<Layout headerStyle={1_4} footerStyle={4} >
+				
 				
 				<div>
 					<div className="inner-page-header" style={{ backgroundImage: 'url(assets/img/bg/header-bg15.png)' }}>
@@ -702,7 +702,7 @@ const handleAccordion = (key: any) => {
 					</div>
 					{/*===== FAQ AREA ENDS =======*/}
 					{/*===== CTA AREA STARTS =======*/}
-					<div className="cta1-section-area d-lg-block d-block">
+					<div className="cta4-section-area d-lg-block d-block">
 						<div className="container">
 							<div className="row">
 								<div className="col-lg-10 m-auto">

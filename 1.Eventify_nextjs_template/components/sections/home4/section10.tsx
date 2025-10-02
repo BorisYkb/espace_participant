@@ -11,11 +11,8 @@ export default function Section10() {
 					<div className="row">
 						<div className="col-lg-10 m-auto">
 							<div className="cta1-main-boxarea">
-								<div className="timer-btn-area">
-								<Countdown />
-									<div className="btn-area1">
-										<Link className="vl-btn4" href="/pricing-plan"><span className="demo">Buy A Ticket</span></Link>
-									</div>
+								<div className="timer-btn-area display-flex align-items-center justify-content-center">
+									<Countdown />
 								</div>
 								<ul>
 									<li>

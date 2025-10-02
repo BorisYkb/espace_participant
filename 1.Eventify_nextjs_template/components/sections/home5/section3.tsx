@@ -12,9 +12,9 @@ export default function Section3() {
 					<div className="row">
 						<div className="col-lg-8 m-auto">
 							<div className="event2-header heading8 text-center space-margin80">
-								<h5><img src="/assets/img/icons/sub-logo1.svg" alt="" /> Event Schedule</h5>
+								<h5><img src="/assets/img/icons/sub-logo1.svg" alt="" />Activités</h5>
 								<div className="space32" />
-								<h2 className="text-anime-style-3">Digital event <span>lists</span></h2>
+								<h2 className="text-anime-style-3">Calendrier de toutes les Activités</h2>
 							</div>
 						</div>
 					</div>

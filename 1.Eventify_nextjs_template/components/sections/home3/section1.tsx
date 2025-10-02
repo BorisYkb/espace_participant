@@ -20,7 +20,7 @@ export default function Section1() {
 								<h1 className="text-anime-style-3">Innover et Réussir en 2025</h1>
 								<div className="space40" />
 								<div className="btn-area1">
-									<Link href="/inscription" className="vl-btn3" aria-label="S'inscrire à la conférence SARA">S'inscrire</Link>
+									<Link href="/inscription3" className="vl-btn3" aria-label="S'inscrire à la conférence SARA">S'inscrire</Link>
 									<Link href="http://localhost:8082/auth/jwt/sign-in/?returnTo=%2Fparticipant%2F" className="vl-btn3 btn2">Se Connecter</Link>
 								</div>
 								

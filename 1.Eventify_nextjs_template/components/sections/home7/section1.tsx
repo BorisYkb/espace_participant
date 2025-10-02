@@ -22,25 +22,25 @@ export default function Section1() {
 						</div>
 						<div className="col-lg-5 col-md-9">
 							<div className="heading-area">
-								<h1 className="text-anime-style-3">Digital World&nbsp; Conference</h1>
+								<h1 className="text-anime-style-3">Thème : Innover et Réussir en 2025</h1>
 							</div>
 						</div>
 						<div className="col-lg-1" />
-						<div className="col-lg-2">
+						{/* <div className="col-lg-2">
 							<div className="arrow-btn">
 								<Link href="/#">
-									{/* <img src="/assets/img/elements/elements34.png" alt="" class="elements34 keyframe5"> */}
+									
 									<div className="content" >
 										<CircleText text="Build Success Brand." />
 									</div>
 									<img src="/assets/img/icons/arrow1.svg" alt="" className="arrow1" />
 								</Link>
 							</div>
-						</div>
+						</div> */}
 					</div>
 					<div className="space60" />
 					<div className="row">
-						<div className="col-lg-5 col-md-6">
+						{/* <div className="col-lg-5 col-md-6">
 							<div className="img1 image-anime reveal">
 								<img src="/assets/img/all-images/hero/hero-img9.png" alt="" />
 							</div>
@@ -49,14 +49,14 @@ export default function Section1() {
 							<div className="img1 image-anime reveal">
 								<img src="/assets/img/all-images/hero/hero-img10.png" alt="" />
 							</div>
-						</div>
+						</div> */}
 						<div className="col-lg-4">
 							<div className="heading-area">
-								<p>From cutting-edge technology and digital transformation to leadership strategies and
-									sustainable growth, Innovate 2024 provide.</p>
+								{/* <p>From cutting-edge technology and digital transformation to leadership strategies and
+									sustainable growth, Innovate 2024 provide.</p> */}
 								<div className="space32" />
 								<div className="btn-area1">
-									<Link href="/contact" className="vl-btn7">Reserve My Seat <span><i className="fa-solid fa-arrow-right" /></span></Link>
+									<Link href="/inscription7" className="vl-btn7">S'inscrire</Link>
 								</div>
 							</div>
 						</div>

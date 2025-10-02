@@ -10,6 +10,7 @@ import Section6 from '@/components/sections/home3/section6'
 import Section7 from '@/components/sections/home3/section7'
 import Section8 from '@/components/sections/home3/section8'
 import Section9 from '@/components/sections/home3/section9'
+import Tarif3 from "@/components/sections/home3/tarif3"
 export default function Home3() {
 
 	return (
@@ -24,7 +25,8 @@ export default function Home3() {
 				
 				
 				{/* <Section8 /> */}
-				<Section9 />
+				{/* <Section9 /> */}
+				<Tarif3/>
 				<Section3 />
 				<Section5 />
 				{/* <Section10 /> */}

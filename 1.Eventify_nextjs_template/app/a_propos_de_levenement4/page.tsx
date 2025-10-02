@@ -21,8 +21,8 @@ export default function Page() {
 	return (
 		<>
 
-			<Layout  >
-				<Header1_4 />
+			<Layout headerStyle={1_4} footerStyle={4}>
+				
 				<div>
 					
 					<div className="inner-page-header" style={{ backgroundImage: 'url(assets/img/bg/header-bg5.png)' }}>
@@ -31,8 +31,6 @@ export default function Page() {
 								<div className="col-lg-4 m-auto">
 									<div className="heading1 text-center">
 										<h1>À propos de l'événement</h1>
-										
-										
 									</div>
 								</div>
 							</div>
@@ -61,14 +59,13 @@ export default function Page() {
 					{/*===== CTA AREA STARTS =======*/}
 					
 					
-					<div className="cta1-section-area d-lg-block d-block">
+					<div className="cta4-section-area">
 						<div className="container">
 							<div className="row">
 								<div className="col-lg-10 m-auto">
 									<div className="cta1-main-boxarea">
 										<div className="timer-btn-area display-flex align-items-center justify-content-center">
 											<Countdown />
-											
 										</div>
 										<ul>
 											<li>
@@ -86,7 +83,7 @@ export default function Page() {
 					
 				</div>
 				
-				{/* <Footer1 /> */}
+				{/* <Footer1_4 /> */}
 			</Layout>
 		</>
 	)

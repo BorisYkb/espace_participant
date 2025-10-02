@@ -65,7 +65,7 @@ export default function Section4() {
 							<div className="team2-header heading5 space-margin60">
 								
 								<div className="space18" />
-								<h2 className="text-anime-style-3">Nos Intervenant</h2>
+								<h2 className="text-anime-style-3">Nos Intervenants</h2>
 							</div>
 						</div>
 					</div>
@@ -74,24 +74,19 @@ export default function Section4() {
 							<Swiper {...swiperOptions} className=" owl-carousel">
 								<SwiperSlide className="our-team-boxarea">
 									<div className="team-widget-area">
-										<img src="/assets/img/elements/elements21.png" alt="" className="elements21" />
-										<img src="/assets/img/elements/elements22.png" alt="" className="elements22" />
-										<div className="img1">
+										{/* <img src="/assets/img/elements/elements21.png" alt="" className="elements21" />
+										<img src="/assets/img/elements/elements22.png" alt="" className="elements22" /> */}
+										<div className="img1" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
 											<img src="/assets/img/all-images/team/femme.jpg" alt="" className="team-img4" />
 											
 											<ul>
 												<li>
-													<Link href="/#" className="icon1"><i className="fa-brands fa-facebook-f" /></Link>
+													<Link href="/#" className="icon4"><i className="fa-brands fa-facebook-f" /></Link>
 												</li>
 												<li>
 													<Link href="/#" className="icon2"><i className="fa-brands fa-linkedin-in" /></Link>
 												</li>
-												<li>
-													<Link href="/#" className="icon3"><i className="fa-brands fa-instagram" /></Link>
-												</li>
-												<li>
-													<Link href="/#" className="icon4"><i className="fa-brands fa-pinterest-p" /></Link>
-												</li>
+												
 											</ul>
 										</div>
 									</div>
@@ -104,24 +99,22 @@ export default function Section4() {
 								</SwiperSlide>
 								<SwiperSlide className="our-team-boxarea">
 									<div className="team-widget-area">
-										<img src="/assets/img/elements/elements21.png" alt="" className="elements21" />
-										<img src="/assets/img/elements/elements22.png" alt="" className="elements22" />
-										<div className="img1">
+										{/* <img src="/assets/img/elements/elements21.png" alt="" className="elements21" />
+										<img src="/assets/img/elements/elements22.png" alt="" className="elements22" /> */}
+										<div className="img1" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
 											<img src="/assets/img/all-images/team/femme.jpg" alt="" className="team-img4" />
 											
 											<ul>
 												<li>
-													<Link href="/#" className="icon1"><i className="fa-brands fa-facebook-f" /></Link>
+													<Link href="/#" className="icon4"><i className="fa-brands fa-facebook-f" /></Link>
 												</li>
 												<li>
 													<Link href="/#" className="icon2"><i className="fa-brands fa-linkedin-in" /></Link>
 												</li>
-												<li>
-													<Link href="/#" className="icon3"><i className="fa-brands fa-instagram" /></Link>
-												</li>
-												<li>
-													<Link href="/#" className="icon4"><i className="fa-brands fa-pinterest-p" /></Link>
-												</li>
+												{/* <li>
+													<Link href="/#" className="icon4"><i className="fa-brands fa-linkedin-in" /></Link>
+												</li> */}
+												
 											</ul>
 										</div>
 									</div>
@@ -134,26 +127,21 @@ export default function Section4() {
 								</SwiperSlide>
 								<SwiperSlide className="our-team-boxarea">
 									<div className="team-widget-area">
-										<img src="/assets/img/elements/elements21.png" alt="" className="elements21" />
-										<img src="/assets/img/elements/elements22.png" alt="" className="elements22" />
-										<div className="img1">
+										{/* <img src="/assets/img/elements/elements21.png" alt="" className="elements21" />
+										<img src="/assets/img/elements/elements22.png" alt="" className="elements22" /> */}
+										<div className="img1" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
 											<img src="/assets/img/all-images/team/femme.jpg" alt="" className="team-img4" />
 											{/* <div className="share">
 												<Link href="/#"><img src="/assets/img/icons/share1.svg" alt="" /></Link>
 											</div> */}
 											<ul>
 												<li>
-													<Link href="/#" className="icon1"><i className="fa-brands fa-facebook-f" /></Link>
+													<Link href="/#" className="icon4"><i className="fa-brands fa-facebook-f" /></Link>
 												</li>
 												<li>
 													<Link href="/#" className="icon2"><i className="fa-brands fa-linkedin-in" /></Link>
 												</li>
-												<li>
-													<Link href="/#" className="icon3"><i className="fa-brands fa-instagram" /></Link>
-												</li>
-												<li>
-													<Link href="/#" className="icon4"><i className="fa-brands fa-pinterest-p" /></Link>
-												</li>
+												
 											</ul>
 										</div>
 									</div>
@@ -166,24 +154,19 @@ export default function Section4() {
 								</SwiperSlide>
 								<SwiperSlide className="our-team-boxarea">
 									<div className="team-widget-area">
-										<img src="/assets/img/elements/elements21.png" alt="" className="elements21" />
-										<img src="/assets/img/elements/elements22.png" alt="" className="elements22" />
-										<div className="img1">
+										{/* <img src="/assets/img/elements/elements21.png" alt="" className="elements21" />
+										<img src="/assets/img/elements/elements22.png" alt="" className="elements22" /> */}
+										<div className="img1" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
 											<img src="/assets/img/all-images/team/femme.jpg" alt="" className="team-img4" />
 											
 											<ul>
 												<li>
-													<Link href="/#" className="icon1"><i className="fa-brands fa-facebook-f" /></Link>
+													<Link href="/#" className="icon4"><i className="fa-brands fa-facebook-f" /></Link>
 												</li>
 												<li>
 													<Link href="/#" className="icon2"><i className="fa-brands fa-linkedin-in" /></Link>
 												</li>
-												<li>
-													<Link href="/#" className="icon3"><i className="fa-brands fa-instagram" /></Link>
-												</li>
-												<li>
-													<Link href="/#" className="icon4"><i className="fa-brands fa-pinterest-p" /></Link>
-												</li>
+												
 											</ul>
 										</div>
 									</div>
@@ -196,24 +179,19 @@ export default function Section4() {
 								</SwiperSlide>
 								<SwiperSlide className="our-team-boxarea">
 									<div className="team-widget-area">
-										<img src="/assets/img/elements/elements21.png" alt="" className="elements21" />
-										<img src="/assets/img/elements/elements22.png" alt="" className="elements22" />
-										<div className="img1">
+										{/* <img src="/assets/img/elements/elements21.png" alt="" className="elements21" />
+										<img src="/assets/img/elements/elements22.png" alt="" className="elements22" /> */}
+										<div className="img1" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
 											<img src="/assets/img/all-images/team/femme.jpg" alt="" className="team-img4" />
 											
 											<ul>
 												<li>
-													<Link href="/#" className="icon1"><i className="fa-brands fa-facebook-f" /></Link>
+													<Link href="/#" className="icon4"><i className="fa-brands fa-facebook-f" /></Link>
 												</li>
 												<li>
 													<Link href="/#" className="icon2"><i className="fa-brands fa-linkedin-in" /></Link>
 												</li>
-												<li>
-													<Link href="/#" className="icon3"><i className="fa-brands fa-instagram" /></Link>
-												</li>
-												<li>
-													<Link href="/#" className="icon4"><i className="fa-brands fa-pinterest-p" /></Link>
-												</li>
+												
 											</ul>
 										</div>
 									</div>
@@ -226,24 +204,19 @@ export default function Section4() {
 								</SwiperSlide>
 								<SwiperSlide className="our-team-boxarea">
 									<div className="team-widget-area">
-										<img src="/assets/img/elements/elements21.png" alt="" className="elements21" />
-										<img src="/assets/img/elements/elements22.png" alt="" className="elements22" />
-										<div className="img1">
+										{/* <img src="/assets/img/elements/elements21.png" alt="" className="elements21" />
+										<img src="/assets/img/elements/elements22.png" alt="" className="elements22" /> */}
+										<div className="img1" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
 											<img src="/assets/img/all-images/team/femme.jpg" alt="" className="team-img4" />
 											
 											<ul>
 												<li>
-													<Link href="/#" className="icon1"><i className="fa-brands fa-facebook-f" /></Link>
+													<Link href="/#" className="icon4"><i className="fa-brands fa-facebook-f" /></Link>
 												</li>
 												<li>
 													<Link href="/#" className="icon2"><i className="fa-brands fa-linkedin-in" /></Link>
 												</li>
-												<li>
-													<Link href="/#" className="icon3"><i className="fa-brands fa-instagram" /></Link>
-												</li>
-												<li>
-													<Link href="/#" className="icon4"><i className="fa-brands fa-pinterest-p" /></Link>
-												</li>
+												
 											</ul>
 										</div>
 									</div>
@@ -256,24 +229,19 @@ export default function Section4() {
 								</SwiperSlide>
 								<SwiperSlide className="our-team-boxarea">
 									<div className="team-widget-area">
-										<img src="/assets/img/elements/elements21.png" alt="" className="elements21" />
-										<img src="/assets/img/elements/elements22.png" alt="" className="elements22" />
-										<div className="img1">
+										{/* <img src="/assets/img/elements/elements21.png" alt="" className="elements21" />
+										<img src="/assets/img/elements/elements22.png" alt="" className="elements22" /> */}
+										<div className="img1" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
 											<img src="/assets/img/all-images/team/femme.jpg" alt="" className="team-img4" />
 											
 											<ul>
 												<li>
-													<Link href="/#" className="icon1"><i className="fa-brands fa-facebook-f" /></Link>
+													<Link href="/#" className="icon4"><i className="fa-brands fa-facebook-f" /></Link>
 												</li>
 												<li>
 													<Link href="/#" className="icon2"><i className="fa-brands fa-linkedin-in" /></Link>
 												</li>
-												<li>
-													<Link href="/#" className="icon3"><i className="fa-brands fa-instagram" /></Link>
-												</li>
-												<li>
-													<Link href="/#" className="icon4"><i className="fa-brands fa-pinterest-p" /></Link>
-												</li>
+												
 											</ul>
 										</div>
 									</div>
@@ -286,24 +254,19 @@ export default function Section4() {
 								</SwiperSlide>
 								<SwiperSlide className="our-team-boxarea">
 									<div className="team-widget-area">
-										<img src="/assets/img/elements/elements21.png" alt="" className="elements21" />
-										<img src="/assets/img/elements/elements22.png" alt="" className="elements22" />
-										<div className="img1">
+										{/* <img src="/assets/img/elements/elements21.png" alt="" className="elements21" />
+										<img src="/assets/img/elements/elements22.png" alt="" className="elements22" /> */}
+										<div className="img1" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
 											<img src="/assets/img/all-images/team/femme.jpg" alt="" className="team-img4" />
 											
 											<ul>
 												<li>
-													<Link href="/#" className="icon1"><i className="fa-brands fa-facebook-f" /></Link>
+													<Link href="/#" className="icon4"><i className="fa-brands fa-facebook-f" /></Link>
 												</li>
 												<li>
 													<Link href="/#" className="icon2"><i className="fa-brands fa-linkedin-in" /></Link>
 												</li>
-												<li>
-													<Link href="/#" className="icon3"><i className="fa-brands fa-instagram" /></Link>
-												</li>
-												<li>
-													<Link href="/#" className="icon4"><i className="fa-brands fa-pinterest-p" /></Link>
-												</li>
+												
 											</ul>
 										</div>
 									</div>

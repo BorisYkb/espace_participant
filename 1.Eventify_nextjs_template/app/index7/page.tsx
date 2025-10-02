@@ -16,14 +16,15 @@ export default function Home7() {
 		<>
 			<Layout headerStyle={7} footerStyle={7}>
 				<Section1 />
-				<Section2 />
+				{/* <Section2 /> */}
 				<Section3 />
-				<Section4 />
-				<Section5 />
+				{/* <Section4 /> */}
+				
 				<Section6 />
-				<Section7 />
+				<Section5 />
+				{/* <Section7 /> */}
 				<Section8 />
-				<Section9 />
+				{/* <Section9 /> */}
 				<Section10 />
 			</Layout>
 		</>

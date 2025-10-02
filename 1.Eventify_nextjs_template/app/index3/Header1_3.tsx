@@ -20,148 +20,14 @@ export default function Header1_3({ scroll, isMobileMenu, handleMobileMenu, isSe
 									<div className='space12' />
 									<div className="main-menu">
 										<ul>
-											{/*<li>
-												<Link href="/#">Accueil <i className="fa-solid fa-angle-down" /></Link>
-												<div className="tp-submenu">
-													<div className="row">
-														<div className="col-lg-12">
-															<div className="all-images-menu">
-																<div className="homemenu-thumb">
-																	<div className="img1">
-																		<img src="/assets/img/all-images/demo/demo-img1.png" alt="" />
-																	</div>
-																	<div className="homemenu-btn">
-																		<Link className="vl-btn1" href="/">Voir la Demo</Link>
-																	</div>
-																	<div className="homemenu-text">
-																		<Link href="/">Eventify-Homepage 01</Link>
-																	</div>
-																</div>
-																<div className="homemenu-thumb">
-																	<div className="img1">
-																		<img src="/assets/img/all-images/demo/demo-img2.png" alt="" />
-																	</div>
-																	<div className="homemenu-btn">
-																		<Link className="vl-btn1" href="/index2">View Demo </Link>
-																	</div>
-																	<div className="homemenu-text">
-																		<Link href="/index2">Eventify-Homepage 02</Link>
-																	</div>
-																</div>
-																<div className="homemenu-thumb">
-																	<div className="img1">
-																		<img src="/assets/img/all-images/demo/demo-img3.png" alt="" />
-																	</div>
-																	<div className="homemenu-btn">
-																		<Link className="vl-btn1" href="/index3">View Demo </Link>
-																	</div>
-																	<div className="homemenu-text">
-																		<Link href="/index3">Eventify-Homepage 03</Link>
-																	</div>
-																</div>
-																<div className="homemenu-thumb">
-																	<div className="img1">
-																		<img src="/assets/img/all-images/demo/demo-img4.png" alt="" />
-																	</div>
-																	<div className="homemenu-btn">
-																		<Link className="vl-btn1" href="/index4">View Demo </Link>
-																	</div>
-																	<div className="homemenu-text">
-																		<Link href="/index4">Eventify-Homepage 04</Link>
-																	</div>
-																</div>
-																<div className="homemenu-thumb" style={{ margin: 0 }}>
-																	<div className="img1">
-																		<img src="/assets/img/all-images/demo/demo-img5.png" alt="" />
-																	</div>
-																	<div className="homemenu-btn">
-																		<Link className="vl-btn1" href="/index5">View Demo </Link>
-																	</div>
-																	<div className="homemenu-text">
-																		<Link href="/index5">Eventify-Homepage 05</Link>
-																	</div>
-																</div>
-															</div>
-															<div className="all-images-menu">
-																<div className="homemenu-thumb">
-																	<div className="img1">
-																		<img src="/assets/img/all-images/demo/demo-img6.png" alt="" />
-																	</div>
-																	<div className="homemenu-btn">
-																		<Link className="vl-btn1" href="/index6">View Demo </Link>
-																	</div>
-																	<div className="homemenu-text">
-																		<Link href="/index6">Eventify-Homepage 06</Link>
-																	</div>
-																</div>
-																<div className="homemenu-thumb">
-																	<div className="img1">
-																		<img src="/assets/img/all-images/demo/demo-img7.png" alt="" />
-																	</div>
-																	<div className="homemenu-btn">
-																		<Link className="vl-btn1" href="/index7">View Demo </Link>
-																	</div>
-																	<div className="homemenu-text">
-																		<Link href="/index7">Eventify-Homepage 07</Link>
-																	</div>
-																</div>
-																<div className="homemenu-thumb">
-																	<div className="img1">
-																		<img src="/assets/img/all-images/demo/demo-img8.png" alt="" />
-																	</div>
-																	<div className="homemenu-btn">
-																		<Link className="vl-btn1" href="/index8">View Demo </Link>
-																	</div>
-																	<div className="homemenu-text">
-																		<Link href="/index8">Eventify-Homepage 08</Link>
-																	</div>
-																</div>
-																<div className="homemenu-thumb">
-																	<div className="img1">
-																		<img src="/assets/img/all-images/demo/demo-img9.png" alt="" />
-																	</div>
-																	<div className="homemenu-btn">
-																		<Link className="vl-btn1" href="/index9">View Demo </Link>
-																	</div>
-																	<div className="homemenu-text">
-																		<Link href="/index9">Eventify-Homepage 09</Link>
-																	</div>
-																</div>
-																<div className="homemenu-thumb" style={{ margin: 0 }}>
-																	<div className="img1">
-																		<img src="/assets/img/all-images/demo/demo-img10.png" alt="" />
-																	</div>
-																	<div className="homemenu-btn">
-																		<Link className="vl-btn1" href="/index10">View Demo </Link>
-																	</div>
-																	<div className="homemenu-text">
-																		<Link href="/index10">Eventify-Homepage 10</Link>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</li>*/}
+											
 											
 											
 											
 											<li><Link href="/index3">Accueil </Link></li>
 											<li><Link href="/a_propos_de_levenement3">A propos de l'événement </Link></li>
 											<li><Link href="/faq3">FAQ,s</Link></li>
-											{/*<li>
-												
-											</li>*/}
 											
-											{/*<li>
-												<Link href="#">Pages <i className="fa-solid fa-angle-down" /></Link>
-												<ul className="dropdown-padding">
-													
-													<li><Link href="/plan_tarifaire">Plan Tarifaire</Link></li>
-													<li><Link href="/faq">FAQ,s</Link></li>
-													<li><Link href="/connexion" className='event-btn4'>Se Connecter</Link></li>
-												</ul>
-											</li>*/}
 											
 											
 										</ul>

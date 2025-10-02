@@ -147,7 +147,7 @@ export default function Header1_7({ scroll, isMobileMenu, handleMobileMenu, isSe
 											
 											
 											<li><Link href="/index7">Accueil </Link></li>
-											<li><Link href="/a_propos_de_levenement7">A propos de l'événement </Link></li>
+											<li><Link href="/a_propos_de_levenement7">A Propos de l'événement </Link></li>
 											<li><Link href="/faq7">FAQ,s</Link></li>
 											{/*<li>
 												
@@ -173,7 +173,7 @@ export default function Header1_7({ scroll, isMobileMenu, handleMobileMenu, isSe
 										</Link>
 									</li>
 									<li>
-										<Link href="/inscription" className="event-btn1">
+										<Link href="/inscription7" className="event-btn1">
 											<span>Inscription</span>
 										</Link>
 									</li>

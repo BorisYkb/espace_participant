@@ -62,9 +62,9 @@ export default function Section4() {
 					<div className="row">
 						<div className="col-lg-6">
 							<div className="team-header space-margin60 heading2">
-								<h5 data-aos="fade-left" data-aos-duration={800}>Nos Intervenants</h5>
+								
 								<div className="space16" />
-								<h2 className="text-anime-style-3">Équipe Intervenantes</h2>
+								<h2 className="text-anime-style-3">Nos Intervenants</h2>
 							</div>
 						</div>
 					</div>
@@ -73,7 +73,7 @@ export default function Section4() {
 							<Swiper {...swiperOptions} className="team-slider-area ">
 								<SwiperSlide className="team-widget-boxarea">
 									<div className="img1 image-anime">
-										<img src="/assets/img/all-images/team/team-img2.png" alt="" />
+										<img src="/assets/img/all-images/team/femme.jpg" alt="" />
 										<ul>
 											<li>
 												<Link href="/#"><i className="fa-brands fa-facebook-f" /></Link>
@@ -98,7 +98,7 @@ export default function Section4() {
 								</SwiperSlide>
 								<SwiperSlide className="team-widget-boxarea">
 									<div className="img1 image-anime">
-										<img src="/assets/img/all-images/team/team-img1.png" alt="" />
+										<img src="/assets/img/all-images/team/femme.jpg" alt="" />
 										<ul>
 											<li>
 												<Link href="/#"><i className="fa-brands fa-facebook-f" /></Link>
@@ -123,7 +123,7 @@ export default function Section4() {
 								</SwiperSlide>
 								<SwiperSlide className="team-widget-boxarea">
 									<div className="img1 image-anime">
-										<img src="/assets/img/all-images/team/team-img3.png" alt="" />
+										<img src="/assets/img/all-images/team/femme.jpg" alt="" />
 										<ul>
 											<li>
 												<Link href="/#"><i className="fa-brands fa-facebook-f" /></Link>
@@ -148,7 +148,7 @@ export default function Section4() {
 								</SwiperSlide>
 								<SwiperSlide className="team-widget-boxarea">
 									<div className="img1 image-anime">
-										<img src="/assets/img/all-images/team/team-img2.png" alt="" />
+										<img src="/assets/img/all-images/team/femme.jpg" alt="" />
 										<ul>
 											<li>
 												<Link href="/#"><i className="fa-brands fa-facebook-f" /></Link>
@@ -173,7 +173,7 @@ export default function Section4() {
 								</SwiperSlide>
 								<SwiperSlide className="team-widget-boxarea">
 									<div className="img1 image-anime">
-										<img src="/assets/img/all-images/team/team-img1.png" alt="" />
+										<img src="/assets/img/all-images/team/femme.jpg" alt="" />
 										<ul>
 											<li>
 												<Link href="/#"><i className="fa-brands fa-facebook-f" /></Link>
@@ -198,7 +198,7 @@ export default function Section4() {
 								</SwiperSlide>
 								<SwiperSlide className="team-widget-boxarea">
 									<div className="img1 image-anime">
-										<img src="/assets/img/all-images/team/team-img3.png" alt="" />
+										<img src="/assets/img/all-images/team/femme.jpg" alt="" />
 										<ul>
 											<li>
 												<Link href="/#"><i className="fa-brands fa-facebook-f" /></Link>

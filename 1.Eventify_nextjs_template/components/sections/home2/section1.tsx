@@ -68,7 +68,7 @@ const HeroSlide = () => {
                 
                 <div className="btn-area2" style={{display: 'flex', gap: '16px'}}>
                   <Link
-                    href="/inscription"
+                    href="/inscription2"
                     className="event-btn1"
                     
                     aria-label="S'inscrire à la conférence SARA"

@@ -10,6 +10,7 @@ import Section4 from '@/components/sections/home1/section4'
 import Footer2 from '@/components/layout/footer/Footer2'
 import Footer1 from '@/components/layout/footer/Footer1'
 import Section4activite from '@/components/sections/home1/Section4activite'
+import Section4activite_2 from '../index2/components/Section4activite_2'
 
 // Images pour la galerie
 const galleryImages = [
@@ -463,7 +464,7 @@ export default function SaraActivityDetail() {
 				}
 			`}</style>
 
-			<Layout headerStyle={1_3} footerStyle={3}>
+			<Layout headerStyle={1_2} footerStyle={1}>
 				<div className="activity-detail-container">
 					<div className="inner-page-header" style={{ backgroundImage: 'url(assets/img/bg/header-bg14.png)' }}>
 						<div className="container">
@@ -562,7 +563,7 @@ export default function SaraActivityDetail() {
 					</div>
 					{/*===== SARA ACTIVITY DETAILS AREA ENDS =======*/}
 
-					<Section4activite/>
+					<Section4activite_2/>
 
 					{/*===== CTA AREA STARTS =======*/}
 					{/* <div className="cta1-section-area d-lg-block d-block">

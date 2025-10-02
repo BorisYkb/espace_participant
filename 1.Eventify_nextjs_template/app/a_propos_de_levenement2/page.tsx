@@ -111,7 +111,7 @@ export default function Page() {
 					
 				</div>
 				
-				{/* <Footer1 /> */}
+				<Footer1 />
 			</Layout>
 		</>
 	)

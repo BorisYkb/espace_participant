@@ -13,6 +13,8 @@ import SARADescriptionSection from './component/SARADescriptionSection'
 import { useState } from 'react'
 import Footer1 from '@/components/layout/footer/Footer1'
 import Header1_5 from '../index5/Header1_5'
+import Section9 from '@/components/sections/home5/section9'
+import Section12 from '@/components/sections/home5/section12'
 
 
 
@@ -21,7 +23,7 @@ export default function Page() {
 	return (
 		<>
 
-			<Layout  >
+			<Layout headerStyle={1_5} footerStyle={4} >
 				<Header1_5 />
 				<div>
 					
@@ -57,6 +59,11 @@ export default function Page() {
 					{/*===== OTHERS AREA ENDS =======*/}
 					{/*===== ABOUT AREA ENDS =======*/}
 					<PastEventsSection />
+
+					{/* <div style={{backgroundImage: 'url(assets/img/bg/header-bg2.png)'}}>
+						<Section9 />
+					</div> */}
+					
 					
 					{/*===== CTA AREA STARTS =======*/}
 					
@@ -83,6 +90,8 @@ export default function Page() {
 							</div>
 						</div>
 					</div>
+
+					
 					
 				</div>
 				

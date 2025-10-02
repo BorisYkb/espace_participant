@@ -7,7 +7,7 @@ export default function Section2() {
 
 			<div className="others5-section-area">
 				<div className="container">
-				<Countdown style={2} />
+					<Countdown style={2} />
 				</div>
 			</div>
 

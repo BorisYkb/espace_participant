@@ -10,17 +10,19 @@ export default function Section1() {
 					<div className="row align-items-center">
 						<div className="col-lg-5">
 							<div className="hero4-header">
-								<h5 data-aos="fade-left" data-aos-duration={800}><img src="/assets/img/icons/sub-logo2.svg" alt="" className="d-md-inline-block d-none" /> Lead Purpose, Innovate with Passion</h5>
+								<h5 data-aos="fade-left" data-aos-duration={800}> Le SARA, l'évènement à ne pas rater</h5>
 								<div className="space20" />
-								<h1 className="text-anime-style-3">Elevate 2025 Leading with the Purpose</h1>
+								<h1 className="text-anime-style-3">Thème : <br /> Innover et Réussir en 2025</h1>
 								<div className="space20" />
-								<p data-aos="fade-left" data-aos-duration={900}>
+								{/* <p data-aos="fade-left" data-aos-duration={900}>
 									Welcome to Innovate 2024: Shaping the Future of <br className="d-lg-block d-none" />
 									Business, where industry leaders, innovators.
-								</p>
+								</p> */}
 								<div className="space32" />
-								<div className="btn-area1" data-aos="fade-left" data-aos-duration={1000}>
-									<Link href="/event-schedule" className="vl-btn4">Reserve My Seat</Link>
+								<div className="btn-area1"  data-aos-duration={1000}>
+									<Link href="/inscription4" className="vl-btn4" style={{marginRight: '10px'}}>S'inscrire</Link>
+									
+									<Link href="http://localhost:8082/auth/jwt/sign-in/?returnTo=%2Fparticipant%2F" className="vl-btn4" style={{backgroundColor: 'white', color: 'blue'}}>Se Connecter</Link>
 								</div>
 							</div>
 						</div>
@@ -35,19 +37,19 @@ export default function Section1() {
 										<img src="/assets/img/all-images/hero/hero-img6.png" alt="" />
 									</div>
 									<div className="space16" />
-									<Link href="/#" className="date">25 Jan, 2025</Link>
+									<Link href="#" className="date">25 Jan, 2025</Link>
 									<ul>
 										<li>
-											<Link href="/#"><img src="/assets/img/icons/clock1.svg" alt="" />10.00 AM -12.00 PM</Link>
+											<Link href="#"><img src="/assets/img/icons/clock1.svg" alt="" />10.00 - 12.00</Link>
 										</li>
 										<li>
-											<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />26/C Asana, New York</Link>
+											<Link href="#"><img src="/assets/img/icons/location1.svg" alt="" />C26 Palais de la Culture</Link>
 										</li>
 									</ul>
-									<div className="space24" />
+									{/* <div className="space24" />
 									<div className="btn-area1">
 										<Link href="/pricing-plan" className="vl-btn4">buy tickets</Link>
-									</div>
+									</div> */}
 								</div>
 							</div>
 						</div>

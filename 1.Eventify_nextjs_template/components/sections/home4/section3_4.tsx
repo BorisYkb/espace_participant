@@ -1,16 +1,16 @@
 import BrandSlider from '@/components/slider/BrandSlider'
 
 
-export default function Section6() {
+export default function Section3_4() {
 	return (
 		<>
 
-			<div className="brands6-section-area">
+			<div className="brands3-section-area sp2">
 				<div className="container">
 					<div className="row">
-						<div className="col-lg-7 m-auto">
+						<div className="col-lg-5 m-auto">
 							<div className="brand-header heading4 space-margin60 text-center">
-								<h3>Nos Sponsors</h3>
+								<h3>Organisateurs & Sponsors</h3>
 							</div>
 						</div>
 					</div>

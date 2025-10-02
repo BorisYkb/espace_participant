@@ -11,9 +11,9 @@ export default function Section5() {
 					<div className="row">
 						<div className="col-lg-8 m-auto">
 							<div className="team2-header heading8 space-margin80 text-center">
-								<h5><img src="/assets/img/icons/sub-logo1.svg" alt="" />our 15+ event speakers</h5>
+								
 								<div className="space32" />
-								<h2 className="text-anime-style-3">Our Event <span>Speakers</span></h2>
+								<h2 className="text-anime-style-3"><span>Intervenants</span></h2>
 							</div>
 						</div>
 					</div>
@@ -22,7 +22,7 @@ export default function Section5() {
 							<div className="our-team-boxarea">
 								<div className="team-widget-area">
 									<div className="img1">
-										<img src="/assets/img/all-images/team/team-img4.png" alt="" className="team-img4" />
+										<img src="/assets/img/all-images/team/femme.jpg" alt="" className="team-img4" />
 										<img src="/assets/img/elements/elements16.png" alt="" className="team-img8" />
 										<ul>
 											<li>
@@ -39,7 +39,7 @@ export default function Section5() {
 								</div>
 								<div className="space28" />
 								<div className="content-area">
-									<Link href="/speakers">Alex Robertson</Link>
+									<Link href="#">Alex Robertson</Link>
 									<div className="space16" />
 									<p>Finance Consultant</p>
 								</div>
@@ -49,7 +49,7 @@ export default function Section5() {
 							<div className="our-team-boxarea">
 								<div className="team-widget-area">
 									<div className="img1">
-										<img src="/assets/img/all-images/team/team-img5.png" alt="" className="team-img4" />
+										<img src="/assets/img/all-images/team/femme.jpg" alt="" className="team-img4" />
 										<img src="/assets/img/elements/elements16.png" alt="" className="team-img8" />
 										<ul>
 											<li>
@@ -66,7 +66,7 @@ export default function Section5() {
 								</div>
 								<div className="space28" />
 								<div className="content-area">
-									<Link href="/speakers">Alexy Sammo</Link>
+									<Link href="#">Alexy Sammo</Link>
 									<div className="space16" />
 									<p>HR Consultant</p>
 								</div>
@@ -76,7 +76,7 @@ export default function Section5() {
 							<div className="our-team-boxarea">
 								<div className="team-widget-area">
 									<div className="img1">
-										<img src="/assets/img/all-images/team/team-img6.png" alt="" className="team-img4" />
+										<img src="/assets/img/all-images/team/femme.jpg" alt="" className="team-img4" />
 										<img src="/assets/img/elements/elements16.png" alt="" className="team-img8" />
 										<ul>
 											<li>
@@ -93,7 +93,7 @@ export default function Section5() {
 								</div>
 								<div className="space28" />
 								<div className="content-area">
-									<Link href="/speakers">Andrew Symonds</Link>
+									<Link href="#">Andrew Symonds</Link>
 									<div className="space16" />
 									<p>Finance Consultant</p>
 								</div>
@@ -103,7 +103,7 @@ export default function Section5() {
 							<div className="our-team-boxarea">
 								<div className="team-widget-area">
 									<div className="img1">
-										<img src="/assets/img/all-images/team/team-img7.png" alt="" className="team-img4" />
+										<img src="/assets/img/all-images/team/femme.jpg" alt="" className="team-img4" />
 										<img src="/assets/img/elements/elements16.png" alt="" className="team-img8" />
 										<ul>
 											<li>
@@ -120,7 +120,7 @@ export default function Section5() {
 								</div>
 								<div className="space28" />
 								<div className="content-area">
-									<Link href="/speakers">Ben Stokes</Link>
+									<Link href="#">Ben Stokes</Link>
 									<div className="space16" />
 									<p>Finance Consultant</p>
 								</div>

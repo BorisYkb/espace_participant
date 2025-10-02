@@ -15,9 +15,9 @@ export default function Section3() {
 					<div className="row">
 						<div className="col-lg-6 m-auto">
 							<div className="event-header heading2 space-margin60 text-center">
-								<h5 data-aos="fade-left" data-aos-duration={800}>Horaire de l’événement</h5>
+								<h5 data-aos="fade-left" data-aos-duration={800}>Activités</h5>
 								<div className="space16" />
-								<h2 className="text-anime-style-3">Notre calendrier d’événements Plan par activités</h2>
+								<h2 className="text-anime-style-3">Calendrier de toutes les Activités</h2>
 							</div>
 						</div>
 					</div>
@@ -63,20 +63,30 @@ export default function Section3() {
 												<div className="content-area">
 													<ul>
 														<li>
-															<Link href="/#"><img src="/assets/img/icons/clock1.svg" alt="" /> 10:00
+															<Link href="#"><img src="/assets/img/icons/clock1.svg" alt="" /> 10:00
 																AM -12:00 PM <span> | </span></Link>
 														</li>
 														<li>
-															<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" /> Espace Event | Abidjan II Plateau </Link>
+															<Link href="#"><img src="/assets/img/icons/location1.svg" alt="" /> Espace Event | Abidjan II Plateau </Link>
 														</li>
 													</ul>
 													<div className="space20" />
-													<Link href="/event-single" className="head">Conférences plénières inspirantes</Link>
+													<Link href="/ActiviteDetail" className="head">Conférences plénières inspirantes</Link>
 													<div className="space16" />
-													<p>Des intervenants de renommée partageront leurs parcours, leurs réussites et leurs leçons. Chaque conférence est conçue pour inspirer, éveiller de nouvelles idées et offrir une vision claire des tendances de demain.</p>
-													<div className="space32" />
+													
+													<div style={{display: 'flex', flexDirection: "row", gap: '15px'}}>
+														<div style={{maxWidth:  '10%', borderRadius: '50%', overflow: 'hidden' }}>
+															<img src="/assets/img/all-images/testimonials/testimonial-img1.png" alt="" />
+														</div>
+														<div style={{maxWidth:  '10%', borderRadius: '50%', overflow: 'hidden' }}>
+															<img src="/assets/img/all-images/testimonials/testimonial-img1.png" alt="" />
+														</div>
+													</div>
+
+													<div className="space16" />
+													
 													<div className="btn-area1">
-														<Link href="/plan_tarifaire" className="vl-btn1">Participer</Link>
+														<Link href="#" className="vl-btn1">Gratuit</Link>
 													</div>
 												</div>
 											</div>
@@ -94,20 +104,28 @@ export default function Section3() {
 												<div className="content-area">
 													<ul>
 														<li>
-															<Link href="/#"><img src="/assets/img/icons/clock1.svg" alt="" /> 10:00
+															<Link href="#"><img src="/assets/img/icons/clock1.svg" alt="" /> 10:00
 																AM -12:00 PM <span> | </span></Link>
 														</li>
 														<li>
-															<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" /> Espace Event | Abidjan II Plateau </Link>
+															<Link href="#"><img src="/assets/img/icons/location1.svg" alt="" /> Espace Event | Abidjan II Plateau </Link>
 														</li>
 													</ul>
 													<div className="space20" />
-													<Link href="/event-single" className="head">Ateliers pratiques et interactifs</Link>
+													<Link href="/ActiviteDetail" className="head">Ateliers pratiques et interactifs</Link>
 													<div className="space16" />
-													<p>Des sessions en petits groupes où les participants pourront mettre en pratique des outils concrets : gestion de projet, innovation digitale, stratégies marketing ou encore leadership. L’objectif : repartir avec des compétences directement applicables.</p>
-													<div className="space32" />
+													<div style={{display: 'flex', flexDirection: "row", gap: '15px'}}>
+														<div style={{maxWidth:  '10%', borderRadius: '50%', overflow: 'hidden' }}>
+															<img src="/assets/img/all-images/testimonials/testimonial-img1.png" alt="" />
+														</div>
+														<div style={{maxWidth:  '10%', borderRadius: '50%', overflow: 'hidden' }}>
+															<img src="/assets/img/all-images/testimonials/testimonial-img1.png" alt="" />
+														</div>
+													</div>
+
+													<div className="space16" />
 													<div className="btn-area1">
-														<Link href="/plan_tarifaire" className="vl-btn1">Participer</Link>
+														<Link href="#" className="vl-btn1">Gratuit</Link>
 													</div>
 												</div>
 											</div>
@@ -127,20 +145,28 @@ export default function Section3() {
 												<div className="content-area">
 													<ul>
 														<li>
-															<Link href="/#"><img src="/assets/img/icons/clock1.svg" alt="" /> 10:00
+															<Link href="#"><img src="/assets/img/icons/clock1.svg" alt="" /> 10:00
 																AM -12:00 PM <span> | </span></Link>
 														</li>
 														<li>
-															<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" /> Espace Event | Abidjan II Plateau </Link>
+															<Link href="#"><img src="/assets/img/icons/location1.svg" alt="" /> Espace Event | Abidjan II Plateau </Link>
 														</li>
 													</ul>
 													<div className="space20" />
-													<Link href="/event-single" className="head">Panel de discussion avec experts</Link>
+													<Link href="/ActiviteDetail" className="head">Panel de discussion avec experts</Link>
 													<div className="space16" />
-													<p>Un échange animé entre plusieurs spécialistes qui confronteront leurs points de vue sur les défis et opportunités de 2025. Les participants pourront poser leurs questions en direct et enrichir leur réflexion.</p>
-													<div className="space32" />
+													<div style={{display: 'flex', flexDirection: "row", gap: '15px'}}>
+														<div style={{maxWidth:  '10%', borderRadius: '50%', overflow: 'hidden' }}>
+															<img src="/assets/img/all-images/testimonials/testimonial-img1.png" alt="" />
+														</div>
+														<div style={{maxWidth:  '10%', borderRadius: '50%', overflow: 'hidden' }}>
+															<img src="/assets/img/all-images/testimonials/testimonial-img1.png" alt="" />
+														</div>
+													</div>
+
+													<div className="space16" />
 													<div className="btn-area1">
-														<Link href="/plan_tarifaire" className="vl-btn1">Participer</Link>
+														<Link href="#" className="vl-btn1">1000 FCFA</Link>
 													</div>
 												</div>
 											</div>

@@ -53,7 +53,7 @@ const swiperOptions = {
 }
 
 
-export default function Section4activite() {
+export default function Section4activite_2() {
     return (
         <>
 
@@ -72,7 +72,7 @@ export default function Section4activite() {
                                 <SwiperSlide className="team-widget-boxarea">
                                     <div className="img1 image-anime">
                                         <img src="/assets/img/all-images/team/femme.jpg" alt="" />
-                                        <ul>
+                                        <ul className='index4-ul'>
                                             <li>
                                                 <div className="text-area">
                                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, voluptatibus! Natus amet voluptatem est dolor, alias fugiat sed praesentium molestias, illum odit, illo ratione recusandae non harum vel minus laboriosam.</p>
@@ -85,9 +85,9 @@ export default function Section4activite() {
                                             <li>
                                                 <Link href="/#"><i className="fa-brands fa-linkedin-in" /></Link>
                                             </li>
-                                            {/* <li>
+                                            <li>
                                                 <Link href="/#"><i className="fa-brands fa-instagram" /></Link>
-                                            </li> */}
+                                            </li>
                                             <li>
                                                 <Link href="/#" className="m-0"><i className="fa-brands fa-youtube" /></Link>
                                             </li>
@@ -104,7 +104,7 @@ export default function Section4activite() {
                                 <SwiperSlide className="team-widget-boxarea">
                                     <div className="img1 image-anime">
                                         <img src="/assets/img/all-images/team/femme.jpg" alt="" />
-                                        <ul>
+                                        < ul className='index4-ul'>
                                             
 
                                             <li>
@@ -119,9 +119,9 @@ export default function Section4activite() {
                                             <li>
                                                 <Link href="/#"><i className="fa-brands fa-linkedin-in" /></Link>
                                             </li>
-                                            {/* <li>
+                                            <li>
                                                 <Link href="/#"><i className="fa-brands fa-instagram" /></Link>
-                                            </li> */}
+                                            </li>
                                             <li>
                                                 <Link href="/#" className="m-0"><i className="fa-brands fa-youtube" /></Link>
                                             </li>
@@ -129,7 +129,7 @@ export default function Section4activite() {
                                     </div>
                                     <div className="space20" />
                                     <div className="text-area">
-                                        <Link href="/intervenant">Dennis Jacobson</Link>
+                                        <Link href="#">Dennis Jacobson</Link>
                                         <div className="space16" />
                                         <p>Consultant Finance</p>
                                     </div>
@@ -137,7 +137,7 @@ export default function Section4activite() {
                                 <SwiperSlide className="team-widget-boxarea">
                                     <div className="img1 image-anime">
                                         <img src="/assets/img/all-images/team/femme.jpg" alt="" />
-                                        <ul>
+                                        <ul className='index4-ul'>
                                             
 
                                             <li>
@@ -152,17 +152,17 @@ export default function Section4activite() {
                                             <li>
                                                 <Link href="/#"><i className="fa-brands fa-linkedin-in" /></Link>
                                             </li>
-                                            {/* <li>
+                                            <li>
                                                 <Link href="/#"><i className="fa-brands fa-instagram" /></Link>
                                             </li>
                                             <li>
                                                 <Link href="/#" className="m-0"><i className="fa-brands fa-youtube" /></Link>
-                                            </li>*/}
-                                        </ul> 
+                                            </li>
+                                        </ul>
                                     </div>
                                     <div className="space20" />
                                     <div className="text-area">
-                                        <Link href="/speakers">Patricia Wilkinson</Link>
+                                        <Link href="#">Patricia Wilkinson</Link>
                                         <div className="space16" />
                                         <p>Consultant HR</p>
                                     </div>
@@ -170,7 +170,7 @@ export default function Section4activite() {
                                 <SwiperSlide className="team-widget-boxarea">
                                     <div className="img1 image-anime">
                                         <img src="/assets/img/all-images/team/femme.jpg" alt="" />
-                                        <ul>
+                                        <ul className='index4-ul'>
                                             
 
                                             <li>
@@ -185,9 +185,9 @@ export default function Section4activite() {
                                             <li>
                                                 <Link href="/#"><i className="fa-brands fa-linkedin-in" /></Link>
                                             </li>
-                                            {/* <li>
+                                            <li>
                                                 <Link href="/#"><i className="fa-brands fa-instagram" /></Link>
-                                            </li> */}
+                                            </li>
                                             <li>
                                                 <Link href="/#" className="m-0"><i className="fa-brands fa-youtube" /></Link>
                                             </li>
@@ -195,7 +195,7 @@ export default function Section4activite() {
                                     </div>
                                     <div className="space20" />
                                     <div className="text-area">
-                                        <Link href="/intervenant">Kendra Cremin</Link>
+                                        <Link href="#">Kendra Cremin</Link>
                                         <div className="space16" />
                                         <p>Business Consultant</p>
                                     </div>
@@ -203,7 +203,7 @@ export default function Section4activite() {
                                 <SwiperSlide className="team-widget-boxarea">
                                     <div className="img1 image-anime">
                                         <img src="/assets/img/all-images/team/femme.jpg" alt="" />
-                                        <ul>
+                                        <ul className='index4-ul'>
                                             
 
                                             <li>
@@ -218,9 +218,9 @@ export default function Section4activite() {
                                             <li>
                                                 <Link href="/#"><i className="fa-brands fa-linkedin-in" /></Link>
                                             </li>
-                                            {/* <li>
+                                            <li>
                                                 <Link href="/#"><i className="fa-brands fa-instagram" /></Link>
-                                            </li> */}
+                                            </li>
                                             <li>
                                                 <Link href="/#" className="m-0"><i className="fa-brands fa-youtube" /></Link>
                                             </li>
@@ -228,7 +228,7 @@ export default function Section4activite() {
                                     </div>
                                     <div className="space20" />
                                     <div className="text-area">
-                                        <Link href="/intervenant">Dennis Jacobson</Link>
+                                        <Link href="#">Dennis Jacobson</Link>
                                         <div className="space16" />
                                         <p>Finance Consultant</p>
                                     </div>
@@ -236,7 +236,7 @@ export default function Section4activite() {
                                 <SwiperSlide className="team-widget-boxarea">
                                     <div className="img1 image-anime">
                                         <img src="/assets/img/all-images/team/femme.jpg" alt="" />
-                                        <ul>
+                                        <ul className='index4-ul'>
                                             
 
                                             <li>
@@ -251,17 +251,17 @@ export default function Section4activite() {
                                             <li>
                                                 <Link href="/#"><i className="fa-brands fa-linkedin-in" /></Link>
                                             </li>
-                                            {/* <li>
+                                            <li>
                                                 <Link href="/#"><i className="fa-brands fa-instagram" /></Link>
                                             </li>
                                             <li>
                                                 <Link href="/#" className="m-0"><i className="fa-brands fa-youtube" /></Link>
-                                            </li> */}
+                                            </li>
                                         </ul>
                                     </div>
                                     <div className="space20" />
                                     <div className="text-area">
-                                        <Link href="/intervenant">Patricia Wilkinson</Link>
+                                        <Link href="#">Patricia Wilkinson</Link>
                                         <div className="space16" />
                                         <p>HR Consultant</p>
                                     </div>

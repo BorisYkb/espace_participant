@@ -61,9 +61,9 @@ export default function Section4defile() {
 					<div className="row">
 						<div className="col-lg-5">
 							<div className="heading11 space-margin60">
-								<h5>Intervenants</h5>
+								
 								<div className="space18" />
-								<h2 className="text-anime-style-3">Ils seront présent</h2>
+								<h2 className="text-anime-style-3">Nos Intervenants</h2>
 							</div>
 						</div>
 					</div>
@@ -71,7 +71,7 @@ export default function Section4defile() {
 						<div className="col-lg-12 team-slider-area8">
 							<Swiper {...swiperOptions} className=" owl-carousel">
 								<SwiperSlide className="team-widget-boxarea">
-									<div className="img1 image-anime">
+									<div className="img1 image-anime" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
 										<img src="/assets/img/all-images/team/femme.jpg" alt="" />
 										<ul className="vert">
 											<li>
@@ -83,9 +83,9 @@ export default function Section4defile() {
 											<li>
 												<Link href="/#"><i className="fa-brands fa-instagram" /></Link>
 											</li>
-											<li>
+											{/* <li>
 												<Link href="/#" className="m-0"><i className="fa-brands fa-youtube" /></Link>
-											</li>
+											</li> */}
 										</ul>
 									</div>
 									<div className="space20" />
@@ -96,7 +96,7 @@ export default function Section4defile() {
 									</div>
 								</SwiperSlide>
 								<SwiperSlide className="team-widget-boxarea">
-									<div className="img1 image-anime">
+									<div className="img1 image-anime" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
 										<img src="/assets/img/all-images/team/femme.jpg" alt="" />
 										<ul className="vert">
 											<li>
@@ -105,9 +105,9 @@ export default function Section4defile() {
 											<li>
 												<Link href="/#"><i className="fa-brands fa-linkedin-in" /></Link>
 											</li>
-											<li>
+											{/* <li>
 												<Link href="/#"><i className="fa-brands fa-instagram" /></Link>
-											</li>
+											</li> */}
 											<li>
 												<Link href="/#" className="m-0"><i className="fa-brands fa-youtube" /></Link>
 											</li>
@@ -121,7 +121,7 @@ export default function Section4defile() {
 									</div>
 								</SwiperSlide>
 								<SwiperSlide className="team-widget-boxarea">
-									<div className="img1 image-anime">
+									<div className="img1 image-anime" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
 										<img src="/assets/img/all-images/team/femme.jpg" alt="" />
 										<ul className="vert">
 											<li>
@@ -133,9 +133,9 @@ export default function Section4defile() {
 											<li>
 												<Link href="/#"><i className="fa-brands fa-instagram" /></Link>
 											</li>
-											<li>
+											{/* <li>
 												<Link href="/#" className="m-0"><i className="fa-brands fa-youtube" /></Link>
-											</li>
+											</li> */}
 										</ul>
 									</div>
 									<div className="space20" />
@@ -146,7 +146,7 @@ export default function Section4defile() {
 									</div>
 								</SwiperSlide>
 								<SwiperSlide className="team-widget-boxarea">
-									<div className="img1 image-anime">
+									<div className="img1 image-anime" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
 										<img src="/assets/img/all-images/team/femme.jpg" alt="" />
 										<ul className="vert">
 											<li>
@@ -158,6 +158,7 @@ export default function Section4defile() {
 											<li>
 												<Link href="/#"><i className="fa-brands fa-instagram" /></Link>
 											</li>
+											
 											<li>
 												<Link href="/#" className="m-0"><i className="fa-brands fa-youtube" /></Link>
 											</li>
@@ -171,7 +172,7 @@ export default function Section4defile() {
 									</div>
 								</SwiperSlide>
 								<SwiperSlide className="team-widget-boxarea">
-									<div className="img1 image-anime">
+									<div className="img1 image-anime" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
 										<img src="/assets/img/all-images/team/femme.jpg" alt="" />
 										<ul className="vert">
 											<li>
@@ -183,9 +184,9 @@ export default function Section4defile() {
 											<li>
 												<Link href="/#"><i className="fa-brands fa-instagram" /></Link>
 											</li>
-											<li>
+											{/* <li>
 												<Link href="/#" className="m-0"><i className="fa-brands fa-youtube" /></Link>
-											</li>
+											</li> */}
 										</ul>
 									</div>
 									<div className="space20" />
@@ -196,7 +197,7 @@ export default function Section4defile() {
 									</div>
 								</SwiperSlide>
 								<SwiperSlide className="team-widget-boxarea">
-									<div className="img1 image-anime">
+									<div className="img1 image-anime" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
 										<img src="/assets/img/all-images/team/femme.jpg" alt="" />
 										<ul className="vert">
 											<li>
@@ -205,9 +206,9 @@ export default function Section4defile() {
 											<li>
 												<Link href="/#"><i className="fa-brands fa-linkedin-in" /></Link>
 											</li>
-											<li>
+											{/* <li>
 												<Link href="/#"><i className="fa-brands fa-instagram" /></Link>
-											</li>
+											</li> */}
 											<li>
 												<Link href="/#" className="m-0"><i className="fa-brands fa-youtube" /></Link>
 											</li>

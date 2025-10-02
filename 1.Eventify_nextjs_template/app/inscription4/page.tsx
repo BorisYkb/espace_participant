@@ -10,7 +10,7 @@ export default function Contact() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1}>
+            <Layout headerStyle={1_4} footerStyle={4}>
                 <div>
                     <div className="inner-page-header" style={{ backgroundImage: 'url(assets/img/bg/header-bg12.png)' }}>
                         <div className="container">
@@ -65,7 +65,7 @@ export default function Contact() {
                                             <div className="col-lg-12">
                                                 <div className="space24" />
                                                 <div className="input-area text-end">
-                                                    <button type="submit" className="vl-btn1">Envoyer ma demande</button>
+                                                    <button type="submit" className="vl-btn4-header4">Envoyer ma demande</button>
                                                 </div>
                                             </div>
                                             {/*<div className='col-lg-12 mt-3 text-center heading2'>
@@ -79,7 +79,7 @@ export default function Contact() {
                     </div>
                     {/*===== CONTACT AREA ENDS =======*/}
                 </div>
-                <Footer1 />
+                
             </Layout>
         </>
     )

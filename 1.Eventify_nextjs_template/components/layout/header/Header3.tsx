@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSearch, handleSearch }: any) {
+export default function Header3({ scroll, isMobileMenu, handleMobileMenu }: any) {
 	return (
 		<>
 			<header>
@@ -26,12 +26,12 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSear
 									
 									<div className='space12'/>
 										<li>
-											<Link href="http://localhost:8082/auth/jwt/sign-in/?returnTo=%2Fparticipant%2F" className="event-btn4">
+											<Link href="http://localhost:8082/auth/jwt/sign-in/?returnTo=%2Fparticipant%2F" className="event-btn6">
 												<span>Connexion</span>
 											</Link>
 										</li>
 										<li>
-											<Link href="/inscription" className="event-btn5">
+											<Link href="/inscription3" className="event-btn5">
 												<span>Inscription</span>
 											</Link>
 										</li>

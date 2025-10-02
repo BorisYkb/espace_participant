@@ -65,7 +65,7 @@ export default function Contact() {
                                             <div className="col-lg-12">
                                                 <div className="space24" />
                                                 <div className="input-area text-end">
-                                                    <button type="submit" className="vl-btn1">Envoyer ma demande</button>
+                                                    <button type="submit" className="event-btn1">Envoyer ma demande</button>
                                                 </div>
                                             </div>
                                             {/*<div className='col-lg-12 mt-3 text-center heading2'>

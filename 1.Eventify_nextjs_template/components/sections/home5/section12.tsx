@@ -9,7 +9,7 @@ export default function Section12() {
 			<div className="others5-section-area sp7">
 				<img src="/assets/img/elements/elements30.png" alt="" className="elements30" />
 				<div className="container">
-					<div className="row">
+					{/* <div className="row">
 						<div className="col-lg-9 m-auto">
 							<div className="heading8 text-center space-margin80">
 								<h5><img src="/assets/img/icons/sub-logo1.svg" alt="" />our event countdown</h5>
@@ -17,9 +17,9 @@ export default function Section12() {
 								<h2>Event <span>Countdown</span></h2>
 							</div>
 						</div>
-					</div>
+					</div> */}
 					<Countdown style={2} />
-					<div className="row">
+					{/* <div className="row">
 						<div className="col-lg-12 m-auto">
 							<div className="space60" />
 							<div className="btn-area1 text-center">
@@ -27,7 +27,7 @@ export default function Section12() {
 								<Link href="/contact" className="vl-btn5 btn2"><span className="demo">Reserve Seat</span></Link>
 							</div>
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</div>
 

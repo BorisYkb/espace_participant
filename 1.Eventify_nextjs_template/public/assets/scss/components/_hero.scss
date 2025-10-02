@@ -878,6 +878,20 @@
 					background: #D2D2D2;
 				}
 			}
+			.vl-btn3.btn2-header4{
+				background: var(--ztc-bg-bg-1);
+				color: var(--ztc-text-text-10);
+				margin-left: 15px;
+
+				@media #{$xs} {
+					margin-left: 0;
+					margin-top: 20px;
+				}
+
+				&::after {
+					background: #D2D2D2;
+				}
+			}
 		}
 	}
 }

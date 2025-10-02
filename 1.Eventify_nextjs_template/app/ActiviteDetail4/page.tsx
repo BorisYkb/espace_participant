@@ -10,6 +10,7 @@ import Section4 from '@/components/sections/home1/section4'
 import Footer2 from '@/components/layout/footer/Footer2'
 import Footer1 from '@/components/layout/footer/Footer1'
 import Section4activite from '@/components/sections/home1/Section4activite'
+import Section4activite_4 from '../index4/components/Section4activite_4'
 
 // Images pour la galerie
 const galleryImages = [
@@ -463,7 +464,7 @@ export default function SaraActivityDetail() {
 				}
 			`}</style>
 
-			<Layout headerStyle={1} footerStyle={1}>
+			<Layout headerStyle={1_4} footerStyle={4}>
 				<div className="activity-detail-container">
 					<div className="inner-page-header" style={{ backgroundImage: 'url(assets/img/bg/header-bg14.png)' }}>
 						<div className="container">
@@ -562,31 +563,23 @@ export default function SaraActivityDetail() {
 					</div>
 					{/*===== SARA ACTIVITY DETAILS AREA ENDS =======*/}
 
-					<Section4activite/>
+					<Section4activite_4/>
 
 					{/*===== CTA AREA STARTS =======*/}
-					<div className="cta1-section-area d-lg-block d-block">
+					<div className="cta4-section-area">
 						<div className="container">
 							<div className="row">
-								<div className="col-lg-10 m-auto ">
+								<div className="col-lg-10 m-auto">
 									<div className="cta1-main-boxarea">
 										<div className="timer-btn-area display-flex align-items-center justify-content-center">
 											<Countdown />
 										</div>
 										<ul>
 											<li>
-												<Link href="#">
-													<svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
-														<path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
-													</svg>
-													15-17 Février 2025 - Programme complet 3 jours
-												</Link>
+												<Link href="/#"><img src="/assets/img/icons/calender1.svg" alt="" />30 January 2025 - 6pm to 11:30pm</Link>
 											</li>
 											<li className="m-0">
-												<Link href="#">
-													<MapPin size={16} />
-													Centre d'Abidjan
-												</Link>
+												<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Secret Location In The UK</Link>
 											</li>
 										</ul>
 									</div>
@@ -667,7 +660,7 @@ export default function SaraActivityDetail() {
 					</div>
 				)}
 
-				<Footer1 />
+				{/* <Footer1 /> */}
 			</Layout>
 		</>
 	)

@@ -10,7 +10,7 @@ export default function Contact() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1}>
+            <Layout headerStyle={1} >
                 <div>
                     <div className="inner-page-header" style={{ backgroundImage: 'url(assets/img/bg/header-bg12.png)' }}>
                         <div className="container">

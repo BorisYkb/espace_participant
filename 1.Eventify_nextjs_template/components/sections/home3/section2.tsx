@@ -3,7 +3,7 @@ import CountUp from 'react-countup'
 import Link from 'next/link'
 import { useState } from 'react'
 import ModalVideo from 'react-modal-video'
-import 'react-modal-video/css/modal-video.min.css'
+// import 'react-modal-video/css/modal-video.min.css'
 
 export default function Section2() {
 	const [isOpen, setOpen] = useState(false)
@@ -59,19 +59,15 @@ export default function Section2() {
 						</div>
 						<div className="col-lg-6">
 							<div className="about-header heading5">
-								<h5 data-aos="fade-left" data-aos-duration={800}>Introduction</h5>
+								{/* <h5 data-aos="fade-left" data-aos-duration={800}>Introduction</h5> */}
 								<div className="space18" />
 								<h2 className="text-anime-style-3">SARA 2025</h2>
 								<div className="space18" />
 								<p data-aos="fade-left" data-aos-duration={900}>En seulement cinq éditions, le SARA s'est imposé comme le salon de référence en matière d'agriculture, de ressources animales, halieutiques et forestières en Afrique subsaharienne. Trois ans après sa dernière édition, le Salon International de l'Agriculture et des Ressources Animales d'Abidjan a été relancé par le gouvernement ivoirien afin de valoriser, promouvoir et développer toutes les richesses du secteur agricole, de l'élevage et de la pêche de la Côte d'Ivoire.</p>
 								<div className="space12" />
 								<div className="counter-area" data-aos="fade-left" data-aos-duration={1000}>
-									<div className="counter-box">
-										<h3><CountUp className="odometer" enableScrollSpy={true} end={250} />+</h3>
-										<div className="space18" />
-										<p>Journalistes</p>
-									</div>
-									<div className="counter-box">
+									
+									<div className="counter-box" style={{ border: 'none' }}>
 										<h3><CountUp className="odometer" enableScrollSpy={true} end={15} />+</h3>
 										<div className="space18" />
 										<p>Intervenants</p>
