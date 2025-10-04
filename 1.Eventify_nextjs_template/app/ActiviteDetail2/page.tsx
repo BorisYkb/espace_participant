@@ -10,7 +10,7 @@ import Section4 from '@/components/sections/home1/section4'
 import Footer2 from '@/components/layout/footer/Footer2'
 import Footer1 from '@/components/layout/footer/Footer1'
 import Section4activite from '@/components/sections/home1/Section4activite'
-import Section4activite_2 from '../index2/components/Section4activite_2'
+import Section4activite_2 from '../landingpage2/components/Section4activite_2'
 
 // Images pour la galerie
 const galleryImages = [

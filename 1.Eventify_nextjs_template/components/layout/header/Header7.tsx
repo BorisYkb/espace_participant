@@ -10,11 +10,11 @@ export default function Header7({ scroll, isMobileMenu, handleMobileMenu, isSear
 							<div className="col-lg-12">
 								<div className="header-elements">
 									<div className="site-logo">
-										<Link href="/index7"><img src="/assets/img/logo/logo6.png" alt="" /></Link>
+										<Link href="/landingpage7"><img src="/assets/img/logo/logo6.png" alt="" /></Link>
 									</div>
 									<div className="main-menu">
 										<ul>
-											<li><Link href="/index7">Accueil </Link></li>
+											<li><Link href="/landingpage7">Accueil </Link></li>
 											<li><Link href="/a_propos_de_levenement7">A Propos de l'évènement</Link></li>
 											<li><Link href="/faq7">FAQ,s</Link></li>
 											

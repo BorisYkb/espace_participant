@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function Header3({ scroll, isMobileMenu, handleMobileMenu }: any) {
+export default function Header3({ scroll, isMobileMenu3, handleMobileMenu3 }: any) {
 	return (
 		<>
 			<header>
@@ -11,13 +11,13 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu }: any)
 								
 								<div className="header-elements">
 									<div className="site-logo">
-										<Link href="/index3"><img src="/assets/img/logo/logo6.png" alt="" /></Link>
+										<Link href="/landingpage3"><img src="/assets/img/logo/logo6.png" alt="" /></Link>
 									</div>
 									<div className='space12'/>
 									<div className="main-menu">
 										<ul>
 											
-											<li><Link href="/index3">Accueil </Link></li>
+											<li><Link href="/landingpage3">Accueil </Link></li>
 											<li><Link href="/a_propos_de_levenement3">A Propos de l'évènement</Link></li>
 											<li><Link href="/faq3">FAQ,s</Link></li>
 											

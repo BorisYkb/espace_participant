@@ -8,8 +8,8 @@ export default function Menu() {
 		<>
 
 			<ul className="sub-menu">
-				<Link href="/#" className={router.pathname == "/" ? "active" : ""}>Home Default</Link>
-				<Link href="/#" className={router.pathname == "/index-2" ? "active" : ""}>Home Interior</Link>
+				<Link href="/landingpage1" className={router.pathname == "/landinpage1" ? "active" : ""}>Home Default</Link>
+				<Link href="/landingpage2" className={router.pathname == "/landingpage2" ? "active" : ""}>Home Interior</Link>
 			</ul>
 		</>
 	)

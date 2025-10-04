@@ -1,9 +1,8 @@
 'use client'
 
 import Link from 'next/link'
-// import '../../../public/assets/css/EventVariables.css';
 
-export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
+export default function MobileMenu4({ isMobileMenu4, handleMobileMenu4 }: any) {
 	
 
 
@@ -16,30 +15,30 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
 							<div className="mobile-logo">
 								<Link href="//"><img src="/assets/img/event_img/SARA-2025-LOGO-2.jpg" alt="" /></Link>
 							</div>
-							<div className="mobile-nav-icon dots-menu" onClick={handleMobileMenu}>
+							<div className="mobile-nav-icon dots-menu" onClick={handleMobileMenu4}>
 								<i className="fa-solid fa-bars-staggered" />
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div className={`mobile-sidebar mobile-sidebar1 ${isMobileMenu ? 'mobile-menu-active' : ''}`}>
+			<div className={`mobile-sidebar mobile-sidebar1 ${isMobileMenu4 ? 'mobile-menu-active' : ''}`}>
 				<div className="logosicon-area">
 					<div className="logos">
 						<img src="/assets/img/event_img/SARA-2025-LOGO-2.jpg" alt="" />
 					</div>
-					<div className="menu-close" onClick={handleMobileMenu}>
+					<div className="menu-close" onClick={handleMobileMenu4}>
 						<i className="fa-solid fa-xmark" />
 					</div>
 				</div>
 				<div className="mobile-nav mobile-nav1">
 					<ul className="mobile-nav-list nav-list1">
 						<li className="has-sub hash-has-sub">
-							<Link href="/landingpage1" className="hash-nav">Accueil </Link>
+							<Link href="/landingpage4" className="hash-nav">Accueil </Link>
 							
 						</li>
-						<li className="hash-has-sub"><Link href="/a_propos_de_levenement" className="hash-nav">A propos de l'événement</Link></li>
-						<li className="hash-has-sub"><Link href="/faq" className="hash-nav">FAQ,s</Link></li>
+						<li className="hash-has-sub"><Link href="/a_propos_de_levenement4" className="hash-nav">A propos de l'événement</Link></li>
+						<li className="hash-has-sub"><Link href="/faq4" className="hash-nav">FAQ,s</Link></li>
 						
 						<li>
 							<Link href="http://localhost:8082/auth/jwt/sign-in/?returnTo=%2Fparticipant%2F" className="event-btn4">
@@ -47,7 +46,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
 							</Link>
 						</li>
 						<li>
-							<Link href="/inscription" className="vl-btn1">
+							<Link href="/inscription4" className="event-btn7">
 								<span>Inscription</span>
 							</Link>
 						</li>

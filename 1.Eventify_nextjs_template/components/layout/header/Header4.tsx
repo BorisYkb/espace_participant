@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function Header4({ scroll, isMobileMenu, handleMobileMenu }: any) {
+export default function Header4({ scroll, isMobileMenu4, handleMobileMenu4 }: any) {
 	return (
 		<>
 			<header>
@@ -10,11 +10,11 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu }: any)
 							<div className="col-lg-12">
 								<div className="header-elements">
 									<div className="site-logo">
-										<Link href="/index4"><img src="/assets/img/logo/logo6.png" alt="" /></Link>
+										<Link href="/landingpage4"><img src="/assets/img/logo/logo6.png" alt="" /></Link>
 									</div>
 									<div className="main-menu">
 										<ul>
-											<li><Link href="/index4">Accueil</Link></li>
+											<li><Link href="/landingpage4">Accueil</Link></li>
 											<li><Link href="/a_propos_de_levenement4">A Propos de l'évènement</Link></li>
 											<li><Link href="/faq4">FAQ,s</Link></li>
 											

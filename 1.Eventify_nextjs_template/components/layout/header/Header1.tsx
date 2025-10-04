@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import '../../../public/assets/css/EventVariables.css';
+// import '../../../public/assets/css/EventVariables.css';
 
 
 export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSearch, handleSearch }: any) {
@@ -15,7 +15,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 							<div className="col-lg-12">
 								<div className="header-elements">
 									<div className="site-logo">
-										<Link href="/index2"><img src="/assets/img/logo/logo6.png" alt="" /></Link>
+										<Link href="/"><img src="/assets/img/logo/logo6.png" alt="" /></Link>
 									</div>
 									<div className='space12' />
 									<div className="main-menu">
@@ -39,25 +39,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 											<span>Inscription</span>
 										</Link>
 									</li>
-									{/*
-									<div className="btn-area">
-										
-										<ul>
-											<li>
-												<Link href="/#"><i className="fa-brands fa-facebook-f" /></Link>
-											</li>
-											
-											<li>
-												<Link href="/#" className="m-0"><i className="fa-brands fa-pinterest-p" /></Link>
-											</li>
-
-											<li>
-												<Link href="/#" className="m-2"><i className="fa-brands fa-instagram" /></Link>
-											</li>
-										</ul>
-									</div>
 									
-									{isSearch && <div className="body-overlay active" onClick={handleSearch} />}*/}
 								</div>
 							</div>
 						</div>

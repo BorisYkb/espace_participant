@@ -1,7 +1,8 @@
 import Link from 'next/link'
-// import  '../../../public/assets/css/EventVariables.css';
+import  '@/public/assets/css/EventVariables.css';
 
-export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSearch, handleSearch }: any) {
+
+export default function Header2({ scroll, isMobileMenu2, handleMobileMenu2, isSearch, handleSearch }: any) {
 	return (
 		<>
 			<header>
@@ -12,14 +13,14 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSear
 								
 								<div className="header-elements">
 									<div className="site-logo">
-										<Link href="/index2"><img src="/assets/img/logo/logo6.png" alt="" /></Link>
+										<Link href="/landingpage2"><img src="/assets/img/logo/logo6.png" alt="" /></Link>
 									</div>
 									<div className='space12'/>
 									
 									<div className="main-menu">
 										<ul>
 											
-											<li><Link href="/index2">Accueil </Link></li>
+											<li><Link href="/landingpage2">Accueil </Link></li>
 											<li><Link href="/a_propos_de_levenement2">A propos de l'événement</Link></li>
 											<li><Link href="/faq2">FAQ,s</Link></li>
 											
@@ -38,16 +39,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSear
 										</Link>
 									</li>
 									
-									{/* <div className={`header-search-form-wrapper ${isSearch ? 'open' : ''}`}>
-										<div className="tx-search-close tx-close" onClick={handleSearch}><i className="fa-solid fa-xmark" /></div>
-										<div className="header-search-container">
-											<form role="search" className="search-form">
-												<input type="search" className="search-field" placeholder="Search …" name="s" />
-												<button type="submit" className="search-submit"><img src="/assets/img/icons/search1.svg" alt="" /></button>
-											</form>
-										</div>
-									</div> */}
-									{/* {isSearch && <div className="body-overlay active" onClick={handleSearch} />} */}
+									
 								</div>
 							</div>
 						</div>

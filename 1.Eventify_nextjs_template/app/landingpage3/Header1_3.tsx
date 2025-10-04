@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 
 
-export default function Header1_4({ scroll, isMobileMenu, handleMobileMenu, isSearch, handleSearch }: any) {
+export default function Header1_3({ scroll, isMobileMenu3, handleMobileMenu3, isSearch, handleSearch }: any) {
 	
 	
 
@@ -15,14 +15,20 @@ export default function Header1_4({ scroll, isMobileMenu, handleMobileMenu, isSe
 							<div className="col-lg-12">
 								<div className="header-elements">
 									<div className="site-logo">
-										<Link href="/index4"><img src="/assets/img/logo/logo6.png" alt="" /></Link>
+										<Link href="/landingpage3"><img src="/assets/img/logo/logo6.png" alt="" /></Link>
 									</div>
 									<div className='space12' />
 									<div className="main-menu">
 										<ul>
-											<li><Link href="/index4">Accueil </Link></li>
-											<li><Link href="/a_propos_de_levenement4">A propos de l'événement </Link></li>
-											<li><Link href="/faq4">FAQ,s</Link></li>
+											
+											
+											
+											
+											<li><Link href="/landingpage3">Accueil </Link></li>
+											<li><Link href="/a_propos_de_levenement3">A propos de l'événement </Link></li>
+											<li><Link href="/faq3">FAQ,s</Link></li>
+											
+											
 											
 										</ul>
 									</div>
@@ -33,7 +39,7 @@ export default function Header1_4({ scroll, isMobileMenu, handleMobileMenu, isSe
 										</Link>
 									</li>
 									<li>
-										<Link href="/inscription4" className="event-btn2">
+										<Link href="/inscription3" className="event-btn5">
 											<span>Inscription</span>
 										</Link>
 									</li>

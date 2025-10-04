@@ -15,13 +15,13 @@ export default function Header1_5({ scroll, isMobileMenu, handleMobileMenu, isSe
 							<div className="col-lg-12">
 								<div className="header-elements">
 									<div className="site-logo">
-										<Link href="/index5"><img src="/assets/img/logo/logo6.png" alt="" /></Link>
+										<Link href="/landingpage5"><img src="/assets/img/logo/logo6.png" alt="" /></Link>
 									</div>
 									<div className='space12' />
 									<div className="main-menu">
 										<ul>
 											
-											<li><Link href="/index5">Accueil </Link></li>
+											<li><Link href="/landingpage5">Accueil </Link></li>
 											<li><Link href="/a_propos_de_levenement5">A propos de l'événement </Link></li>
 											<li><Link href="/faq5">FAQ,s</Link></li>
 											

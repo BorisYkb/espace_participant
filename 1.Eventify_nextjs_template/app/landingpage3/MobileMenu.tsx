@@ -1,12 +1,13 @@
 'use client'
-
+import { useState } from 'react';
 import Link from 'next/link'
-// import '../../../public/assets/css/EventVariables.css';
 
 export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
-	
+	const [isAccordion, setIsAccordion] = useState(1)
 
-
+const handleAccordion = (key: any) => {
+    setIsAccordion(prevState => prevState === key ? null : key)
+}
 	return (
 		<>
 			<div className="mobile-header mobile-haeder1 d-block d-lg-none">
@@ -35,7 +36,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
 				<div className="mobile-nav mobile-nav1">
 					<ul className="mobile-nav-list nav-list1">
 						<li className="has-sub hash-has-sub">
-							<Link href="/landingpage1" className="hash-nav">Accueil </Link>
+							<Link href="/#" className="hash-nav">Accueil </Link>
 							
 						</li>
 						<li className="hash-has-sub"><Link href="/a_propos_de_levenement" className="hash-nav">A propos de l'événement</Link></li>
@@ -47,7 +48,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
 							</Link>
 						</li>
 						<li>
-							<Link href="/inscription" className="vl-btn1">
+							<Link href="/inscription" className="event-btn1">
 								<span>Inscription</span>
 							</Link>
 						</li>

@@ -25,15 +25,16 @@ export default function AddClassBody() {
 
 			// Map pathname to corresponding class
 			const classMap: { [key: string]: string } = {
-				'/index2': 'homepage2-body',
-				'/index3': 'homepage3-body',
-				'/index4': 'homepage4-body',
-				'/index5': 'homepage5-body',
-				'/index6': 'homepage6-body',
-				'/index7': 'homepage7-body',
-				'/index8': 'homepage8-body',
-				'/index9': 'homepage9-body',
-				'/index10': 'homepage10-body',
+				'/landingpage1': 'homepage1-body',
+				'/landingpage2': 'homepage2-body',
+				'/landingpage3': 'homepage3-body',
+				'/landingpage4': 'homepage4-body',
+				'/landingpage5': 'homepage5-body',
+				'/landingpage6': 'homepage6-body',
+				'/landingpage7': 'homepage7-body',
+				'/landingpage8': 'homepage8-body',
+				'/landingpage9': 'homepage9-body',
+				'/landingpage10': 'homepage10-body',
 			}
 
 			// Add class based on pathname or default
